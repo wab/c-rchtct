@@ -1,0 +1,21 @@
+// Grid system
+
+.sidebar-primary .container {
+  @include grid-row;
+
+  .main {
+    @include grid-col;
+
+    @include breakpoint(medium) {
+      @include grid-col-size($main-small-columns - $sidebar-small-columns);
+    }
+  }
+  .sidebar {
+
+    @include grid-col;
+
+    @include breakpoint(medium) {
+      @include grid-col-size($sidebar-small-columns);
+    }
+  }
+}

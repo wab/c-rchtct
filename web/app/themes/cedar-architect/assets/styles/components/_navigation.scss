@@ -1,0 +1,238 @@
+@include breakpoint(large) {
+
+  .menu-item {
+    position: relative;
+  }
+
+  .main--navigation > .menu > .menu-item  {
+
+    > a {
+
+      font-size: .9rem;
+      padding: 1rem;
+      vertical-align: middle;
+      position: relative;
+      border-right: 1px solid rgba(255,255,255,.9);
+      transition: background 0.3s;
+      color: $body-font-color;
+      text-align: center;
+
+      @include breakpoint(medium) {
+        height: $headerHeight;
+        display: table-cell;
+      }
+
+      &:before {
+        content: '';
+        display: block;
+        width: 100%;
+        height: 0px;
+        background: $primary-color;
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        transition: all 0.2s ease;
+        color: $body-font-color;
+      }
+
+      &:hover, &:focus, &.hover {
+        background-color: #fff;
+        &:before {
+          height: 0.5rem;
+        }
+      }
+
+    }
+
+    &.active > a {
+      background-color: #fff;
+
+      &:before {
+        height: 0.5rem;
+      }
+
+    }
+
+    &.link-login {
+
+      > a {
+          > [class^="icon-"], > [class*="icon-"] {
+          font-size: 1.2em;
+          display: block;
+          margin: auto;
+          margin-top: -1em;
+        }
+
+        color: $secondary-color;
+        font-weight: bold;
+        line-height: 1.6;
+      }
+    }
+  }
+}
+.menu .dropdown-pane {
+  background: $dark-gray;
+  color: $white;
+  box-shadow: 0px 1px 1px rgba($dark-gray, .4);
+  border-right: 1px solid rgba(255,255,255,0.3);
+
+  transition: transform 200ms ease-in-out;
+
+  &#menu-features,  {
+  width: $dropdown-width + 120px;
+    .submenu {
+      padding-left: 110px;
+      > .menu-item:not(:last-child) {
+        margin-bottom: 2rem;
+      }
+    }
+  }
+
+  &#menu-users,  {
+  width: $dropdown-width + 70px;
+    .submenu {
+      padding-left: 60px;
+      > .menu-item:not(:last-child) {
+        margin-bottom: 1rem;
+      }
+      a {
+        color: $white;
+
+        &:hover, &:focus {
+          color: $primary-color;
+        }
+      }
+    }
+  }
+
+  &#menu-login {
+    width: 100%;
+    padding: .5rem;
+
+    .menu-item  {
+      margin-bottom: 1em;
+      text-align: center;
+
+      [class^="icon-"], [class*="icon-"] {
+        color: $primary-color;
+        font-size: 1.4rem;
+      }
+
+      a {
+        display: block;
+        font-size: .9rem;
+      }
+    }
+  }
+
+  &#menu-lg {
+    width: 150px;
+    left: auto!important;
+    right: 0;
+  }
+}
+.submenu, .sub-menu {
+  @extend .no-bullet;
+  margin-bottom: 0;
+
+  a {
+    color: inherit;
+    transition: color 300ms ease;
+    display: block;
+    &:hover, &:focus {
+      outline: none;
+      color: $primary-color;
+      text-decoration: underline;
+    }
+
+  }
+}
+.submenu {
+  > .menu-item {
+    &:before {
+      content: '';
+      display: block;
+      width: 100px;
+      height: 100px;
+      position: absolute;
+      left: -110px;
+      @include vertical-center;
+      z-index: 50;
+      background: url(../images/pictos-menu.svg) no-repeat;
+      background-size: 100%;
+      background-position: 0 0;
+
+      #menu-users & {
+        width: 60px;
+        height: 60px;
+        left: -65px;
+      }
+    }
+    > a {
+      text-transform: uppercase;
+      font-size: 1.1rem;
+      color: $primary-color;
+      font-weight: 600;
+    }
+
+    &.active > a {
+      color: map-get($foundation-palette, primary-dark);
+      background: transparent;
+    }
+  }
+
+  .amenager {
+    &:before {
+      background-position: 0 -100px;
+    }
+  }
+  .decorer {
+    &:before {
+      background-position: 0 -200px;
+    }
+  }
+  .valoriser {
+    &:before {
+      background-position: 0 -300px;
+    }
+  }
+  .architecte {
+    &:before {
+      background-position: 0 -240px;
+    }
+  }
+  .batiment {
+    &:before {
+      background-position: 0 -300px;
+    }
+  }
+  .promoteur {
+    &:before {
+      background-position: 0 -360px;
+    }
+  }
+  .agent {
+    &:before {
+      background-position: 0 -420px;
+    }
+  }
+  .paysagiste {
+    &:before {
+      background-position: 0 -480px;
+    }
+  }
+}
+
+.sub-menu > .active > a {
+  color: map-get($foundation-palette, primary-dark);
+  background: transparent;
+}
+
+.menu-lg > a {
+  width: 50px;
+  text-transform: uppercase;
+}
+
+.current-lang {
+  font-weight: bold;
+}

@@ -1,0 +1,99 @@
+.banner {
+  background: url(../images/banner-bg.jpg) center;
+  background-size: cover;
+  text-align: center;
+  color: $white;
+  min-height: 200px;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+
+  .home & {
+    background-image: url(../images/banner-home.jpg);
+    min-height: 450px;
+  }
+
+  .maintitle {
+    text-transform: uppercase;
+    max-width: 600px;
+    font-size: 2rem;
+  }
+
+}
+
+.page-wrapper {
+  @include grid-row();
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+.page-column {
+  @include grid-col;
+
+  @include breakpoint(large) {
+    @include grid-col-size(8);
+    &.sidebar {
+      @include grid-col-size(4);
+    }
+  }
+}
+
+.soumenu > .page_item > a {
+  text-transform: uppercase;
+  color: inherit;
+  font-weight: bold;
+}
+
+.soumenu, .children {
+  @include menu-expand;
+}
+
+.children {
+  @include menu-base;
+  @include menu-direction(vertical);
+
+}
+
+.soumenu .current_page_item {
+  @extend .active;
+}
+.soumenu {
+  .current_page_ancestor > a, .current_page_item a {
+    color: map-get($foundation-palette, primary-dark);
+  }
+}
+
+.tutoriel--navigation--list {
+  .active {
+    background: $primary-color;
+    color: $white;
+  }
+}
+
+.contact--address {
+  color: $primary-color;
+}
+.contact--phone {
+  color: map-get($foundation-palette, primary-dark);
+}
+
+#map {
+  height: 500px;
+}
+
+.page-section-row {
+  @extend %alternate;
+  .page-section-column {
+    @extend %alternate-column;
+
+    &.without-image {
+      @extend %alternate-column--only;
+    }
+  }
+
+  .section:nth-child(2n + 2) & {
+    .page-section-column:first-child {
+      order: 1;
+    }
+  }
+}

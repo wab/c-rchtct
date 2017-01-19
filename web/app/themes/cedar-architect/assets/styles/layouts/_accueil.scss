@@ -1,0 +1,134 @@
+.accesdirect--items {
+  @extend .no-bullet;
+  max-width: $global-width;
+  margin: auto;
+  margin-bottom: 0;
+  display: flex;
+  @include flex-align(spaced, middle);
+  flex-wrap: wrap;
+  color: $secondary-color;
+
+  .chevron {
+    display: none;
+    @include breakpoint(medium) {
+      display: block;
+    }
+  }
+}
+
+.accesdirect--button {
+  max-width: 100px;
+  flex-basis: 100px;
+  color: inherit;
+  text-transform: uppercase;
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: color 200ms ease;
+
+  .picto {
+    fill: currentColor;
+    max-height: 3.5rem;
+    margin-bottom: .5rem;
+    transition: transform 200ms ease-in;
+  }
+
+  &:hover .picto {
+    transform: scale(1.1);
+  }
+}
+
+.why--item {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  [class^="icon-"], [class*="icon-"] {
+    font-size: 2em;
+    margin-right: 1rem;
+    position: relative;
+    top: .6rem;
+  }
+}
+
+.pros--secteur {
+  text-align: center;
+
+  color: map-get($foundation-palette, secondary);
+
+  &:nth-child(2) {
+    color: map-get($foundation-palette, secondary-light);
+  }
+  &:nth-child(3) {
+    color: $primary-color;
+  }
+  &:nth-child(4) {
+    color: map-get($foundation-palette, primary-light);
+  }
+}
+
+.pros--title {
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.pros--icon {
+  max-width: 150px;
+  margin: auto;
+  margin-bottom: .5rem;
+  .bg {
+    fill: currentColor;
+  }
+}
+
+.pros--items {
+  text-align: left;
+
+  .icon-check {
+    width: 1.5em;
+    height: 1.5em;
+    position: relative;
+    top: .4em;
+  }
+}
+
+.why {
+  color: $secondary-color;
+}
+
+.feature--wrapper {
+  @include flex-grid-row;
+  @include flex-align(spaced, middle);
+}
+.feature--column {
+  @include flex-grid-column(12);
+  @include breakpoint(medium) {
+    @include flex-grid-column(6);
+  }
+}
+
+.feature {
+
+  .section--title {
+    &:before {
+      display: none;
+    }
+  }
+
+  &:nth-child(2n + 2) {
+
+    .feature--column:first-child {
+      order: 1;
+    }
+  }
+}
+
+.home-galerie {
+  background: url(../images/bg-gallery.jpg);
+  background-size: cover;
+  color: $white;
+
+  .section--title {
+    color: inherit;
+  }
+}

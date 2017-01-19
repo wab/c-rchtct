@@ -1,0 +1,27 @@
+.mainheader {
+  background-color: $light-gray;
+  background-image:
+    linear-gradient(
+      to right,
+      $white, $light-gray
+    );
+}
+.mainheader--wrapper {
+  @include flex-grid-row;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  height: $headerHeight;
+}
+
+.brand {
+  display: inline-block;
+  @include flex-grid-column;
+  flex: 0;
+}
+
+.logo {
+  height: $headerHeight / 1.3;
+}
+

@@ -1,0 +1,251 @@
+
+.infoprice {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: $secondary-color;
+}
+
+.pricing-table--wrapper {
+  @include flex-grid-row(null, 100%, null, true, 1rem) {}
+}
+.pricing-table--column {
+   @include flex-grid-column(null, 1rem);
+  margin-bottom: 2rem;
+
+  .pro2 & {
+    @include flex-grid-column(12, 1rem);
+    @include breakpoint(medium) {
+      @include flex-grid-column(6, 1rem);
+    }
+    @include breakpoint(large) {
+      @include flex-grid-column(4, 1rem);
+    }
+  }
+  .packs & {
+    @include flex-grid-column(12, 1rem);
+    @include breakpoint(medium) {
+      @include flex-grid-column(6, 1rem);
+    }
+    @include breakpoint(large) {
+      @include flex-grid-column(3, 1rem);
+    }
+  }
+}
+
+$color-1: darken($primary-color, 10%);
+$color-2: darken($primary-color, 20%);
+$color-3: $secondary-color;
+$color-4: darken($secondary-color, 10%);
+
+.section--title {
+  .individual &, .pro & {
+    &:before, &:after {
+      visibility: hidden;
+    }
+  }
+}
+
+.pricing-table {
+  border: none;
+
+  li {
+    border: none;
+    background: $white;
+    padding: 0.875rem 1.125rem;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  }
+
+  .title {
+    color: $white;
+    font-size: 1.4rem;
+    font-weight: 600;
+    margin-bottom: .5rem;
+    text-transform: uppercase;
+    background: $primary-color;
+  }
+
+
+  .price {
+    color: $white;
+    font-size: 2rem;
+    font-weight: 600;
+  }
+
+  .projects-number {
+    font-size: 1.2em;
+    font-weight: 600;
+  }
+
+  .subtitle {
+    background: lighten($medium-gray, 10%);
+    font-weight: 600;
+    text-transform: uppercase;
+  }
+
+  .item {
+    font-size: .9rem;
+  }
+
+  .link {
+    padding: 0;
+    margin-top: .5rem;
+    a {
+      @extend .button;
+      @extend .large;
+      display: block;
+      color: $white;
+      .color-1 & {
+        background-color: $color-1;
+      }
+      .color-2 & {
+        background-color: $color-2;
+      }
+      .color-3 & {
+        background-color: $color-3;
+      }
+      .color-4 & {
+        background-color: $color-4;
+      }
+    }
+  }
+
+  .button {
+    margin: 0;
+  }
+
+}
+
+.title {
+  .pricing-table--column:nth-child(1) & {
+    background-color: $color-1;
+    .pro & {
+      background-color: $color-3;
+    }
+    .packs & {
+      background-color: transparent;
+      color: $color-1;
+    }
+  }
+  .pricing-table--column:nth-child(2) & {
+    background-color: $color-2;
+    .pro & {
+      background-color: $color-4;
+    }
+    .packs & {
+      background-color: transparent;
+      color: $color-2;
+    }
+  }
+  .pricing-table--column:nth-child(3) & {
+    background-color: $color-3;
+    .packs & {
+      background-color: transparent;
+      color: $color-3;
+    }
+  }
+  .pricing-table--column:nth-child(4) & {
+    background-color: $color-4;
+    .packs & {
+      background-color: transparent;
+      color: $color-4;
+    }
+  }
+}
+.price {
+  .pricing-table--column:nth-child(1) & {
+    background-color: lighten($color-1, 20%);
+    .pro & {
+      background-color: lighten($color-3, 20%);
+    }
+
+  }
+  .pricing-table--column:nth-child(2) & {
+    background-color: lighten($color-2, 20%);
+    .pro & {
+      background-color: lighten($color-4, 20%);
+    }
+
+  }
+  .pricing-table--column:nth-child(3) & {
+    background-color: lighten($color-3, 20%);
+
+  }
+  .pricing-table--column:nth-child(4) & {
+    background-color: lighten($color-4, 20%);
+
+  }
+}
+.projects-number {
+  .pricing-table--column:nth-child(1) & {
+    color: $color-1;
+    .pro & {
+      color: $color-3;
+    }
+
+  }
+  .pricing-table--column:nth-child(2) & {
+    color: $color-2;
+    .pro & {
+      color: $color-4;
+    }
+
+  }
+  .pricing-table--column:nth-child(3) & {
+    color: $color-3;
+
+  }
+  .pricing-table--column:nth-child(4) & {
+    color: $color-4;
+
+  }
+}
+.link a {
+  .pricing-table--column:nth-child(1) & {
+    background-color: $color-1;
+    .pro & {
+      background-color: $color-3;
+    }
+  }
+  .pricing-table--column:nth-child(2) & {
+    background-color: $color-2;
+    .pro & {
+      background-color: $color-4;
+    }
+  }
+  .pricing-table--column:nth-child(3) & {
+    background-color: $color-3;
+  }
+  .pricing-table--column:nth-child(4) & {
+    background-color: $color-4;
+  }
+
+  &:hover, &:focus {
+    .pricing-table--column:nth-child(1) & {
+      background-color: darken($color-1, 10%);
+      .pro & {
+        background-color: darken($color-3, 10%);
+      }
+    }
+    .pricing-table--column:nth-child(2) & {
+      background-color: darken($color-2, 10%);
+      .pro & {
+        background-color: darken($color-4, 10%);
+      }
+    }
+    .pricing-table--column:nth-child(3) & {
+      background-color: darken($color-3, 10%);
+    }
+    .pricing-table--column:nth-child(4) & {
+      background-color: darken($color-4, 10%);
+    }
+  }
+}
+.faq--items {
+  @extend .no-bullet;
+}
+.faq--question {
+  font-size: 1.2rem;
+  font-weight: 600;
+}

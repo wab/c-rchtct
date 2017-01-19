@@ -1,0 +1,22 @@
+{
+  "root": true,
+  "extends": "airbnb",
+  "globals": {
+    "wp": true
+  },
+  "env": {
+    "amd": true,
+    "browser": true,
+    "jquery": true,
+    "node": true
+  },
+  rules: {
+    "react/require-extension": 0,
+    "import/extensions": [1, { "js": "never" }],
+    "no-console": 0,
+    "no-unused-vars": 0,
+    "new-cap": 0,
+    "no-new": 0,
+    "quote-props": 0
+  }
+}
