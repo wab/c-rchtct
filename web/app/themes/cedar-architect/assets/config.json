@@ -16,7 +16,7 @@
     "src/**/*.php"
   ],
   "publicPath": "/app/themes/cedar-architect",
-  "devUrl": "http://cedar-architect.fr.dev",
+  "devUrl": "http://cedar-architect.com.dev",
   "proxyUrl": "http://localhost:3000",
   "cacheBusting": "[name]_[hash:8]"
 }
