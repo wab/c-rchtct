@@ -27,6 +27,8 @@
       </li>
       <?php endif; ?>
 
+      <li class="menu-item menu-demo"><a href="http://app.cedar-architect.com/<?php echo pll_current_language(); ?>"><?php _e('Demo', 'cedar-architect') ?></a></li>
+
       <li class="menu-item menu-galerie <?php if(is_page(9) || is_page(icl_object_id(9, 'page', false))) {echo 'active'; } ?>"><?php icl_link_to_element(9);  ?></li>
       <li class="menu-item menu-tarifs <?php if(is_page(15) || is_page(icl_object_id(15, 'page', false))) {echo 'active'; } ?>"><?php icl_link_to_element(15);  ?></li>
       <li class="menu-item menu-support <?php if(is_page(1024) || is_page(icl_object_id(1024, 'page', false))) {echo 'active'; } ?>"><?php icl_link_to_element(1024);  ?></li>

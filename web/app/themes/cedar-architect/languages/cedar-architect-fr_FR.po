@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Cedreo Designer\n"
-"POT-Creation-Date: 2017-01-09 22:13+0100\n"
-"PO-Revision-Date: 2017-01-09 22:13+0100\n"
+"POT-Creation-Date: 2017-02-19 17:06+0100\n"
+"PO-Revision-Date: 2017-02-19 17:06+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: fr\n"
@@ -47,23 +47,23 @@ msgstr "Non trouvé"
 msgid "More details ?"
 msgstr "Plus d’informations"
 
-#: src/setup.php:47
+#: src/setup.php:53
 msgid "Primary Navigation"
 msgstr "Navigation primaire"
 
-#: src/setup.php:50
+#: src/setup.php:56
 msgid "Features Navigation"
 msgstr "Navigation fonctionnalités"
 
-#: src/setup.php:53
+#: src/setup.php:59
 msgid "Users Navigation"
 msgstr "Navigation utilisateurs"
 
-#: src/setup.php:96
+#: src/setup.php:102
 msgid "Primary"
 msgstr "Primaire"
 
-#: src/setup.php:100
+#: src/setup.php:106
 msgid "Footer"
 msgstr "Pied de page"
 
@@ -407,22 +407,26 @@ msgstr "Nous suivre"
 
 #: templates/partials/navigation-desktop.php:23
 msgid "For businesses"
-msgstr "Pour qui ?"
+msgstr "Pour les pros"
 
-#: templates/partials/navigation-desktop.php:35
+#: templates/partials/navigation-desktop.php:30
+msgid "Demo"
+msgstr "Démo"
+
+#: templates/partials/navigation-desktop.php:37
 msgid "Application"
 msgstr "Application"
 
-#: templates/partials/navigation-desktop.php:40
+#: templates/partials/navigation-desktop.php:42
 msgid "Log In"
 msgstr "Se connecter"
 
-#: templates/partials/navigation-desktop.php:44
+#: templates/partials/navigation-desktop.php:46
 msgid "Register"
 msgstr "S’inscrire"
 
 #. Theme Name of the plugin/theme
-msgid "Cedreo Designer"
+msgid "Cedar Architect"
 msgstr ""
 
 #. Theme URI of the plugin/theme
