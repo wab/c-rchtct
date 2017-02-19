@@ -14,7 +14,7 @@
     </div>
 
     <div class="widget">
-      <p class="widget--title"><?php _e('Recent posts', 'cedreo-designer'); ?></p>
+      <p class="widget--title"><?php _e('Recent posts', 'cedar-architect'); ?></p>
       <?php
       // the query
       $lastposts = new WP_Query( array('post_type' => 'post', 'posts_per_page' => '2') ); ?>
@@ -31,7 +31,7 @@
             <strong class="textcolor"><?php the_date(); ?></strong>
             <p class="post--title"><?php the_title(); ?></p>
             <?= App\easy_excerpt(20); ?><br>
-            <a href="<?php the_permalink(); ?>">&rarr; <?php _e('Read', 'cedreo-designer'); ?></a>
+            <a href="<?php the_permalink(); ?>">&rarr; <?php _e('Read', 'cedar-architect'); ?></a>
           </li>
         <?php endwhile; ?>
         <!-- end of the loop -->
@@ -47,11 +47,11 @@
 
     </div>
     <div class="widget">
-      <p class="widget--title"><?php _e('Recent tweets', 'cedreo-designer'); ?></p>
+      <p class="widget--title"><?php _e('Recent tweets', 'cedar-architect'); ?></p>
     </div>
 
     <div class="widget">
-      <p class="widget--title"><?php _e('Follow us', 'cedreo-designer'); ?></p>
+      <p class="widget--title"><?php _e('Follow us', 'cedar-architect'); ?></p>
       <ul class="reseaux--list no-bullet scrollreveal">
         <li class="reseaux--item"><button class="reseaux--link" onclick="window.location.href='https://twitter.com/mysketcher'"><svg class="icon-twitter"><use xlink:href="#icon-twitter"></use></svg></button></li>
         <li class="reseaux--item"><button class="reseaux--link" onclick="window.location.href='https://www.facebook.com/My-Sketcher-1548463242070456'"><svg class="icon-facebook"><use xlink:href="#icon-facebook"></use></svg></button></li>

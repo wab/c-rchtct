@@ -58,7 +58,7 @@
   </div>
   <section class="section">
     <div class="page-wrapper">
-      <h2 class="section--title scrollreveal"><span><?php _e('Contact us', 'cedreo-designer'); ?></span></h2>
+      <h2 class="section--title scrollreveal"><span><?php _e('Contact us', 'cedar-architect'); ?></span></h2>
       <div class="scrollreveal">
         <?php the_content(); ?>
       </div>

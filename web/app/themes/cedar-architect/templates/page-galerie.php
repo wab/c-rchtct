@@ -32,7 +32,7 @@ $terms = get_terms( 'gallerytag', array(
 
         <?php if ( ! empty( $terms ) && ! is_wp_error( $terms ) ): ?>
             <nav class="gallery--filters">
-                <button data-filter="*" class="gallery--filter is-checked"><?php _e('all', 'cedreo-designer'); ?></button>
+                <button data-filter="*" class="gallery--filter is-checked"><?php _e('all', 'cedar-architect'); ?></button>
                 <?php foreach ( $terms as $term ) { ?>
                     <button data-filter=".gallerytag-<?php echo $term->slug ?>" class="gallery--filter"><?php echo $term->name ?></button>
                 <?php } ?>
