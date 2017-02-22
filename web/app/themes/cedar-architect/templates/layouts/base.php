@@ -2,6 +2,7 @@
 <html <?php language_attributes(); ?>>
   <?php get_template_part('partials/head'); ?>
   <body <?php body_class(); ?>>
+    <?php if ( function_exists( 'gtm4wp_the_gtm_tag' ) ) { gtm4wp_the_gtm_tag(); } ?>
     <div class="wrap">
       <!--[if IE]>
         <div class="alert alert-warning">

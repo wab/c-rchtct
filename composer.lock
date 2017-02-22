@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "6a1995afcba4f726a730d847e92ae3b9",
-    "content-hash": "36579bffdfa40c0ae54b481594423b5f",
+    "hash": "9bab0c6178852bb37ad1053f37e10cbc",
+    "content-hash": "91f7e88bac148c6373bc2e9878e620ba",
     "packages": [
         {
             "name": "composer/installers",
@@ -541,6 +541,46 @@
             "homepage": "https://wordpress.org/plugins/breadcrumb-navxt/"
         },
         {
+            "name": "wpackagist-plugin/cookie-notice",
+            "version": "1.2.38",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/cookie-notice/",
+                "reference": "tags/1.2.38"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/cookie-notice.1.2.38.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/cookie-notice/"
+        },
+        {
+            "name": "wpackagist-plugin/duracelltomi-google-tag-manager",
+            "version": "1.5.1",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/duracelltomi-google-tag-manager/",
+                "reference": "tags/1.5.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/duracelltomi-google-tag-manager.1.5.1.zip",
+                "reference": "tags/1.5.1",
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/duracelltomi-google-tag-manager/"
+        },
+        {
             "name": "wpackagist-plugin/google-document-embedder",
             "version": "2.6.2",
             "source": {
@@ -579,6 +619,26 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/google-sitemap-generator/"
+        },
+        {
+            "name": "wpackagist-plugin/google-tag-manager",
+            "version": "1.0.2",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/google-tag-manager/",
+                "reference": "tags/1.0.2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/google-tag-manager.1.0.2.zip",
+                "reference": "tags/1.0.2",
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/google-tag-manager/"
         },
         {
             "name": "wpackagist-plugin/jetpack",
@@ -622,16 +682,16 @@
         },
         {
             "name": "wpackagist-plugin/ninja-forms",
-            "version": "3.0.27",
+            "version": "3.0.29",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/ninja-forms/",
-                "reference": "tags/3.0.27"
+                "reference": "tags/3.0.29"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/ninja-forms.3.0.27.zip",
-                "reference": "tags/3.0.27",
+                "url": "https://downloads.wordpress.org/plugin/ninja-forms.3.0.29.zip",
+                "reference": "tags/3.0.29",
                 "shasum": null
             },
             "require": {
@@ -642,16 +702,16 @@
         },
         {
             "name": "wpackagist-plugin/polylang",
-            "version": "2.1",
+            "version": "2.1.1",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/polylang/",
-                "reference": "tags/2.1"
+                "reference": "tags/2.1.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/polylang.2.1.zip",
-                "reference": "tags/2.1",
+                "url": "https://downloads.wordpress.org/plugin/polylang.2.1.1.zip",
+                "reference": "tags/2.1.1",
                 "shasum": null
             },
             "require": {
@@ -702,16 +762,16 @@
         },
         {
             "name": "wpackagist-plugin/types",
-            "version": "2.2.8",
+            "version": "2.2.9",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/types/",
-                "reference": "tags/2.2.8"
+                "reference": "tags/2.2.9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/types.2.2.8.zip",
-                "reference": "tags/2.2.8",
+                "url": "https://downloads.wordpress.org/plugin/types.2.2.9.zip",
+                "reference": "tags/2.2.9",
                 "shasum": null
             },
             "require": {
@@ -762,16 +822,16 @@
         },
         {
             "name": "wpackagist-plugin/wordpress-seo",
-            "version": "4.2.1",
+            "version": "4.3",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/wordpress-seo/",
-                "reference": "tags/4.2.1"
+                "reference": "tags/4.3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wordpress-seo.4.2.1.zip",
-                "reference": "tags/4.2.1",
+                "url": "https://downloads.wordpress.org/plugin/wordpress-seo.4.3.zip",
+                "reference": "tags/4.3",
                 "shasum": null
             },
             "require": {
