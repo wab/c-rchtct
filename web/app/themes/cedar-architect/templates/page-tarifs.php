@@ -12,7 +12,7 @@
 
   <?php if( have_rows('individual') ): ?>
 
-    <div class="columns large-6 individual">
+    <div class="columns medium-6 individual">
 
       <h2 class="section--title"><span><?php _e('Homeowner special', 'cedar-architect'); ?></span></h2>
 
@@ -117,7 +117,7 @@
 
   <?php if( have_rows('pro_monthly') ): ?>
 
-    <div class="columns large-6 pro">
+    <div class="columns medium-6 pro">
 
       <h2 class="section--title"><span><?php _e('Business monthly', 'cedar-architect'); ?></span></h2>
 

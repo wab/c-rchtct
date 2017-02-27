@@ -14,6 +14,13 @@
   @include flex-grid-column(12, 1rem);
   margin-bottom: 2rem;
 
+  .individual &,
+  .pro & {
+    @include flex-grid-column(12, 1rem);
+    @include breakpoint(large) {
+      @include flex-grid-column(6, 1rem);
+    }
+  }
   .pro2 & {
     @include flex-grid-column(12, 1rem);
     @include breakpoint(medium) {
