@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "9bab0c6178852bb37ad1053f37e10cbc",
-    "content-hash": "91f7e88bac148c6373bc2e9878e620ba",
+    "hash": "0a565242b65f1685f9dd3cd9a7fd9f1b",
+    "content-hash": "0b444e29106d4c0a79a8b016abed4341",
     "packages": [
         {
             "name": "composer/installers",
@@ -482,16 +482,16 @@
         },
         {
             "name": "wpackagist-plugin/akismet",
-            "version": "3.2",
+            "version": "3.3",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/akismet/",
-                "reference": "tags/3.2"
+                "reference": "tags/3.3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/akismet.3.2.zip",
-                "reference": "tags/3.2",
+                "url": "https://downloads.wordpress.org/plugin/akismet.3.3.zip",
+                "reference": null,
                 "shasum": null
             },
             "require": {
@@ -619,26 +619,6 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/google-sitemap-generator/"
-        },
-        {
-            "name": "wpackagist-plugin/google-tag-manager",
-            "version": "1.0.2",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/google-tag-manager/",
-                "reference": "tags/1.0.2"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/google-tag-manager.1.0.2.zip",
-                "reference": "tags/1.0.2",
-                "shasum": null
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/google-tag-manager/"
         },
         {
             "name": "wpackagist-plugin/jetpack",

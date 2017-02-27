@@ -2,7 +2,10 @@
 <html <?php language_attributes(); ?>>
   <?php get_template_part('partials/head'); ?>
   <body <?php body_class(); ?>>
-    <?php if ( function_exists( 'gtm4wp_the_gtm_tag' ) ) { gtm4wp_the_gtm_tag(); } ?>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PHRJPQ"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
     <div class="wrap">
       <!--[if IE]>
         <div class="alert alert-warning">
