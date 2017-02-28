@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "0a565242b65f1685f9dd3cd9a7fd9f1b",
-    "content-hash": "0b444e29106d4c0a79a8b016abed4341",
+    "hash": "2f3b606e4c0654a54fe80e8aee91aae6",
+    "content-hash": "2fc08122fa5b7041edd3b27a4637b2b0",
     "packages": [
         {
             "name": "composer/installers",
@@ -491,7 +491,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/akismet.3.3.zip",
-                "reference": null,
+                "reference": "tags/3.3",
                 "shasum": null
             },
             "require": {
@@ -551,7 +551,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/cookie-notice.1.2.38.zip",
-                "reference": null,
+                "reference": "tags/1.2.38",
                 "shasum": null
             },
             "require": {
@@ -559,26 +559,6 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/cookie-notice/"
-        },
-        {
-            "name": "wpackagist-plugin/duracelltomi-google-tag-manager",
-            "version": "1.5.1",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/duracelltomi-google-tag-manager/",
-                "reference": "tags/1.5.1"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/duracelltomi-google-tag-manager.1.5.1.zip",
-                "reference": "tags/1.5.1",
-                "shasum": null
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/duracelltomi-google-tag-manager/"
         },
         {
             "name": "wpackagist-plugin/google-document-embedder",
@@ -639,6 +619,26 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/jetpack/"
+        },
+        {
+            "name": "wpackagist-plugin/jonradio-private-site",
+            "version": "2.14.1",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/jonradio-private-site/",
+                "reference": "tags/2.14.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/jonradio-private-site.2.14.1.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/jonradio-private-site/"
         },
         {
             "name": "wpackagist-plugin/members",
@@ -802,16 +802,16 @@
         },
         {
             "name": "wpackagist-plugin/wordpress-seo",
-            "version": "4.3",
+            "version": "4.4",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/wordpress-seo/",
-                "reference": "tags/4.3"
+                "reference": "tags/4.4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wordpress-seo.4.3.zip",
-                "reference": "tags/4.3",
+                "url": "https://downloads.wordpress.org/plugin/wordpress-seo.4.4.zip",
+                "reference": null,
                 "shasum": null
             },
             "require": {

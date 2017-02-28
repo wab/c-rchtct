@@ -152,8 +152,8 @@
     "wpackagist-plugin/google-document-embedder": "^2",
     "wpackagist-plugin/jetpack": "^4.6",
     "wpackagist-plugin/vaultpress": "^1.8",
-    "wpackagist-plugin/duracelltomi-google-tag-manager": "^1.5",
-    "wpackagist-plugin/cookie-notice": "^1.2"
+    "wpackagist-plugin/cookie-notice": "^1.2",
+    "wpackagist-plugin/jonradio-private-site": "^2.14"
   },
   "require-dev": {
     "squizlabs/php_codesniffer": "^2.5.1"
