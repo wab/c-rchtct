@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "2f3b606e4c0654a54fe80e8aee91aae6",
-    "content-hash": "2fc08122fa5b7041edd3b27a4637b2b0",
+    "hash": "dfc95587f900a8d9c3c49ce3cecbe829",
+    "content-hash": "c7fb49586ac91735e783040cbdb5b852",
     "packages": [
         {
             "name": "composer/installers",
@@ -621,26 +621,6 @@
             "homepage": "https://wordpress.org/plugins/jetpack/"
         },
         {
-            "name": "wpackagist-plugin/jonradio-private-site",
-            "version": "2.14.1",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/jonradio-private-site/",
-                "reference": "tags/2.14.1"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/jonradio-private-site.2.14.1.zip",
-                "reference": null,
-                "shasum": null
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/jonradio-private-site/"
-        },
-        {
             "name": "wpackagist-plugin/members",
             "version": "1.1.3",
             "source": {
@@ -679,6 +659,26 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/ninja-forms/"
+        },
+        {
+            "name": "wpackagist-plugin/password-protected",
+            "version": "2.0.3",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/password-protected/",
+                "reference": "tags/2.0.3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/password-protected.2.0.3.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/password-protected/"
         },
         {
             "name": "wpackagist-plugin/polylang",
@@ -811,7 +811,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/wordpress-seo.4.4.zip",
-                "reference": null,
+                "reference": "tags/4.4",
                 "shasum": null
             },
             "require": {
@@ -899,6 +899,26 @@
                 "standards"
             ],
             "time": "2017-02-02 03:30:00"
+        },
+        {
+            "name": "wpackagist-plugin/jonradio-private-site",
+            "version": "2.14.1",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/jonradio-private-site/",
+                "reference": "tags/2.14.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/jonradio-private-site.2.14.1.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/jonradio-private-site/"
         }
     ],
     "aliases": [],
