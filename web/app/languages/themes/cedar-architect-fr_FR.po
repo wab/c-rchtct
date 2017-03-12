@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Cedreo Designer\n"
-"POT-Creation-Date: 2017-02-19 17:06+0100\n"
-"PO-Revision-Date: 2017-02-19 17:06+0100\n"
+"POT-Creation-Date: 2017-03-12 14:51+0100\n"
+"PO-Revision-Date: 2017-03-12 15:15+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: fr\n"
@@ -75,7 +75,7 @@ msgstr "Cette page n’existe pas !"
 msgid "Sorry, no results were found."
 msgstr "Il n’y a pas de résultats !"
 
-#: templates/layouts/base.php:8
+#: templates/layouts/base.php:12
 msgid ""
 "You are using an <strong>outdated</strong> browser. Please <a href=\"http://"
 "browsehappy.com/\">upgrade your browser</a> to improve your experience."
@@ -133,7 +133,7 @@ msgstr "Galerie"
 msgid "See all images"
 msgstr "Voir la galerie"
 
-#: templates/page-contact.php:61
+#: templates/page-contact.php:59
 msgid "Contact us"
 msgstr "Contactez-nous"
 
@@ -144,6 +144,10 @@ msgstr "Tous"
 #: templates/page-galerie.php:72
 msgid "see more"
 msgstr "en voir plus"
+
+#: templates/page-sommaire.php:21 templates/partials/footer.php:33
+msgid "Read"
+msgstr "Lire"
 
 #: templates/page-tarifs.php:17
 msgid "Homeowner special"
@@ -161,7 +165,7 @@ msgstr "projets"
 
 #: templates/page-tarifs.php:43 templates/page-tarifs.php:148
 msgid "Unlimited projects"
-msgstr "projets illimités"
+msgstr "Projets illimités"
 
 #: templates/page-tarifs.php:44 templates/page-tarifs.php:149
 #: templates/page-tarifs.php:256
@@ -334,7 +338,7 @@ msgstr "an"
 
 #: templates/page-tarifs.php:255
 msgid "unlimited projects"
-msgstr "projets illimités"
+msgstr "Projets illimités"
 
 #: templates/page-tarifs.php:276
 msgid "Unlimited Print renderings"
@@ -385,23 +389,19 @@ msgstr "Les commentaires sont fermés"
 msgid "Pages:"
 msgstr "Pages:"
 
-#: templates/partials/footer.php:17
+#: templates/partials/footer.php:16
 msgid "Recent posts"
 msgstr "Articles Récents"
 
-#: templates/partials/footer.php:34
-msgid "Read"
-msgstr "Lire"
-
-#: templates/partials/footer.php:45 templates/partials/nav-secteurs.php:43
+#: templates/partials/footer.php:44 templates/partials/nav-secteurs.php:43
 msgid "Sorry, no posts matched your criteria."
 msgstr "Désolé, aucun article ne correspond à vos critères."
 
-#: templates/partials/footer.php:50
+#: templates/partials/footer.php:49
 msgid "Recent tweets"
 msgstr "Tweets récents"
 
-#: templates/partials/footer.php:54
+#: templates/partials/footer.php:53
 msgid "Follow us"
 msgstr "Nous suivre"
 
