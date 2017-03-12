@@ -66,14 +66,14 @@
                 else { echo $visual_print . '&nbsp;' . __('Print renderings', 'cedar-architect'); }
               ?>
             </li>
-            <!-- <li class="item">
+            <li class="item">
               <?php
                 if($virtual_visits == 0) { echo '-'; }
                 elseif ($virtual_visits == -1) { _e('Unlimited virtual visits', 'cedar-architect'); }
                 elseif ($virtual_visits == -2) { _e('Optionnal virtual visits', 'cedar-architect'); }
                 else { echo $virtual_visits . '&nbsp;' . __('Virtual visits', 'cedar-architect'); }
               ?>
-            </li> -->
+            </li>
             <li class="subtitle"><?php _e('Support', 'cedar-architect'); ?></li>
             <li class="item">
               <?php if( $support && in_array('Tutoriels', $support) ) { _e('Tutorials', 'cedar-architect'); } else { echo '-'; } ?>
@@ -171,14 +171,14 @@
                 else { echo $visual_print . '&nbsp;' . __('Print renderings', 'cedar-architect') . ' / ' . __('month', 'cedar-architect'); }
               ?>
             </li>
-            <!-- <li class="item">
+            <li class="item">
               <?php
                 if($virtual_visits == 0) { echo '-'; }
                 elseif ($virtual_visits == -1) { _e('Unlimited virtual visits', 'cedar-architect'); }
                 elseif ($virtual_visits == -2) { _e('Optionnal virtual visits', 'cedar-architect'); }
                 else { echo $virtual_visits . '&nbsp;' . __('Virtual visits', 'cedar-architect') . ' / '. __('month', 'cedar-architect'); }
               ?>
-            </li> -->
+            </li>
             <li class="subtitle"><?php _e('Support', 'cedar-architect'); ?></li>
             <li class="item">
               <?php if( $support && in_array('Tutoriels', $support) ) { _e('Tutorials', 'cedar-architect'); } else { echo '-'; } ?>
@@ -278,14 +278,14 @@
                 else { echo $visual_print . '&nbsp;' . __('Print renderings', 'cedar-architect'). ' / '. __('year', 'cedar-architect'); }
               ?>
             </li>
-            <!-- <li class="item">
+            <li class="item">
               <?php
                 if($virtual_visits == 0) { echo '-'; }
                 elseif ($virtual_visits == -1) { _e('Unlimited virtual visits', 'cedar-architect'); }
                 elseif ($virtual_visits == -2) { _e('Optionnal virtual visits', 'cedar-architect'); }
                 else { echo $virtual_visits . '&nbsp;' . __('Virtual visits', 'cedar-architect'). ' / '. __('year ', 'cedar-architect'); }
               ?>
-            </li> -->
+            </li>
             <li class="subtitle"><?php _e('Support', 'cedar-architect'); ?></li>
             <li class="item">
               <?php if( $support && in_array('Tutoriels', $support) ) { _e('Tutorials', 'cedar-architect'); } else { echo '-'; } ?>

@@ -6,7 +6,9 @@
         <ul class="no-bullet nav-footer--menu">
           <li class="nav-footer--item"><svg class="icon icon-info"><use xlink:href="#icon-info"></use></svg><?php icl_link_to_element(262);  ?></li>
           <li class="nav-footer--item"><svg class="icon icon-users"><use xlink:href="#icon-users"></use></svg><?php icl_link_to_element(1024);  ?></li>
-          <li class="nav-footer--item"><svg class="icon icon-star"><use xlink:href="#icon-star"></use></svg><?php icl_link_to_element(35);  ?></li>
+          <?php if (pll_current_language() == 'fr') { ?>
+            <li class="nav-footer--item"><svg class="icon icon-star"><use xlink:href="#icon-star"></use></svg><?php icl_link_to_element(35);  ?></li>
+          <?php  }?>
           <li class="nav-footer--item"><svg class="icon icon-envelop"><use xlink:href="#icon-envelop"></use></svg><?php icl_link_to_element(37);  ?></li>
         </ul>
       </nav>

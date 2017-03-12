@@ -18,7 +18,7 @@
       <!-- the loop -->
       <?php while ( $childpages->have_posts() ) : $childpages->the_post(); ?>
         <h2><?php the_title(); ?></h2>
-        <a href="<?php the_permalink(); ?>">&rarr; Lire</a>
+        <a href="<?php the_permalink(); ?>">&rarr; <?php _e('Read', 'cedar-architect'); ?></a>
         <hr>
       <?php endwhile; ?>
       <!-- end of the loop -->
