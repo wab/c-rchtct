@@ -48,7 +48,7 @@ $enable-flex:           false;
 $main-small-columns:       12;
 $sidebar-small-columns:    4;
 
-$headerHeight: 80px;
+$headerHeight: rem-calc(80);
 
 $global-transition: 300ms ease;
 

@@ -1,9 +1,11 @@
+$banner-height: rem-calc(200);
+
 .banner {
   background: url(../images/banner-bg.jpg) center;
   background-size: cover;
   text-align: center;
   color: $white;
-  min-height: 200px;
+  min-height: $banner-height;
   display: flex;
   flex-flow: column nowrap;
   justify-content: center;
@@ -116,5 +118,16 @@
     .page-section-column:first-child {
       order: 1;
     }
+  }
+}
+
+.page-template-page-iframe {
+  overflow: hidden;
+  .page-header {
+    min-height: $banner-height / 3;
+  }
+
+  .main {
+    height: calc(100vh - #{$banner-height} / 3 - #{$headerHeight});
   }
 }

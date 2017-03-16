@@ -27,12 +27,14 @@
       <h1 class="page--title"><?= App\title(); ?></h1>
     </div>
   </header>
-  <div class="breadcrumbs" typeof="BreadcrumbList" vocab="http://schema.org/">
-    <?php if(function_exists('bcn_display')):?>
-    <div class="row column">
-      <?php bcn_display(); ?>
+  <?php if (!is_page_template('templates/page-iframe.php')): ?>
+    <div class="breadcrumbs" typeof="BreadcrumbList" vocab="http://schema.org/">
+      <?php if(function_exists('bcn_display')):?>
+      <div class="row column">
+        <?php bcn_display(); ?>
+      </div>
+      <?php endif; ?>
     </div>
-    <?php endif; ?>
-  </div>
+  <?php endif; ?>
 <?php endif; ?>
 
