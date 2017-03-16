@@ -38,12 +38,10 @@
         <div class="dropdown-pane bottom" id="menu-login" data-dropdown data-hover="true" data-hover-pane="true" data-close-on-click="true" data-v-offset="0">
           <ul class="sub-menu">
             <li class="menu-item">
-              <svg class="icon-power"><use xlink:href="#icon-power"></use></svg>
-              <a href="http://app.cedar-architect.com/<?php echo pll_current_language(); ?>/profile"><?php _e('Log In', 'cedar-architect') ?></a>
+              <a href="http://app.cedar-architect.com/<?php echo pll_current_language(); ?>/profile"><svg class="icon-power"><use xlink:href="#icon-power"></use></svg><br><?php _e('Log In', 'cedar-architect') ?></a>
             </li>
             <li class="menu-item">
-              <svg class="icon-key"><use xlink:href="#icon-key"></use></svg>
-              <a href="http://app.cedar-architect.com/<?php echo pll_current_language(); ?>/register"><?php _e('Register', 'cedar-architect') ?></a>
+              <a href="http://app.cedar-architect.com/<?php echo pll_current_language(); ?>/register"><svg class="icon-key"><use xlink:href="#icon-key"></use></svg><br><?php _e('Register', 'cedar-architect') ?></a>
             </li>
           </ul>
         </div>
