@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Cedreo Designer\n"
-"POT-Creation-Date: 2017-03-12 14:51+0100\n"
-"PO-Revision-Date: 2017-03-12 15:15+0100\n"
+"POT-Creation-Date: 2017-03-17 01:05+0100\n"
+"PO-Revision-Date: 2017-03-17 01:07+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: fr\n"
@@ -75,7 +75,7 @@ msgstr "Cette page n’existe pas !"
 msgid "Sorry, no results were found."
 msgstr "Il n’y a pas de résultats !"
 
-#: templates/layouts/base.php:12
+#: templates/layouts/base-page-iframe.php:12 templates/layouts/base.php:12
 msgid ""
 "You are using an <strong>outdated</strong> browser. Please <a href=\"http://"
 "browsehappy.com/\">upgrade your browser</a> to improve your experience."
@@ -145,7 +145,7 @@ msgstr "Tous"
 msgid "see more"
 msgstr "en voir plus"
 
-#: templates/page-sommaire.php:21 templates/partials/footer.php:33
+#: templates/page-sommaire.php:21 templates/partials/footer.php:35
 msgid "Read"
 msgstr "Lire"
 
@@ -177,7 +177,7 @@ msgid "Unlimited test renderings"
 msgstr "Visuels de travail illimités"
 
 #: templates/page-tarifs.php:49 templates/page-tarifs.php:261
-msgid "Optionnal test renderings"
+msgid "Optional test renderings"
 msgstr "Visuels de travail optionnels"
 
 #: templates/page-tarifs.php:50 templates/page-tarifs.php:155
@@ -185,12 +185,14 @@ msgstr "Visuels de travail optionnels"
 msgid "Test renderings"
 msgstr "Visuels de travail"
 
-#: templates/page-tarifs.php:56
+#: templates/page-tarifs.php:56 templates/page-tarifs.php:161
+#: templates/page-tarifs.php:268
 msgid "Unlimited HD renderings"
 msgstr "Visuels HD illimités"
 
-#: templates/page-tarifs.php:57
-msgid "Optionnal HD renderings"
+#: templates/page-tarifs.php:57 templates/page-tarifs.php:162
+#: templates/page-tarifs.php:269
+msgid "Optional HD renderings"
 msgstr "Visuels HD optionnels"
 
 #: templates/page-tarifs.php:58 templates/page-tarifs.php:163
@@ -203,7 +205,7 @@ msgid "Unlimited print renderings"
 msgstr "Visuels print illimités "
 
 #: templates/page-tarifs.php:65 templates/page-tarifs.php:170
-msgid "Optionnal print renderings"
+msgid "Optional print renderings"
 msgstr "Visuels print optionnels"
 
 #: templates/page-tarifs.php:66 templates/page-tarifs.php:171
@@ -218,7 +220,7 @@ msgstr "Visites virtuelles illimitées"
 
 #: templates/page-tarifs.php:73 templates/page-tarifs.php:178
 #: templates/page-tarifs.php:285
-msgid "Optionnal virtual visits"
+msgid "Optional virtual visits"
 msgstr "Visites virtuelles optionnelles"
 
 #: templates/page-tarifs.php:74 templates/page-tarifs.php:179
@@ -311,16 +313,8 @@ msgid "Unlimited Test renderings"
 msgstr "Visuels de travail illimités"
 
 #: templates/page-tarifs.php:154
-msgid "Optionnal Test renderings"
+msgid "Optional Test renderings"
 msgstr "Visuels de travail optionnels"
-
-#: templates/page-tarifs.php:161 templates/page-tarifs.php:268
-msgid "HD renderings unlimited"
-msgstr "Rendus HD illimités"
-
-#: templates/page-tarifs.php:162 templates/page-tarifs.php:269
-msgid "HD renderings optionnal"
-msgstr "Visuels HD optionnels"
 
 #: templates/page-tarifs.php:227
 msgid "Business Yearly"
@@ -345,7 +339,7 @@ msgid "Unlimited Print renderings"
 msgstr "Visuels print illimités "
 
 #: templates/page-tarifs.php:277
-msgid "Optionnal Print renderings"
+msgid "Optional Print renderings"
 msgstr "Visuels print optionnels"
 
 #: templates/page-tarifs.php:286
@@ -389,19 +383,19 @@ msgstr "Les commentaires sont fermés"
 msgid "Pages:"
 msgstr "Pages:"
 
-#: templates/partials/footer.php:16
+#: templates/partials/footer.php:18
 msgid "Recent posts"
 msgstr "Articles Récents"
 
-#: templates/partials/footer.php:44 templates/partials/nav-secteurs.php:43
+#: templates/partials/footer.php:46 templates/partials/nav-secteurs.php:43
 msgid "Sorry, no posts matched your criteria."
 msgstr "Désolé, aucun article ne correspond à vos critères."
 
-#: templates/partials/footer.php:49
+#: templates/partials/footer.php:51
 msgid "Recent tweets"
 msgstr "Tweets récents"
 
-#: templates/partials/footer.php:53
+#: templates/partials/footer.php:55
 msgid "Follow us"
 msgstr "Nous suivre"
 
@@ -417,11 +411,11 @@ msgstr "Démo"
 msgid "Application"
 msgstr "Application"
 
-#: templates/partials/navigation-desktop.php:42
+#: templates/partials/navigation-desktop.php:41
 msgid "Log In"
 msgstr "Se connecter"
 
-#: templates/partials/navigation-desktop.php:46
+#: templates/partials/navigation-desktop.php:44
 msgid "Register"
 msgstr "S’inscrire"
 
@@ -448,6 +442,30 @@ msgstr ""
 #. Author URI of the plugin/theme
 msgid "https://wabdesign.fr/"
 msgstr ""
+
+#~ msgid "Optionnal test renderings"
+#~ msgstr "Visuels de travail optionnels"
+
+#~ msgid "Optionnal HD renderings"
+#~ msgstr "Visuels HD optionnels"
+
+#~ msgid "Optionnal print renderings"
+#~ msgstr "Visuels print optionnels"
+
+#~ msgid "Optionnal virtual visits"
+#~ msgstr "Visites virtuelles optionnelles"
+
+#~ msgid "Optionnal Test renderings"
+#~ msgstr "Visuels de travail optionnels"
+
+#~ msgid "HD renderings unlimited"
+#~ msgstr "Rendus HD illimités"
+
+#~ msgid "HD renderings optionnal"
+#~ msgstr "Visuels HD optionnels"
+
+#~ msgid "Optionnal Print renderings"
+#~ msgstr "Visuels print optionnels"
 
 #~ msgid "print renderings"
 #~ msgstr "Visuels print"

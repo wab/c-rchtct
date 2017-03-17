@@ -46,7 +46,7 @@
               <?php
                 if($visual_1 == 0) { echo '-'; }
                 elseif ($visual_1 == -1) { _e('Unlimited test renderings', 'cedar-architect'); }
-                elseif ($visual_1 == -2) { _e('Optionnal test renderings', 'cedar-architect'); }
+                elseif ($visual_1 == -2) { _e('Optional test renderings', 'cedar-architect'); }
                 else { echo $visual_1 . '&nbsp;' . __('Test renderings', 'cedar-architect'); }
               ?>
             </li>
@@ -54,7 +54,7 @@
               <?php
                 if($visual_hd == 0) { echo '-'; }
                 elseif ($visual_hd == -1) { _e('Unlimited HD renderings', 'cedar-architect'); }
-                elseif ($visual_hd == -2) { _e('Optionnal HD renderings', 'cedar-architect'); }
+                elseif ($visual_hd == -2) { _e('Optional HD renderings', 'cedar-architect'); }
                 else { echo $visual_hd . '&nbsp;' . __('HD renderings', 'cedar-architect'); }
               ?>
             </li>
@@ -62,7 +62,7 @@
               <?php
                 if($visual_print == 0) { echo '-'; }
                 elseif ($visual_print == -1) { _e('Unlimited print renderings', 'cedar-architect'); }
-                elseif ($visual_print == -2) { _e('Optionnal print renderings', 'cedar-architect'); }
+                elseif ($visual_print == -2) { _e('Optional print renderings', 'cedar-architect'); }
                 else { echo $visual_print . '&nbsp;' . __('Print renderings', 'cedar-architect'); }
               ?>
             </li>
@@ -70,7 +70,7 @@
               <?php
                 if($virtual_visits == 0) { echo '-'; }
                 elseif ($virtual_visits == -1) { _e('Unlimited virtual visits', 'cedar-architect'); }
-                elseif ($virtual_visits == -2) { _e('Optionnal virtual visits', 'cedar-architect'); }
+                elseif ($virtual_visits == -2) { _e('Optional virtual visits', 'cedar-architect'); }
                 else { echo $virtual_visits . '&nbsp;' . __('Virtual visits', 'cedar-architect'); }
               ?>
             </li>
@@ -151,15 +151,15 @@
               <?php
                 if($visual_1 == 0) { echo '-'; }
                 elseif ($visual_1 == -1) { _e('Unlimited Test renderings', 'cedar-architect'); }
-                elseif ($visual_1 == -2) { _e('Optionnal Test renderings', 'cedar-architect'); }
+                elseif ($visual_1 == -2) { _e('Optional Test renderings', 'cedar-architect'); }
                 else { echo $visual_1 . '&nbsp;' . __('Test renderings', 'cedar-architect') . ' / '. __('month', 'cedar-architect'); }
               ?>
             </li>
             <li class="item">
               <?php
                 if($visual_hd == 0) { echo '-'; }
-                elseif ($visual_hd == -1) { _e('HD renderings unlimited', 'cedar-architect'); }
-                elseif ($visual_hd == -2) { _e('HD renderings optionnal', 'cedar-architect'); }
+                elseif ($visual_hd == -1) { _e('Unlimited HD renderings', 'cedar-architect'); }
+                elseif ($visual_hd == -2) { _e('Optional HD renderings', 'cedar-architect'); }
                 else { echo $visual_hd . '&nbsp;' . __('HD renderings', 'cedar-architect') . ' / '. __('month', 'cedar-architect'); }
               ?>
             </li>
@@ -167,7 +167,7 @@
               <?php
                 if($visual_print == 0) { echo '-'; }
                 elseif ($visual_print == -1) { _e('Unlimited print renderings', 'cedar-architect'); }
-                elseif ($visual_print == -2) { _e('Optionnal print renderings', 'cedar-architect'); }
+                elseif ($visual_print == -2) { _e('Optional print renderings', 'cedar-architect'); }
                 else { echo $visual_print . '&nbsp;' . __('Print renderings', 'cedar-architect') . ' / ' . __('month', 'cedar-architect'); }
               ?>
             </li>
@@ -175,7 +175,7 @@
               <?php
                 if($virtual_visits == 0) { echo '-'; }
                 elseif ($virtual_visits == -1) { _e('Unlimited virtual visits', 'cedar-architect'); }
-                elseif ($virtual_visits == -2) { _e('Optionnal virtual visits', 'cedar-architect'); }
+                elseif ($virtual_visits == -2) { _e('Optional virtual visits', 'cedar-architect'); }
                 else { echo $virtual_visits . '&nbsp;' . __('Virtual visits', 'cedar-architect') . ' / '. __('month', 'cedar-architect'); }
               ?>
             </li>
@@ -258,15 +258,15 @@
               <?php
                 if($visual_1 == 0) { echo '-'; }
                 elseif ($visual_1 == -1) { _e('Unlimited test renderings', 'cedar-architect'); }
-                elseif ($visual_1 == -2) { _e('Optionnal test renderings', 'cedar-architect'); }
+                elseif ($visual_1 == -2) { _e('Optional test renderings', 'cedar-architect'); }
                 else { echo $visual_1 . '&nbsp;' . __('Test renderings', 'cedar-architect'). ' / '. __('year', 'cedar-architect'); }
               ?>
             </li>
             <li class="item">
               <?php
                 if($visual_hd == 0) { echo '-'; }
-                elseif ($visual_hd == -1) { _e('HD renderings unlimited', 'cedar-architect'); }
-                elseif ($visual_hd == -2) { _e('HD renderings optionnal', 'cedar-architect'); }
+                elseif ($visual_hd == -1) { _e('Unlimited HD renderings', 'cedar-architect'); }
+                elseif ($visual_hd == -2) { _e('Optional HD renderings', 'cedar-architect'); }
                 else { echo $visual_hd . '&nbsp;' . __('HD renderings', 'cedar-architect'). ' / '. __('year', 'cedar-architect'); }
               ?>
             </li>
@@ -274,7 +274,7 @@
               <?php
                 if($visual_print == 0) { echo '-'; }
                 elseif ($visual_print == -1) { _e('Unlimited Print renderings', 'cedar-architect'); }
-                elseif ($visual_print == -2) { _e('Optionnal Print renderings', 'cedar-architect'); }
+                elseif ($visual_print == -2) { _e('Optional Print renderings', 'cedar-architect'); }
                 else { echo $visual_print . '&nbsp;' . __('Print renderings', 'cedar-architect'). ' / '. __('year', 'cedar-architect'); }
               ?>
             </li>
@@ -282,7 +282,7 @@
               <?php
                 if($virtual_visits == 0) { echo '-'; }
                 elseif ($virtual_visits == -1) { _e('Unlimited virtual visits', 'cedar-architect'); }
-                elseif ($virtual_visits == -2) { _e('Optionnal virtual visits', 'cedar-architect'); }
+                elseif ($virtual_visits == -2) { _e('Optional virtual visits', 'cedar-architect'); }
                 else { echo $virtual_visits . '&nbsp;' . __('Virtual visits', 'cedar-architect'). ' / '. __('year ', 'cedar-architect'); }
               ?>
             </li>
