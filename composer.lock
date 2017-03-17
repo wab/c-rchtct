@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "dfc95587f900a8d9c3c49ce3cecbe829",
-    "content-hash": "c7fb49586ac91735e783040cbdb5b852",
+    "hash": "d507c09536115351af83fbca162c23c4",
+    "content-hash": "8d0eb1b2175796bd9697466a23016497",
     "packages": [
         {
             "name": "composer/installers",
@@ -442,16 +442,16 @@
         },
         {
             "name": "wpackagist-plugin/acf-content-analysis-for-yoast-seo",
-            "version": "1.2.5",
+            "version": "1.2.6",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/acf-content-analysis-for-yoast-seo/",
-                "reference": "tags/1.2.5"
+                "reference": "tags/1.2.6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/acf-content-analysis-for-yoast-seo.1.2.5.zip",
-                "reference": "tags/1.2.5",
+                "url": "https://downloads.wordpress.org/plugin/acf-content-analysis-for-yoast-seo.1.2.6.zip",
+                "reference": null,
                 "shasum": null
             },
             "require": {
@@ -561,6 +561,26 @@
             "homepage": "https://wordpress.org/plugins/cookie-notice/"
         },
         {
+            "name": "wpackagist-plugin/ewww-image-optimizer",
+            "version": "3.2.7",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/ewww-image-optimizer/",
+                "reference": "tags/3.2.7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/ewww-image-optimizer.3.2.7.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/ewww-image-optimizer/"
+        },
+        {
             "name": "wpackagist-plugin/google-document-embedder",
             "version": "2.6.2",
             "source": {
@@ -602,15 +622,15 @@
         },
         {
             "name": "wpackagist-plugin/jetpack",
-            "version": "4.7",
+            "version": "4.7.1",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/jetpack/",
-                "reference": "tags/4.7"
+                "reference": "tags/4.7.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/jetpack.4.7.zip",
+                "url": "https://downloads.wordpress.org/plugin/jetpack.4.7.1.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -651,7 +671,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/ninja-forms.3.0.31.zip",
-                "reference": null,
+                "reference": "tags/3.0.31",
                 "shasum": null
             },
             "require": {
@@ -671,7 +691,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/password-protected.2.0.3.zip",
-                "reference": null,
+                "reference": "tags/2.0.3",
                 "shasum": null
             },
             "require": {
@@ -691,7 +711,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/polylang.2.1.2.zip",
-                "reference": null,
+                "reference": "tags/2.1.2",
                 "shasum": null
             },
             "require": {
@@ -771,7 +791,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/vaultpress.1.8.8.zip",
-                "reference": null,
+                "reference": "tags/1.8.8",
                 "shasum": null
             },
             "require": {
