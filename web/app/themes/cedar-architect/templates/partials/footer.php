@@ -49,6 +49,8 @@
     </div>
     <div class="widget">
       <p class="widget--title"><?php _e('Recent tweets', 'cedar-architect'); ?></p>
+      <!-- Twitter widget -->
+      <a class="twitter-timeline" data-height="500" data-theme="dark" data-link-color="#2da8a4" href="https://twitter.com/mysketcher">Tweets by mysketcher</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
     </div>
 
     <div class="widget">
