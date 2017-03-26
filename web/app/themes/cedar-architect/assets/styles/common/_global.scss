@@ -19,8 +19,10 @@
     );
 }
 
-.main {
-  text-align: justify;
+.main p {
+  @include breakpoint(large) {
+    text-align: justify;
+  }
 }
 
 .section {

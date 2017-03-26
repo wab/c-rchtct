@@ -42,14 +42,14 @@
             <li class="projects-number">
             <?php if ($number_project != -1) { echo $number_project . '&nbsp;' .  __('projects', 'cedar-architect'); } else { _e('Unlimited projects', 'cedar-architect'); } ?></li>
             <li class="subtitle"><?php _e('Renderings', 'cedar-architect'); ?></li>
-            <li class="item">
+            <!-- <li class="item">
               <?php
                 if($visual_1 == 0) { echo '-'; }
                 elseif ($visual_1 == -1) { _e('Unlimited test renderings', 'cedar-architect'); }
                 elseif ($visual_1 == -2) { _e('Optional test renderings', 'cedar-architect'); }
                 else { echo $visual_1 . '&nbsp;' . __('Test renderings', 'cedar-architect'); }
               ?>
-            </li>
+            </li> -->
             <li class="item">
               <?php
                 if($visual_hd == 0) { echo '-'; }
@@ -147,14 +147,14 @@
             <li class="projects-number">
             <?php if ($number_project != -1) { echo $number_project . '&nbsp;' .  __('projects', 'cedar-architect') . ' / '. __('month', 'cedar-architect'); } else { _e('Unlimited projects', 'cedar-architect'); } ?></li>
             <li class="subtitle"><?php _e('Renderings', 'cedar-architect'); ?></li>
-            <li class="item">
+            <!-- <li class="item">
               <?php
                 if($visual_1 == 0) { echo '-'; }
                 elseif ($visual_1 == -1) { _e('Unlimited Test renderings', 'cedar-architect'); }
                 elseif ($visual_1 == -2) { _e('Optional Test renderings', 'cedar-architect'); }
                 else { echo $visual_1 . '&nbsp;' . __('Test renderings', 'cedar-architect') . ' / '. __('month', 'cedar-architect'); }
               ?>
-            </li>
+            </li> -->
             <li class="item">
               <?php
                 if($visual_hd == 0) { echo '-'; }
@@ -254,14 +254,14 @@
             <li class="projects-number">
             <?php if ($number_project != -1) { echo $number_project . '&nbsp;' .  __('projects', 'cedar-architect'). ' / '. __('year', 'cedar-architect'); } else { _e('unlimited projects', 'cedar-architect'); } ?></li>
             <li class="subtitle"><?php _e('Renderings', 'cedar-architect'); ?></li>
-            <li class="item">
+            <!-- <li class="item">
               <?php
                 if($visual_1 == 0) { echo '-'; }
                 elseif ($visual_1 == -1) { _e('Unlimited test renderings', 'cedar-architect'); }
                 elseif ($visual_1 == -2) { _e('Optional test renderings', 'cedar-architect'); }
                 else { echo $visual_1 . '&nbsp;' . __('Test renderings', 'cedar-architect'). ' / '. __('year', 'cedar-architect'); }
               ?>
-            </li>
+            </li> -->
             <li class="item">
               <?php
                 if($visual_hd == 0) { echo '-'; }
