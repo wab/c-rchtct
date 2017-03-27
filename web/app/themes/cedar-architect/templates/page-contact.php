@@ -68,23 +68,6 @@
 <?php endwhile; ?>
 
 <script type="text/javascript">
-  /* eslint-disable */
-  const contactForm = document.querySelector('.ninja-forms-form')
-  console.log(contactForm);
-  const gtmPush = () => {
-    console.log('push form submit');
-    //dataLayer.push({'event': 'contact_confirmation'});
-  };
-
-  if(contactForm.addEventListener){
-    contactForm.addEventListener("submit", gtmPush, false);
-  } else if(contactForm.attachEvent) {
-    ele.attachEvent('onsubmit', gtmPush);
-  }
-
-</script>
-
-<script type="text/javascript">
   /* global google */
   function initMap() {
     const styles = [
