@@ -17,12 +17,18 @@ import 'foundation-sites/js/foundation.reveal';
 import 'foundation-sites/js/foundation.sticky';
 import 'foundation-sites/js/foundation.accordionMenu';
 import 'foundation-sites/js/foundation.magellan';
+import 'foundation-sites/js/foundation.tooltip';
 
 // import local dependencies
 import Router from './util/router';
 import common from './routes/Common';
 import home from './routes/Home';
 import aboutUs from './routes/About';
+import contact from './routes/Contact';
+import price from './routes/Princing';
+
+const contactUs = contact;
+const tarifs = price;
 
 // Use this variable to set up the common and page specific functions. If you
 // rename this variable, you will also need to rename the namespace below.
@@ -33,6 +39,10 @@ const routes = {
   home,
   // About us page, note the change from about-us to aboutUs.
   aboutUs,
+  contact,
+  contactUs,
+  tarifs,
+  price,
 };
 
 // Load Events

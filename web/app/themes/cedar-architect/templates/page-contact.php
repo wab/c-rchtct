@@ -34,8 +34,9 @@
             <path d="M32.2 30.3c-.3-.3-.8-.3-1.1 0-1.3 1.3-2 3-2 4.8 0 1.8.7 3.5 2 4.8.2.2.4.2.6.2.2 0 .4-.1.6-.2.3-.3.3-.8 0-1.1-1-1-1.5-2.3-1.5-3.7 0-1.4.5-2.7 1.5-3.7.2-.3.2-.8-.1-1.1z"/>
           </g>
         </svg>
+        <p>
       <?php if(get_field('phone')): ?>
-        <p class="telephone"><?php the_field('phone'); ?></p>
+        <div><button class="callbutton button has-tip top" data-tooltip aria-haspopup="true" data-disable-hover="true" tabindex="1" title="<?php the_field('phone'); ?>">Afficher le numéro</button></div>
       <?php endif; ?>
       </div>
       <div class="columns large-4 contact--opening">

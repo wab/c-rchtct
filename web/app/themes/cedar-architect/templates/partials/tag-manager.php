@@ -1,6 +1,3 @@
-<noscript>
- <iframe src="//www.googletagmanager.com/ns.html?id=GTM-WLXDWH" height="0" width="0" style="display: none; visibility: hidden"></iframe>
-</noscript>
 <!-- Google Tag Manager -->
 <script>
 /* eslint-disable */
@@ -11,11 +8,3 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 })(window,document,'script','dataLayer','GTM-PHRJPQ');
 </script>
 <!-- End Google Tag Manager -->
-<!-- Google Tag Manager DataLayers -->
-<script type="text/javascript">
-/* global dataLayer */
-  dataLayer.push({
-    'contentGroup1': '<?php echo $post->post_title ?>',
-    'userType': '[valeur]',
-  });
-</script>

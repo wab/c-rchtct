@@ -2,8 +2,6 @@
 /**
  * Template Name: Page tarifs
  */
-
-
 ?>
 
 <?php while (have_posts()) : the_post(); ?>
@@ -103,7 +101,7 @@
             <li class="item">
               <?php if( $features && in_array('a2', $features) ) { _e('Accès aux packs <br/> d\'aménagement extérieur', 'cedar-architect'); } else { echo '- <br/> &nbsp;'; }; ?>
             </li> -->
-            <li class="link"><a href="<?php echo $link; ?>"><?php _e('Start', 'cedar-architect'); ?></a></li>
+            <li class="link"><a class="planlink" data-title="<?php echo $name?>" href="<?php echo $link; ?>"><?php _e('Start', 'cedar-architect'); ?></a></li>
           </ul>
 
         </li>
@@ -208,7 +206,7 @@
             <li class="item">
               <?php if( $features && in_array('a2', $features) ) { _e('Accès aux packs <br/> d\'aménagement extérieur', 'cedar-architect'); } else { echo '- <br/> &nbsp;'; } ?>
             </li> -->
-            <li class="link"><a href="<?php echo $link; ?>"><?php _e('Start', 'cedar-architect'); ?></a></li>
+            <li class="link"><a class="planlink" data-title="<?php echo $name?>" href="<?php echo $link; ?>"><?php _e('Start', 'cedar-architect'); ?></a></li>
           </ul>
 
         </li>
@@ -315,7 +313,7 @@
             <li class="item">
               <?php if( $features && in_array('a2', $features) ) { _e('Accès aux packs <br/> d\'aménagement extérieur', 'cedar-architect'); } else { echo '- <br/> &nbsp;'; } ?>
             </li> -->
-            <li class="link"><a href="<?php echo $link; ?>"><?php _e('Start', 'cedar-architect'); ?></a></li>
+            <li class="link"><a class="planlink" data-title="<?php echo $name?>" href="<?php echo $link; ?>"><?php _e('Start', 'cedar-architect'); ?></a></li>
           </ul>
 
         </li>
@@ -349,7 +347,7 @@
           <ul class="pricing-table no-bullet text-center">
             <li class="title"><?php echo $name; ?></li>
             <li class="price"><?php echo $price . __('&dollar;', 'cedar-architect'); ?></li>
-            <li class="link"><a href="<?php echo $link; ?>"><?php _e('Choose', 'cedar-architect'); ?></a></li>
+            <li class="link"><a class="planlink" data-title="<?php echo $name?>" href="<?php echo $link; ?>"><?php _e('Choose', 'cedar-architect'); ?></a></li>
           </ul>
 
         </li>
