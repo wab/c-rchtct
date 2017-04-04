@@ -541,16 +541,16 @@
         },
         {
             "name": "wpackagist-plugin/autodescription",
-            "version": "2.9.0",
+            "version": "2.9.1",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/autodescription/",
-                "reference": "tags/2.9.0"
+                "reference": "tags/2.9.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/autodescription.2.9.0.zip",
-                "reference": "tags/2.9.0",
+                "url": "https://downloads.wordpress.org/plugin/autodescription.2.9.1.zip",
+                "reference": null,
                 "shasum": null
             },
             "require": {
@@ -601,16 +601,16 @@
         },
         {
             "name": "wpackagist-plugin/custom-post-type-ui",
-            "version": "1.5.2",
+            "version": "1.5.3",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/custom-post-type-ui/",
-                "reference": "tags/1.5.2"
+                "reference": "tags/1.5.3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/custom-post-type-ui.1.5.2.zip",
-                "reference": "tags/1.5.2",
+                "url": "https://downloads.wordpress.org/plugin/custom-post-type-ui.1.5.3.zip",
+                "reference": null,
                 "shasum": null
             },
             "require": {
@@ -681,16 +681,16 @@
         },
         {
             "name": "wpackagist-plugin/jetpack",
-            "version": "4.7.1",
+            "version": "4.8",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/jetpack/",
-                "reference": "tags/4.7.1"
+                "reference": "tags/4.8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/jetpack.4.7.1.zip",
-                "reference": "tags/4.7.1",
+                "url": "https://downloads.wordpress.org/plugin/jetpack.4.8.zip",
+                "reference": null,
                 "shasum": null
             },
             "require": {

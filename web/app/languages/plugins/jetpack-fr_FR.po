@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Plugins - Jetpack by WordPress.com - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2017-03-14 17:24:00+0000\n"
+"PO-Revision-Date: 2017-03-27 15:11:36+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -10544,6 +10544,10 @@ msgstr "Merci de préciser si vous souhaitez déconnecter un blog ou un utilisat
 #: class.jetpack-cli.php:156
 msgid "User %s could not be disconnected. Are you sure they're connected currently?"
 msgstr "%s n&rsquo;a pas pu être déconnecté. Etes-vous certain que cet utilisateur n&rsquo;est pas connecté en ce moment-même ?"
+
+#: class.jetpack-cli.php:153
+msgid "User has been successfully disconnected."
+msgstr "%s a été déconnecté."
 
 #: class.jetpack-cli.php:148
 msgid "Jetpack has been successfully disconnected."
