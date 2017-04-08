@@ -32,6 +32,14 @@ export default {
       },
     });
 
+    // loader images
+    const allImages = $('img');
+    allImages.addClass('invisible');
+
+    Foundation.onImagesLoaded(allImages, () => {
+      allImages.removeClass('invisible');
+    });
+
     if (document.body.contains(document.querySelector('.page-contenu .hentry'))) {
       sr.reveal('.page-contenu .hentry > *');
     }
