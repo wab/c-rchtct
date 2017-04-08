@@ -25,6 +25,16 @@
   }
 }
 
+// images loading
+img.load {
+  opacity: 0;
+  transition: opacity 500ms linear;
+
+  &.loaded {
+    opacity: 1;
+  }
+}
+
 .section {
 
   @include section-base;

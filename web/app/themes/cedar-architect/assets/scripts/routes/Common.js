@@ -7,6 +7,9 @@ export default {
   init() {
     // JavaScript to be fired on all pages
 
+    const $('img') = $('img');
+    $('img').addClass('loading');
+
     // Add class to <html> if ScrollReveal is supported
     if (sr.isSupported()) {
       document.documentElement.classList.add('sr');
@@ -33,11 +36,8 @@ export default {
     });
 
     // loader images
-    const allImages = $('img');
-    allImages.addClass('invisible');
-
-    Foundation.onImagesLoaded(allImages, () => {
-      allImages.removeClass('invisible');
+    Foundation.onImagesLoaded($('img'), () => {
+      $('img').addClass('loaded').removeClass('loading');
     });
 
     if (document.body.contains(document.querySelector('.page-contenu .hentry'))) {
