@@ -26,40 +26,20 @@
 }
 
 .section {
-  padding: ($global-padding * 2) 0;
-  position: relative;
-  z-index: 1;
-  background-color: $white;
 
-  > div {
-    position: relative;
-    z-index: 1;
-  }
+  @include section-base;
 
   &:not(:first-child) {
 
-    &:before {
-      content: '';
-      display: block;
-      width: 30px;
-      height: 24px;
-      position: absolute;
-      left: calc(50% - 15px);
-      top: 0;
-      @include background-triangle($light-gray);
-      background-repeat: no-repeat;
-      background-position: top center;
-      z-index: 2;
+    &:nth-child(odd) {
+      //background-color: $body-background;
+      @include section-triangle;
+
     }
-
-
     &:nth-child(even) {
 
-      background-color: rgba($light-gray, 0.9);
-
-      &:before {
-        @include background-triangle($body-background);
-      }
+      background-color: rgba($light-gray, 1);
+      @include section-triangle($body-background);
 
       &:after {
         content: '';
@@ -69,17 +49,15 @@
         right: 0;
         bottom: 0;
         background-image: url(../images/bg.svg);
-        background: url(../images/bg.svg), linear-gradient(to bottom, rgba(153,153,153,0) 25%,rgba(153,153,153,1) 100%);
+        background: url(../images/bg.svg), linear-gradient(to bottom, transparent 25%, darken($light-gray, 25%) 90%);
         background-size: cover;
         z-index: 0;
-        opacity: .3;
+        opacity: .2;
       }
     }
 
     &:nth-child(2) {
-      &:before {
-        @include background-triangle($body-background);
-      }
+      @include section-triangle($body-background);
     }
 
   }

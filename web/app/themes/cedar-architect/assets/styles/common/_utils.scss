@@ -1,0 +1,74 @@
+@mixin position($top: 0, $right: auto, $bottom: auto, $left: 0) {
+  bottom: $bottom;
+  left: $left;
+  position: absolute;
+  right: $right;
+  top: $top;
+}
+
+@mixin section-base($background: $white) {
+  $padding: $global-padding * 2;
+  background-color: $background;
+  padding: $padding 0;
+  position: relative;
+  z-index: 1;
+
+  > div {
+    position: relative;
+    z-index: 1;
+  }
+}
+
+@mixin section-wrapper() {
+  $margin: $global-padding;
+  margin: auto;
+  width: grid-column(10);
+  @include clearfix;
+  @include -zf-breakpoint-value($map: $grid-column-gutter) {
+    padding-left: $-zf-bp-value;
+    padding-right: $-zf-bp-value;
+  }
+
+  .section-thumbnail {
+    margin-bottom: $margin;
+
+    @include thumbnail;
+
+    @include breakpoint(large) {
+      float: right;
+      max-width: grid-column(6);
+    }
+    @include -zf-breakpoint-value($map: $grid-column-gutter) {
+      margin-left: $-zf-bp-value;
+    }
+  }
+
+  &:nth-child(2n + 2) {
+
+    .section-thumbnail {
+      float: left;
+      margin-left: 0;
+      @include -zf-breakpoint-value($map: $grid-column-gutter) {
+        margin-right: $-zf-bp-value;
+      }
+    }
+  }
+}
+
+@mixin section-triangle($color: $light-gray) {
+  $triangle-width: rem-calc(30);
+  $triangle-height: rem-calc(24);
+
+  &:before {
+    background-position: top center;
+    background-repeat: no-repeat;
+    content: '';
+    display: block;
+    height: $triangle-height;
+    top: 0;
+    width: $triangle-width;
+    z-index: 2;
+    @include background-triangle($color);
+    @include horizontal-center;
+  }
+}

@@ -29,14 +29,12 @@ while (have_posts()) : the_post(); ?>
     ?>
 
     <div class="section">
-      <div class="row">
-        <div class="columns large-10 large-centered">
-          <h2 class="page-section--title"><span><?php echo $title; ?></span></h2>
-          <?php if( !empty($image) ) : ?>
-            <img src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt'] ?>" class="main-image" />
-          <?php endif; ?>
-          <?php echo $content; ?>
-        </div>
+      <div class="section-wrapper">
+        <h2 class="page-section--title"><span><?php echo $title; ?></span></h2>
+        <?php if( !empty($image) ) : ?>
+          <img src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt'] ?>" class="section-thumbnail" />
+        <?php endif; ?>
+        <?php echo $content; ?>
       </div>
     </div>
 

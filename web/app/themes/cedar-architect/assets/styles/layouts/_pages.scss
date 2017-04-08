@@ -83,46 +83,10 @@ $banner-height: rem-calc(200);
   height: 500px;
 }
 
-.section {
-  @include clearfix;
-
-  .main-image {
-    display: block;
-    padding: .5rem;
-    background: $white;
-    border: 1px solid rgba(0,0,0,0.2);
-    margin-bottom: 1em;
-    @include breakpoint(large) {
-      float: right;
-      margin: 0 0 2em 2em;
-      max-width: 50%;
-    }
-  }
-
-  &:nth-child(2n + 2) {
-    .main-image {
-      float: left;
-      margin: 0 2em 2em 0;
-    }
-  }
+.section-wrapper {
+  @include section-wrapper;
 }
 
-.page-section-row {
-  @extend %alternate;
-  .page-section-column {
-    @extend %alternate-column;
-
-    &.without-image {
-      @extend %alternate-column--only;
-    }
-  }
-
-  .section:nth-child(2n + 2) & {
-    .page-section-column:first-child {
-      order: 1;
-    }
-  }
-}
 
 .page-template-page-iframe {
   overflow: hidden;
