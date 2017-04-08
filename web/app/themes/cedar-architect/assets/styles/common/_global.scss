@@ -27,16 +27,28 @@
 
 // images loading
 img.loading {
-  opacity: 0;
-  transition: opacity 500ms linear;
+  position: relative;
+  display: inline-block;
+
+  &:before {
+    background: $light-gray;
+    content: '';
+    display: block;
+    height: 100%;
+    width: 100%;
+    opacity: 1;
+    transition: opacity 500ms linear;
+    @include position;
+  }
 
   &.loaded {
-    opacity: 1;
+    &:before {
+      opacity: 0;
+    }
   }
 }
 
 .section {
-
   @include section-base;
 
   &:not(:first-child) {
@@ -44,36 +56,36 @@ img.loading {
     &:nth-child(odd) {
       //background-color: $body-background;
       @include section-triangle;
-
     }
-    &:nth-child(even) {
 
+    &:nth-child(even) {
       background-color: rgba($light-gray, 1);
       @include section-triangle($body-background);
 
       &:after {
-        content: '';
-        position: absolute;
-        left: 0;
-        top: 0;
-        right: 0;
-        bottom: 0;
-        background-image: url(../images/bg.svg);
         background: url(../images/bg.svg), linear-gradient(to bottom, transparent 25%, darken($light-gray, 25%) 90%);
+        background-image: url(../images/bg.svg);
         background-size: cover;
-        z-index: 0;
+        bottom: 0;
+        content: '';
+        left: 0;
         opacity: .2;
+        position: absolute;
+        right: 0;
+        top: 0;
+        z-index: 0;
       }
     }
 
     &:nth-child(2) {
       @include section-triangle($body-background);
     }
-
   }
 
   &.draw {
+
     &:not(:first-child) {
+
       &:after {
         background-image: url("../images/bg-draw.png");
         background-repeat: repeat;
@@ -85,11 +97,10 @@ img.loading {
 }
 
 %alternate {
-  @include flex-grid-row;
   @include flex-align(justify, middle);
+  @include flex-grid-row;
 
   &-column {
-
     @include flex-grid-column(12);
     @include breakpoint(medium) {
       @include flex-grid-column(6);
@@ -117,34 +128,34 @@ img.loading {
 }
 
 .section--title {
+  align-items: center;
   color: map-get($foundation-palette, secondary);
-  text-transform: uppercase;
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  text-transform: uppercase;
 
   span {
-    width: auto;
     display: block;
     padding: 1em;
+    width: auto;
   }
 
   &:before, &:after {
+    background: currentColor;
     content: '';
     display: block;
     flex: 1;
     height: 2px;
-    background: currentColor;
   }
 }
 
 .chevron {
+  border: solid 4px $light-gray;
+  border-left: none;
+  border-top: none;
   content: '';
   display: inline-block;
-  width: 2rem;
   height: 2rem;
-  border: solid 4px $light-gray;
-  border-top: none;
-  border-left: none;
   transform: rotate(-45deg);
+  width: 2rem;
 }
