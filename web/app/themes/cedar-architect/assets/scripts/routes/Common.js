@@ -7,7 +7,6 @@ export default {
   init() {
     // JavaScript to be fired on all pages
 
-    const $('img') = $('img');
     $('img').addClass('loading');
 
     // Add class to <html> if ScrollReveal is supported
