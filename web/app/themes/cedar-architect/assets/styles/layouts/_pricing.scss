@@ -1,8 +1,7 @@
 
 .infoprice {
   text-align: center;
-  font-size: 2rem;
-  font-weight: 600;
+  font-size: rem-calc(32);
   text-transform: uppercase;
   color: $secondary-color;
 }
@@ -46,12 +45,12 @@ $color-2: darken($primary-color, 20%);
 $color-3: $secondary-color;
 $color-4: darken($secondary-color, 10%);
 
-.section--title {
-  .individual &, .pro & {
-    &:before, &:after {
-      visibility: hidden;
-    }
-  }
+.individual--title,
+.pro--title {
+  @include section-title(false);
+}
+.buisiness--title {
+  @include section-title;
 }
 
 .pricing-table {

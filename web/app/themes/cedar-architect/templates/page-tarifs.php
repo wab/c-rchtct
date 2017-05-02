@@ -12,7 +12,7 @@
 
     <div class="columns medium-6 individual">
 
-      <h2 class="section--title"><span><?php _e('Homeowner special', 'cedar-architect'); ?></span></h2>
+      <h2 class="individual--title"><span><?php _e('Homeowner special', 'cedar-architect'); ?></span></h2>
 
       <ul class="pricing-table--wrapper no-bullet">
 
@@ -117,7 +117,7 @@
 
     <div class="columns medium-6 pro">
 
-      <h2 class="section--title"><span><?php _e('Business monthly', 'cedar-architect'); ?></span></h2>
+      <h2 class="pro--title"><span><?php _e('Business monthly', 'cedar-architect'); ?></span></h2>
 
       <ul class="pricing-table--wrapper no-bullet">
 
@@ -222,7 +222,7 @@
 
     <div class="columns pro2">
 
-      <h2 class="section--title"><span><?php _e('Business Yearly', 'cedar-architect'); ?></span></h2>
+      <h2 class="buisiness--title"><span><?php _e('Business Yearly', 'cedar-architect'); ?></span></h2>
 
       <p class="infoprice"><?php _e('Save 20% - 2 months free', 'cedar-architect'); ?></p>
 
