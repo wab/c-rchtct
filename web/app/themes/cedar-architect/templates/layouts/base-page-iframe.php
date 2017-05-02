@@ -31,6 +31,7 @@
       <?php
         do_action('get_footer');
         get_template_part('partials/icons');
+        get_template_part('partials/olark');
         wp_footer();
       ?>
     </div>
