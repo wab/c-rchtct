@@ -32,5 +32,5 @@ if (post_password_required()) {
     </div>
   <?php endif; ?>
 
-  <?php comment_form(); ?>
+  <?php comment_form(array('title_reply_before' => '<p id="reply-title" class="comment-reply-title">', 'title_reply_after' => '</p>')); ?>
 </section>

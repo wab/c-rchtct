@@ -1,6 +1,8 @@
 <article <?php post_class('excerpt'); ?>>
   <header class="entry--header">
-    <h2 class="entry-title"><?php the_title(); ?></h2>
+    <a href="@php(the_permalink())">
+      <h2 class="entry-title"><?php the_title(); ?></h2>
+    </a>
     <?php get_template_part('partials/entry-meta'); ?>
   </header>
   <div class="entry-summary">

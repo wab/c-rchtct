@@ -10,6 +10,7 @@
             <li class="nav-footer--item"><svg class="icon icon-star"><use xlink:href="#icon-star"></use></svg><?php icl_link_to_element(35);  ?></li>
           <?php  }?>
           <li class="nav-footer--item"><svg class="icon icon-envelop"><use xlink:href="#icon-envelop"></use></svg><?php icl_link_to_element(37);  ?></li>
+          <li class="nav-footer--item"><svg class="icon icon-sitemap"><use xlink:href="#icon-sitemap"></use></svg><?php icl_link_to_element(2269);  ?></li>
         </ul>
       </nav>
     </div>

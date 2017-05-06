@@ -23,7 +23,7 @@ $terms = wp_get_object_terms( $post->ID,  'gallerytag' );
           <span class="gallery--item--button"><svg class="icon-search"><use xlink:href="#icon-search"></use></svg></span>
       </div>
       <div class="gallery--item--caption">
-        <h4><?php the_title() ?></h4>
+        <p class="gallery--item--caption--title"><?php the_title() ?></p>
         <?php the_content(); ?>
       </div>
     </button>

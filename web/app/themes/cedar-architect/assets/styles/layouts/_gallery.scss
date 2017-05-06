@@ -78,4 +78,8 @@
 
 .gallery--item--caption {
   @include element-invisible;
+
+  &--title {
+    font-weight: bold;
+  }
 }

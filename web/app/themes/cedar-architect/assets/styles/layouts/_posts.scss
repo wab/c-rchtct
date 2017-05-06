@@ -24,4 +24,12 @@
   padding-bottom: $global-margin / 2;
   margin-bottom: $global-margin / 2;
   border-bottom: 1px solid rgba($secondary-color, .5);
+
+  a {
+    color: inherit;
+  }
+}
+
+.comment-reply-title {
+  font-size: rem-calc(24);
 }
