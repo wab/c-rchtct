@@ -1,23 +1,18 @@
 User-agent: *
 
-Disallow: /wp/wp-admin/
-Disallow: /cgi-bin
-Disallow: /app
-Disallow: /category/
-Disallow: /media
 Disallow: /wp-login.php
-Disallow: /wp-admin
-Disallow: /wp-includes
-Disallow: /wp-content
-Disallow: */trackback
-Disallow: */feed
-Disallow: */comments
-Disallow: /*?
-Disallow: /*.css$
-Disallow: /*.js$
-Disallow: /*.php$
-Allow: /wp-content/uploads/
-Allow: /wp/wp-admin/admin-ajax.php
+Disallow: /*trackback
+Disallow: /*/feed
 
-Sitemap: https://cedar-architect.fr/sitemap_index.xml
+Disallow: /*/comments
+Disallow: /cgi-bin
+Disallow: /*.php$
+Disallow: /*.inc$
+Disallow: /*.gz
+Disallow: /*.cgi
+
+User-agent: Googlebot-Image
+Disallow:
+
 Sitemap: https://cedar-architect.com/sitemap_index.xml
+Sitemap: https://cedar-architect.fr/sitemap_index.xml
