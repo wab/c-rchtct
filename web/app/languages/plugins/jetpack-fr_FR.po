@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Plugins - Jetpack by WordPress.com - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2017-05-04 16:54:37+0000\n"
+"PO-Revision-Date: 2017-05-09 13:00:45+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -10,6 +10,199 @@ msgstr ""
 "X-Generator: GlotPress/2.4.0-alpha\n"
 "Language: fr\n"
 "Project-Id-Version: Plugins - Jetpack by WordPress.com - Stable (latest release)\n"
+
+#. translators: %s is a name of an internet campaign called the "Internet
+#. Defense League"
+#: modules/widgets/internet-defense-league.php:127
+msgctxt "the Internet Defense League"
+msgid "Learn more about the %s"
+msgstr "En savoir plus sur l’%s"
+
+#: modules/widgets/internet-defense-league.php:122
+msgid "Which badge would you like to display?"
+msgstr "Quel badge souhaitez-vous afficher&nbsp;?"
+
+#: modules/widgets/internet-defense-league.php:116
+msgid "How do you want to promote the campaign?"
+msgstr "Comment voulez-vous promouvoir la campagne&nbsp;?"
+
+#: modules/widgets/internet-defense-league.php:111
+msgid "Which Internet Defense League campaign do you want to participate in?"
+msgstr "À quelle campagne Internet Defense League voulez-vous participer&nbsp;?"
+
+#: modules/widgets/internet-defense-league.php:65
+msgid "Member of The Internet Defense League"
+msgstr "Membre de l’Internet Defense League"
+
+#: modules/widgets/internet-defense-league.php:46
+msgid "Don't display a badge (just the campaign)"
+msgstr "Ne pas afficher de badge (juste la campagne)"
+
+#: modules/widgets/internet-defense-league.php:42
+msgid "Red Cat Badge"
+msgstr "Badge Chat Rouge"
+
+#: modules/widgets/internet-defense-league.php:41
+msgid "Super Badge"
+msgstr "Super Badge"
+
+#: modules/widgets/internet-defense-league.php:40
+msgid "Shield Badge"
+msgstr "Badge Bouclier"
+
+#: modules/widgets/internet-defense-league.php:36
+msgid "Modal (Overlay Box)"
+msgstr "Modal (zone de superposition)"
+
+#: modules/widgets/internet-defense-league.php:35
+msgid "Banner at the top of my site"
+msgstr "Bannière en haut de mon site"
+
+#: modules/widgets/internet-defense-league.php:31
+msgid "None, just display the badge please"
+msgstr "Aucun, merci d’afficher le badge uniquement"
+
+#: modules/widgets/internet-defense-league.php:30
+msgid "All current and future campaigns"
+msgstr "Toutes les campagnes, actuelles et à venir"
+
+#: modules/widgets/internet-defense-league.php:23
+msgid "Show your support for the Internet Defense League."
+msgstr "Soutenez l’Internet Defense League."
+
+#: modules/widgets/internet-defense-league.php:21
+msgid "Internet Defense League"
+msgstr "Internet Defense League"
+
+#: modules/widgets/flickr.php:146
+msgid "(Only admins can see this message)"
+msgstr "(Seuls les admins peuvent voir ce message)"
+
+#: modules/widgets/flickr.php:145
+msgid "There are no photos to display. Make sure your Flickr feed URL is correct, and that your pictures are publicly accessible."
+msgstr "Aucune photo ne peut être affichée. Assurez-vous que l’URL de votre flux RSS Flickr est correcte, et que vos photos sont publiques."
+
+#: modules/widgets/flickr.php:52
+msgid "Flickr Photos"
+msgstr "Photos de Flickr"
+
+#: modules/widgets/flickr.php:25
+msgid "Display your recent Flickr photos."
+msgstr "Afficher vos dernières photos de Flickr."
+
+#: modules/widgets/flickr.php:23
+msgid "Flickr"
+msgstr "Flickr"
+
+#: modules/widgets/flickr/widget.php:18
+msgid "More Photos"
+msgstr "Plus de photos"
+
+#: modules/widgets/flickr/form.php:56
+msgid "What size photos would you like to display?"
+msgstr "Quel format de photos souhaitez-vous afficher&nbsp;?"
+
+#: modules/widgets/flickr/form.php:40
+msgid "How many photos would you like to display?"
+msgstr "Combien de photos désirez-vous afficher&nbsp;?"
+
+#: modules/widgets/flickr/form.php:32
+msgid "Leave the Flickr RSS URL field blank to display <a target=\"_blank\" href=\"%s\">interesting</a> Flickr photos."
+msgstr "Laissez le champ d’URL de flux RSS Flickr vide pour afficher <a target=\"_blank\" href=\"%s\">des photos Flickr intéressantes</a>."
+
+#: modules/widgets/flickr/form.php:26
+msgid "To find your Flickr RSS URL, go to your photostream, open the \"More\" menu and click on \"Edit\". Scroll down until you see the RSS icon or the \"Latest\" link. Right click on either and copy the URL. Paste into the box above."
+msgstr "Pour trouver votre adresse RSS de Flickr, accédez à votre album photo, ouvrez le menu « Plus » et cliquez sur « Modifier ». Faites défiler la page jusqu’à ce que l’icône RSS ou le lien « Dernier » apparaisse. Cliquez avec le bouton droit de la souris sur l’icône ou sur le lien, puis copiez l’URL. Collez-la dans la zone située au-dessus."
+
+#: modules/widgets/flickr/form.php:15
+msgid "Flickr RSS URL:"
+msgstr "URL RSS Flickr&nbsp;:"
+
+#: modules/widgets/eu-cookie-law.php:119
+msgid "Privacy & Cookies: This site uses cookies."
+msgstr "Confidentialité et cookies&nbsp;: Ce site utilise des cookies."
+
+#: modules/widgets/eu-cookie-law.php:118
+msgid "Close and accept"
+msgstr "Fermer et accepter"
+
+#: modules/widgets/eu-cookie-law.php:117
+msgid "Our Cookie Policy"
+msgstr "Notre politique de cookies"
+
+#: modules/widgets/eu-cookie-law.php:81
+msgid "Display a banner for compliance with the EU Cookie Law."
+msgstr "Afficher une bannière pour la conformité avec la législation européenne sur les cookies."
+
+#: modules/widgets/eu-cookie-law.php:79
+msgid "EU Cookie Law Banner"
+msgstr "Bannière de la législation européenne sur les cookies"
+
+#: modules/widgets/eu-cookie-law/widget.php:19
+msgid "To find out more, as well as how to remove or block these, see here:"
+msgstr "Pour en savoir plus et pour découvrir comment les supprimer ou les bloquer, voir&nbsp;:"
+
+#: modules/widgets/eu-cookie-law/form.php:193
+msgid "Click here for more information"
+msgstr "Cliquez ici pour en savoir plus."
+
+#: modules/widgets/eu-cookie-law/form.php:191
+msgid "It is your own responsibility to ensure that your site complies with the relevant laws."
+msgstr "Vous êtes tenu de veiller à ce que votre site respecte les lois applicables."
+
+#: modules/widgets/eu-cookie-law/form.php:178
+msgid "Button text"
+msgstr "Texte du bouton"
+
+#: modules/widgets/eu-cookie-law/form.php:162
+msgid "Policy link text"
+msgstr "Texte du lien de la politique"
+
+#: modules/widgets/eu-cookie-law/form.php:124
+msgid "Policy URL"
+msgstr "URL de la politique"
+
+#: modules/widgets/eu-cookie-law/form.php:77
+#: modules/widgets/eu-cookie-law/form.php:146
+msgid "Custom:"
+msgstr "Personnalisé&nbsp;:"
+
+#: modules/widgets/eu-cookie-law/form.php:55
+msgid "Banner text"
+msgstr "Texte de la bannière"
+
+#: modules/widgets/eu-cookie-law/form.php:36
+msgid "after this amount of time"
+msgstr "après ce laps de temps"
+
+#: modules/widgets/eu-cookie-law/form.php:25
+msgid "after the user scrolls the page"
+msgstr "après que l’utilisateur ait fait défiler la page"
+
+#: modules/widgets/eu-cookie-law/form.php:14
+msgid "after the user clicks the dismiss button"
+msgstr "après que l’utilisateur ait cliqué sur le bouton Ignorer"
+
+#: modules/widgets/eu-cookie-law/form.php:3
+msgctxt "action"
+msgid "Hide the banner"
+msgstr "Masquer la bannière"
+
+#: _inc/jetpack-strings.php:366
+msgid "Get WordPress Apps for every device"
+msgstr "Obtenir des applications WordPress pour tous vos appareils"
+
+#: _inc/jetpack-strings.php:365
+msgid "Manage all your sites from a single dashboard: publish content, track stats, moderate comments, and so much more from anywhere in the world."
+msgstr "Gérez tous vos sites à partir d'un seul tableau de bord&nbsp;: publiez du contenu, suivez les statistiques, modérez les commentaires et bien plus encore, de n'importe où dans le monde."
+
+#: _inc/jetpack-strings.php:363
+msgid "I already use this app."
+msgstr "J’utilise déjà cette application."
+
+#: _inc/jetpack-strings.php:323
+msgid "Create address"
+msgstr "Créer une adresse"
 
 #: modules/sitemaps/sitemap-stylist.php:439
 msgid "This is an XML Video Sitemap generated by <a href=\"%1$s\" target=\"_blank\">Jetpack</a>, meant to be consumed by search engines like <a href=\"%2$s\" target=\"_blank\">Google</a> or <a href=\"%3$s\" target=\"_blank\">Bing</a>."
@@ -1147,6 +1340,10 @@ msgstr "Utiliser Markdown pour vos articles."
 msgid "Track each scroll load (7 posts by default) as a page view in Google Analytics"
 msgstr "Suivre chaque chargement d’articles (7 articles par défaut) comme une visite de page dans Google Analytics"
 
+#: _inc/jetpack-strings.php:449
+msgid "Currently in {{a}}Development Mode{{/a}} (some features are disabled) because: {{reasons/}}"
+msgstr "En {{a}}mode de développement{/a}} (certaines fonctionnalités sont désactivées) car&nbsp;:"
+
 #: _inc/jetpack-strings.php:452
 msgid "{{li}}The jetpack_development_mode filter is active{{/li}}"
 msgstr "{{li}}Le filtre jetpack_development_mode est actif{{/li}}"
@@ -1225,6 +1422,10 @@ msgstr "Configurer Google Analytics"
 #: _inc/jetpack-strings.php:139
 msgid "Activate Google Analytics"
 msgstr "Activer Google Analytics"
+
+#: _inc/jetpack-strings.php:364
+msgid "Download the free apps"
+msgstr "Télécharger les applications gratuites"
 
 #: 3rd-party/woocommerce-services.php:91
 msgid "There was an error installing WooCommerce Services."
@@ -1693,6 +1894,11 @@ msgctxt "Module Description"
 msgid "Automated social marketing."
 msgstr "Marketing social automatisé."
 
+#: modules/module-headings.php:127
+msgctxt "Module Description"
+msgid "Publish posts by sending an email"
+msgstr "Publiez des articles via e-mail."
+
 #: modules/module-headings.php:111
 msgctxt "Module Description"
 msgid "Receive instant notifications of site comments and likes."
@@ -1722,6 +1928,21 @@ msgstr "Utilisez le balisage LaTeX pour des équations complexes et d&rsquo;autr
 msgctxt "Module Description"
 msgid "Allow applications to securely access your content."
 msgstr "Autorisez des applications à accéder à votre contenu de façon sécurisée."
+
+#: modules/module-headings.php:65
+msgctxt "Module Description"
+msgid "Automatically load new content when a visitor scrolls"
+msgstr "Chargez automatiquement du nouveau contenu lorsqu&rsquo;un visiteur fait défiler la page."
+
+#: modules/module-headings.php:22
+msgctxt "Module Description"
+msgid "Display images and galleries in a gorgeous, full-screen browsing experience"
+msgstr "Affichez vos images et galleries en plein écran."
+
+#: modules/module-headings.php:17
+msgctxt "Module Description"
+msgid "Check your spelling, style, and grammar"
+msgstr "Vérifiez l&rsquo;orthographe, la grammaire, et le style."
 
 #: modules/custom-css/custom-css-4.7.php:1072
 msgid "Select another theme to view its custom CSS."
@@ -2197,6 +2418,11 @@ msgctxt "Module Description"
 msgid "Better results on search engines and social media."
 msgstr "De meilleurs résultats sur les moteurs de recherche et les réseaux sociaux."
 
+#: modules/module-headings.php:147
+msgctxt "Module Name"
+msgid "SEO Tools"
+msgstr "Outils SEO"
+
 #: modules/contact-form/class-grunion-contact-form-endpoint.php:24
 #: modules/contact-form/class-grunion-contact-form-endpoint.php:42
 msgid "Sorry, you cannot view this resource."
@@ -2357,6 +2583,10 @@ msgstr "Publiez du contenu, suivez les statistiques, modérez les commentaires e
 #: class.jetpack-connection-banner.php:397
 msgid "Free WordPress apps to manage your site(s) from any device"
 msgstr "Applications WordPress gratuites pour gérer vos sites à partir de n’importe quel appareil"
+
+#: class.jetpack-connection-banner.php:378
+msgid "Use of our CDN is unlimited and scales with your site for free. You can also use it for your theme images to further speed up your site."
+msgstr "L&rsquo;utilisation de notre CDN est gratuite, illimitée, et évolue en fonction de votre site. Vous pouvez également l&rsquo;utiliser pour les images de votre thème afin d&rsquo;améliorer la vitesse de chargement de votre site."
 
 #: class.jetpack-connection-banner.php:369
 msgid "Jetpack automatically optimizes and speeds up images using the global WordPress.com Content Delivery Network (CDN). Let us do the heavy lifting for you by reducing bandwidth usage which could potentially lower your hosting costs."
@@ -2596,9 +2826,17 @@ msgstr "Rechercher parmi votre contenu."
 msgid "{{a}}Manage Likes visibility from the Sharing Module Settings{{/a}}"
 msgstr "{{a}}Gérer la visibilité des Likes depuis réglages du module de partage{{/a}}"
 
+#: _inc/jetpack-strings.php:223
+msgid "Your current IP: %(ip)s"
+msgstr "Votre IP actuelle&nbsp;: %(ip)s"
+
 #: _inc/jetpack-strings.php:385
 msgid "This will reset all Jetpack options, are you sure?"
 msgstr "Cela réinitialisera toutes les options de Jetpack, souhaitez-vous continuer&nbsp;?"
+
+#: _inc/jetpack-strings.php:340
+msgid "{{button}}View more stats on WordPress.com {{/button}}"
+msgstr "{{button}}Voir plus de stats sur WordPress.com {{/button}}"
 
 #: _inc/jetpack-strings.php:43 _inc/jetpack-strings.php:44
 msgid "There are unsaved settings in this tab that will be lost if you leave it. Proceed?"
@@ -3439,6 +3677,14 @@ msgstr "Titre du commentaire"
 msgid "A few catchy words to motivate your readers to comment."
 msgstr "Quelques mots pour inciter vos lecteurs à laisser un commentaire."
 
+#: _inc/jetpack-strings.php:112
+msgid "Show a \"follow blog\" option in the comment form"
+msgstr "Ajouter l’option \"Suivre le Blog\" au formulaire de commentaires"
+
+#: _inc/jetpack-strings.php:111
+msgid "Show a \"follow comments\" option in the comment form"
+msgstr "Ajouter l’option \"s’abonner aux commentaires\" au formulaire de commentaires"
+
 #: _inc/jetpack-strings.php:272
 msgid "Put a chart showing 48 hours of views in the admin bar"
 msgstr "Insérer un graphique dans la barre d'administration, affichant le nombre de pages vues pendant les dernières 48 heures"
@@ -3454,6 +3700,10 @@ msgstr "Adresses IP ajoutées à la liste blanche"
 #: _inc/jetpack-strings.php:320
 msgid "Show photo metadata (Exif) in carousel, when available"
 msgstr "Afficher les métadonnées de vos photos (Exif) dans le carrousel, lorsqu'elles sont disponibles"
+
+#: _inc/jetpack-strings.php:329
+msgid "Show an ad for the WordPress mobile apps in the footer of the mobile theme"
+msgstr "Afficher un message de promotion des applications WordPress pour mobile au bas de votre thème pour mobile"
 
 #: _inc/jetpack-strings.php:327
 msgctxt "verb"
@@ -3649,6 +3899,11 @@ msgstr "Rejoignez les millions d'utilisateurs qui comptent sur Jetpack pour amé
 msgid "No account? Create one for free…"
 msgstr "Pas de compte ? Créez-en un gratuitement..."
 
+#: _inc/jetpack-strings.php:384
+msgctxt "Navigation item."
+msgid "Reset Options (dev only)"
+msgstr "Réinitialiser les options (versions de développement uniquement)"
+
 #: _inc/jetpack-strings.php:382
 msgctxt "Navigation item. Noun. Links to a debugger tool for Jetpack."
 msgid "Debug"
@@ -3758,6 +4013,10 @@ msgstr "Vues depuis la création"
 #: _inc/jetpack-strings.php:343
 msgid "All-time comments"
 msgstr "Commentaires depuis la création"
+
+#: _inc/jetpack-strings.php:341
+msgid "{{button}}View detailed stats{{/button}}"
+msgstr "{{button}}Accéder aux stats détaillées{{/button}}"
 
 #: _inc/jetpack-strings.php:100
 msgid "Security Scanning"
@@ -3900,6 +4159,10 @@ msgstr "Jetpack bloque activement les tentatives de connexion malveillantes. Les
 msgid "Total malicious attacks blocked on your site."
 msgstr "Attaques malveillantes bloquées sur votre site."
 
+#: _inc/jetpack-strings.php:87
+msgid "{{a}}Activate Protect{{/a}} to keep your site protected from malicious sign in attempts."
+msgstr "{{a}}Activez Protect{{/a}} pour protéger votre site contre les tentatives de connexion malveillantes."
+
 #: _inc/jetpack-strings.php:86
 msgid "Plugin Updates"
 msgstr "Mises à jour d'extensions"
@@ -4006,6 +4269,10 @@ msgstr "Pour une protection de pointe contre le contenu indésirable, {{a}}insta
 #: _inc/jetpack-strings.php:48
 msgid "For state-of-the-art spam defense, please {{a}}activate Akismet{{/a}}."
 msgstr "Pour une protection de pointe contre le contenu indésirable, {{a}}activez Akismet{{/a}}."
+
+#: _inc/jetpack-strings.php:47
+msgid "Invalid key"
+msgstr "Clé non valide"
 
 #: _inc/jetpack-strings.php:46
 msgid "Whoops! Your Akismet key is missing or invalid. {{akismetSettings}}Go to Akismet settings to fix{{/akismetSettings}}."
@@ -4557,6 +4824,18 @@ msgstr "ID Vidéo"
 msgid "VideoPress Shortcode"
 msgstr "Shortcode VideoPress"
 
+#: modules/sitemaps/sitemap-stylist.php:94
+#: modules/sitemaps/sitemap-stylist.php:206
+#: modules/sitemaps/sitemap-stylist.php:321
+#: modules/sitemaps/sitemap-stylist.php:461
+#: modules/sitemaps/sitemap-stylist.php:601
+msgid "Generated by <a href=\"%s\" target=\"_blank\">Jetpack for WordPress</a>"
+msgstr "<em>Généré</em> par <a href=\"%s\" target=\"_blank\">Jetpack pour WordPress</a>"
+
+#: modules/sitemaps/sitemap-stylist.php:579
+msgid "This is an XML News Sitemap generated by <a href=\"%1$s\" target=\"_blank\">Jetpack</a>, meant to be consumed by search engines like <a href=\"%2$s\" target=\"_blank\">Google</a> or <a href=\"%3$s\" target=\"_blank\">Bing</a>."
+msgstr "Ce sitemap XML d'actualités est généré par <a href=\"%1$s\" target=\"_blank\">Jetpack</a>, et peut être utilisé par tout moteur de recherche, comme <a href=\"%2$s\" target=\"_blank\">Google</a>, ou <a href=\"%3$s\" target=\"_blank\">Bing</a>."
+
 #: modules/shortcodes/wufoo.php:71
 msgid "Fill out my Wufoo form!"
 msgstr "Remplissez mon formulaire Wufoo&nbsp;!"
@@ -4679,6 +4958,14 @@ msgstr "Extension pour les Pages Facebook"
 #: modules/theme-tools/social-menu.php:34
 msgid "Social Menu"
 msgstr "Menu Social"
+
+#: modules/sitemaps/sitemap-stylist.php:84
+#: modules/sitemaps/sitemap-stylist.php:196
+#: modules/sitemaps/sitemap-stylist.php:311
+#: modules/sitemaps/sitemap-stylist.php:451
+#: modules/sitemaps/sitemap-stylist.php:591
+msgid "You can find more information on XML sitemaps at <a href=\"%1$s\" target=\"_blank\">sitemaps.org</a>"
+msgstr "Vous pouvez trouver plus d&rsquo;information sur les sitemaps XML sur <a href=\"%1$s\" target=\"_blank\">sitemaps.org</a>"
 
 #: modules/sitemaps/sitemap-stylist.php:67
 msgid "XML Sitemap"
@@ -7420,6 +7707,11 @@ msgctxt "Module Name"
 msgid "VideoPress"
 msgstr "VideoPress"
 
+#: modules/module-headings.php:202
+msgctxt "Module Name"
+msgid "Site verification"
+msgstr "Services de vérification de votre site"
+
 #: modules/module-headings.php:192
 msgctxt "Module Description"
 msgid "Display image galleries in a variety of elegant arrangements."
@@ -7434,6 +7726,11 @@ msgstr "Mosaïque d'images"
 msgctxt "Jumpstart Description"
 msgid "Give visitors two easy subscription options — while commenting, or via a separate email subscription widget you can display."
 msgstr "offre deux options d&rsquo;abonnement à vos lecteurs&nbsp;: lorsqu&rsquo;ils commentent, ou via un widget d&rsquo;abonnement que vous pouvez ajouter à votre barre latérale."
+
+#: modules/module-headings.php:186
+msgctxt "Module Description"
+msgid "Allow users to subscribe to your posts and comments and receive notifications via email"
+msgstr "Permettez à vos lecteurs de s&rsquo;abonner à vos articles et commentaires, et de recevoir des notifications par e-mail."
 
 #: modules/module-headings.php:185
 msgctxt "Module Name"
@@ -7490,6 +7787,11 @@ msgctxt "Jumpstart Description"
 msgid "Keep visitors engaged on your blog by highlighting relevant and new content at the bottom of each published post."
 msgstr "vous permet de garder vos lecteurs engagés en leur proposant des liens vers des articles similaires au bas de chaque article."
 
+#: modules/module-headings.php:141
+msgctxt "Module Name"
+msgid "Related posts"
+msgstr "Articles Similaires"
+
 #: modules/module-headings.php:136
 msgctxt "Module Name"
 msgid "Publicize"
@@ -7500,10 +7802,20 @@ msgctxt "Module Name"
 msgid "Protect"
 msgstr "Protect"
 
+#: modules/module-headings.php:126
+msgctxt "Module Name"
+msgid "Post by email"
+msgstr "Publication par E-mail"
+
 #: modules/module-headings.php:122
 msgctxt "Jumpstart Description"
 msgid "Mirrors and serves your images from our free and fast image CDN, improving your site’s performance with no additional load on your servers."
 msgstr "cache et sert vos images depuis notre CDN gratuit, vous permettant donc d&rsquo;améliorer les performances de votre site tout en sauvant de la bande passante sur votre serveur."
+
+#: modules/module-headings.php:121
+msgctxt "Module Description"
+msgid "Speed up images and photos"
+msgstr "Chargez vos images plus rapidement."
 
 #: modules/module-headings.php:120
 msgctxt "Module Name"
@@ -7534,6 +7846,11 @@ msgstr "Monitor"
 msgctxt "Module Name"
 msgid "Mobile Theme"
 msgstr "Thème pour portables"
+
+#: modules/module-headings.php:91
+msgctxt "Module Description"
+msgid "Write posts or pages in plain-text Markdown syntax"
+msgstr "Rédigez vos articles ou pages en utilisant la syntaxe Markdown."
 
 #: modules/module-headings.php:90
 msgctxt "Module Name"
@@ -7609,6 +7926,11 @@ msgstr "Personnalisez le CSS de votre site sans modifier votre thème."
 msgctxt "Module Name"
 msgid "Custom CSS"
 msgstr "CSS Personnalisé"
+
+#: modules/module-headings.php:38
+msgctxt "Module Name"
+msgid "Custom content types"
+msgstr "Types de contenu personnalisés"
 
 #: modules/module-headings.php:34
 msgctxt "Jumpstart Description"
