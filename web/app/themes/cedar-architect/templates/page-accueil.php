@@ -109,7 +109,7 @@
               <path d="M48.8 54.9l-.9 1 1.2 1.1.9-1zm-2.9-2.8L44.7 51l-1 1 1.2 1.1zm5.8 0l1.1 1.2 1-1-1.1-1.2zm-2.8-3l1-1-1.1-1.2-1 1zm-5.1 1.1l.9.8zm.9.8l1.2 1.1zM39 34.8c-.3-.3-.7-.3-1 0-.1.1-.2.3-.2.5s.1.4.2.5l.5.5c.3.3.7.3 1 0 .3-.3.3-.7 0-1l-.5-.5zM35.8 38c-.3-.3-.7-.3-1 0-.1.1-.2.3-.2.5s.1.4.2.5l1.1 1.1c.3.3.7.3 1 0 .3-.3.3-.7 0-1L35.8 38zm3.2 3.2c-.3-.3-.7-.3-1 0-.1.1-.2.3-.2.5s.1.4.2.5l.5.5c.3.3.7.3 1 0 .3-.3.3-.7 0-1l-.5-.5z"/>
             </g>
           </svg>
-          <h3 class="pros--title"><?php echo __('Home improvment', 'cedar-architect'); ?></h3>
+          <h3 class="pros--title"><?php echo __('Home improvement', 'cedar-architect'); ?></h3>
           <?php if( have_rows('pro2') ): ?>
           <ul class="no-bullet pros--items">
           <?php  while ( have_rows('pro2') ) : the_row(); ?>

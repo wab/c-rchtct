@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Cedreo Designer\n"
-"POT-Creation-Date: 2017-03-17 01:05+0100\n"
-"PO-Revision-Date: 2017-03-27 20:59+0200\n"
+"POT-Creation-Date: 2017-06-13 21:19+0200\n"
+"PO-Revision-Date: 2017-06-13 21:20+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: fr\n"
@@ -75,7 +75,7 @@ msgstr "Cette page n’existe pas !"
 msgid "Sorry, no results were found."
 msgstr "Il n’y a pas de résultats !"
 
-#: templates/layouts/base-page-iframe.php:12 templates/layouts/base.php:12
+#: templates/layouts/base-page-iframe.php:12 templates/layouts/base.php:23
 msgid ""
 "You are using an <strong>outdated</strong> browser. Please <a href=\"http://"
 "browsehappy.com/\">upgrade your browser</a> to improve your experience."
@@ -97,7 +97,7 @@ msgid "Home building"
 msgstr "Bâtiment neuf"
 
 #: templates/page-accueil.php:112
-msgid "Home improvment"
+msgid "Home improvement"
 msgstr "Bâtiment ancien"
 
 #: templates/page-accueil.php:137
@@ -133,7 +133,7 @@ msgstr "Galerie"
 msgid "See all images"
 msgstr "Voir la galerie"
 
-#: templates/page-contact.php:59
+#: templates/page-contact.php:60
 msgid "Contact us"
 msgstr "Contactez-nous"
 
@@ -145,216 +145,216 @@ msgstr "Tous"
 msgid "see more"
 msgstr "en voir plus"
 
-#: templates/page-sommaire.php:21 templates/partials/footer.php:35
+#: templates/page-sommaire.php:21 templates/partials/footer.php:36
 msgid "Read"
 msgstr "Lire"
 
-#: templates/page-tarifs.php:17
+#: templates/page-tarifs.php:15
 msgid "Homeowner special"
 msgstr "Spécial particulier"
 
-#: templates/page-tarifs.php:41 templates/page-tarifs.php:146
-#: templates/page-tarifs.php:253 templates/page-tarifs.php:351
+#: templates/page-tarifs.php:39 templates/page-tarifs.php:144
+#: templates/page-tarifs.php:251 templates/page-tarifs.php:349
 msgid "&dollar;"
 msgstr "&euro;"
 
-#: templates/page-tarifs.php:43 templates/page-tarifs.php:148
-#: templates/page-tarifs.php:255
+#: templates/page-tarifs.php:41 templates/page-tarifs.php:146
+#: templates/page-tarifs.php:253
 msgid "projects"
 msgstr "projets"
 
-#: templates/page-tarifs.php:43 templates/page-tarifs.php:148
+#: templates/page-tarifs.php:41 templates/page-tarifs.php:146
 msgid "Unlimited projects"
 msgstr "Projets illimités"
 
-#: templates/page-tarifs.php:44 templates/page-tarifs.php:149
-#: templates/page-tarifs.php:256
+#: templates/page-tarifs.php:42 templates/page-tarifs.php:147
+#: templates/page-tarifs.php:254
 msgid "Renderings"
 msgstr "Visuels"
 
-#: templates/page-tarifs.php:48 templates/page-tarifs.php:260
+#: templates/page-tarifs.php:46 templates/page-tarifs.php:258
 msgid "Unlimited test renderings"
 msgstr "Visuels de travail illimités"
 
-#: templates/page-tarifs.php:49 templates/page-tarifs.php:261
+#: templates/page-tarifs.php:47 templates/page-tarifs.php:259
 msgid "Optional test renderings"
 msgstr "Visuels de travail optionnels"
 
-#: templates/page-tarifs.php:50 templates/page-tarifs.php:155
-#: templates/page-tarifs.php:262
+#: templates/page-tarifs.php:48 templates/page-tarifs.php:153
+#: templates/page-tarifs.php:260
 msgid "Test renderings"
 msgstr "Visuels de travail"
 
-#: templates/page-tarifs.php:56 templates/page-tarifs.php:161
-#: templates/page-tarifs.php:268
+#: templates/page-tarifs.php:54 templates/page-tarifs.php:159
+#: templates/page-tarifs.php:266
 msgid "Unlimited HD renderings"
 msgstr "Visuels HD illimités"
 
-#: templates/page-tarifs.php:57 templates/page-tarifs.php:162
-#: templates/page-tarifs.php:269
+#: templates/page-tarifs.php:55 templates/page-tarifs.php:160
+#: templates/page-tarifs.php:267
 msgid "Optional HD renderings"
 msgstr "Visuels HD optionnels"
 
-#: templates/page-tarifs.php:58 templates/page-tarifs.php:163
-#: templates/page-tarifs.php:270
+#: templates/page-tarifs.php:56 templates/page-tarifs.php:161
+#: templates/page-tarifs.php:268
 msgid "HD renderings"
 msgstr "Visuels HD"
 
-#: templates/page-tarifs.php:64 templates/page-tarifs.php:169
+#: templates/page-tarifs.php:62 templates/page-tarifs.php:167
 msgid "Unlimited print renderings"
 msgstr "Visuels print illimités "
 
-#: templates/page-tarifs.php:65 templates/page-tarifs.php:170
+#: templates/page-tarifs.php:63 templates/page-tarifs.php:168
 msgid "Optional print renderings"
 msgstr "Visuels print optionnels"
 
-#: templates/page-tarifs.php:66 templates/page-tarifs.php:171
-#: templates/page-tarifs.php:278
+#: templates/page-tarifs.php:64 templates/page-tarifs.php:169
+#: templates/page-tarifs.php:276
 msgid "Print renderings"
 msgstr "Visuels print"
 
-#: templates/page-tarifs.php:72 templates/page-tarifs.php:177
-#: templates/page-tarifs.php:284
+#: templates/page-tarifs.php:70 templates/page-tarifs.php:175
+#: templates/page-tarifs.php:282
 msgid "Unlimited virtual visits"
 msgstr "Visites virtuelles illimitées"
 
-#: templates/page-tarifs.php:73 templates/page-tarifs.php:178
-#: templates/page-tarifs.php:285
+#: templates/page-tarifs.php:71 templates/page-tarifs.php:176
+#: templates/page-tarifs.php:283
 msgid "Optional virtual visits"
 msgstr "Visites virtuelles optionnelles"
 
-#: templates/page-tarifs.php:74 templates/page-tarifs.php:179
-#: templates/page-tarifs.php:286
+#: templates/page-tarifs.php:72 templates/page-tarifs.php:177
+#: templates/page-tarifs.php:284
 msgid "Virtual visits"
 msgstr "Visites virtuelles"
 
-#: templates/page-tarifs.php:77 templates/page-tarifs.php:182
-#: templates/page-tarifs.php:289
+#: templates/page-tarifs.php:75 templates/page-tarifs.php:180
+#: templates/page-tarifs.php:287
 msgid "Support"
 msgstr "Support"
 
-#: templates/page-tarifs.php:79 templates/page-tarifs.php:184
-#: templates/page-tarifs.php:291
+#: templates/page-tarifs.php:77 templates/page-tarifs.php:182
+#: templates/page-tarifs.php:289
 msgid "Tutorials"
 msgstr "Accès aux tutoriels"
 
-#: templates/page-tarifs.php:82 templates/page-tarifs.php:187
-#: templates/page-tarifs.php:294
+#: templates/page-tarifs.php:80 templates/page-tarifs.php:185
+#: templates/page-tarifs.php:292
 msgid "Forums"
 msgstr "Accès aux Forums"
 
-#: templates/page-tarifs.php:85 templates/page-tarifs.php:190
-#: templates/page-tarifs.php:297
+#: templates/page-tarifs.php:83 templates/page-tarifs.php:188
+#: templates/page-tarifs.php:295
 msgid "Knowledge Base"
 msgstr "Accès à la Knowledge Base"
 
-#: templates/page-tarifs.php:88 templates/page-tarifs.php:193
-#: templates/page-tarifs.php:300
+#: templates/page-tarifs.php:86 templates/page-tarifs.php:191
+#: templates/page-tarifs.php:298
 msgid "E-mail"
 msgstr "Support personnalisé par mail"
 
-#: templates/page-tarifs.php:91 templates/page-tarifs.php:196
-#: templates/page-tarifs.php:303
+#: templates/page-tarifs.php:89 templates/page-tarifs.php:194
+#: templates/page-tarifs.php:301
 msgid "Instant messaging"
 msgstr "Support personnalisé par chat"
 
-#: templates/page-tarifs.php:93 templates/page-tarifs.php:198
-#: templates/page-tarifs.php:305 templates/partials/navigation-desktop.php:14
+#: templates/page-tarifs.php:91 templates/page-tarifs.php:196
+#: templates/page-tarifs.php:303 templates/partials/navigation-desktop.php:14
 msgid "Features"
 msgstr "Fonctionnalités"
 
-#: templates/page-tarifs.php:95 templates/page-tarifs.php:200
-#: templates/page-tarifs.php:307
+#: templates/page-tarifs.php:93 templates/page-tarifs.php:198
+#: templates/page-tarifs.php:305
 msgid "Plan 2D avancé"
 msgstr ""
 
-#: templates/page-tarifs.php:95 templates/page-tarifs.php:200
-#: templates/page-tarifs.php:307
+#: templates/page-tarifs.php:93 templates/page-tarifs.php:198
+#: templates/page-tarifs.php:305
 msgid "Plan 2D standard"
 msgstr ""
 
-#: templates/page-tarifs.php:98 templates/page-tarifs.php:203
-#: templates/page-tarifs.php:310
+#: templates/page-tarifs.php:96 templates/page-tarifs.php:201
+#: templates/page-tarifs.php:308
 msgid "Accès à la bibliothèque de <br/> revêtements étendue"
 msgstr ""
 
-#: templates/page-tarifs.php:98 templates/page-tarifs.php:203
-#: templates/page-tarifs.php:310
+#: templates/page-tarifs.php:96 templates/page-tarifs.php:201
+#: templates/page-tarifs.php:308
 msgid "Accès à la bibliothèque de <br/> revêtements free"
 msgstr ""
 
-#: templates/page-tarifs.php:101 templates/page-tarifs.php:206
-#: templates/page-tarifs.php:313
+#: templates/page-tarifs.php:99 templates/page-tarifs.php:204
+#: templates/page-tarifs.php:311
 msgid "Accès aux packs <br/> d'aménagement intérieur"
+msgstr ""
+
+#: templates/page-tarifs.php:102 templates/page-tarifs.php:207
+#: templates/page-tarifs.php:314
+msgid "Accès aux packs <br/> d'aménagement extérieur"
 msgstr ""
 
 #: templates/page-tarifs.php:104 templates/page-tarifs.php:209
 #: templates/page-tarifs.php:316
-msgid "Accès aux packs <br/> d'aménagement extérieur"
-msgstr ""
-
-#: templates/page-tarifs.php:106 templates/page-tarifs.php:211
-#: templates/page-tarifs.php:318
 msgid "Start"
 msgstr "Démarrer"
 
-#: templates/page-tarifs.php:122
+#: templates/page-tarifs.php:120
 msgid "Business monthly"
 msgstr "Professionnel mensuel"
 
-#: templates/page-tarifs.php:146 templates/page-tarifs.php:148
-#: templates/page-tarifs.php:155 templates/page-tarifs.php:163
-#: templates/page-tarifs.php:171 templates/page-tarifs.php:179
+#: templates/page-tarifs.php:144 templates/page-tarifs.php:146
+#: templates/page-tarifs.php:153 templates/page-tarifs.php:161
+#: templates/page-tarifs.php:169 templates/page-tarifs.php:177
 msgid "month"
 msgstr "mois"
 
-#: templates/page-tarifs.php:153
+#: templates/page-tarifs.php:151
 msgid "Unlimited Test renderings"
 msgstr "Visuels de travail illimités"
 
-#: templates/page-tarifs.php:154
+#: templates/page-tarifs.php:152
 msgid "Optional Test renderings"
 msgstr "Visuels de travail optionnels"
 
-#: templates/page-tarifs.php:227
+#: templates/page-tarifs.php:225
 msgid "Business Yearly"
 msgstr "Professionnel annuel"
 
-#: templates/page-tarifs.php:229
+#: templates/page-tarifs.php:227
 msgid "Save 20% - 2 months free"
 msgstr "Économisez 20% sur l’année"
 
-#: templates/page-tarifs.php:253 templates/page-tarifs.php:255
-#: templates/page-tarifs.php:262 templates/page-tarifs.php:270
-#: templates/page-tarifs.php:278
+#: templates/page-tarifs.php:251 templates/page-tarifs.php:253
+#: templates/page-tarifs.php:260 templates/page-tarifs.php:268
+#: templates/page-tarifs.php:276
 msgid "year"
 msgstr "an"
 
-#: templates/page-tarifs.php:255
+#: templates/page-tarifs.php:253
 msgid "unlimited projects"
 msgstr "Projets illimités"
 
-#: templates/page-tarifs.php:276
+#: templates/page-tarifs.php:274
 msgid "Unlimited Print renderings"
 msgstr "Visuels print illimités "
 
-#: templates/page-tarifs.php:277
+#: templates/page-tarifs.php:275
 msgid "Optional Print renderings"
 msgstr "Visuels print optionnels"
 
-#: templates/page-tarifs.php:286
+#: templates/page-tarifs.php:284
 msgid "year "
 msgstr "an"
 
-#: templates/page-tarifs.php:334
+#: templates/page-tarifs.php:332
 msgid "Packages"
 msgstr "Packs"
 
-#: templates/page-tarifs.php:352
+#: templates/page-tarifs.php:350
 msgid "Choose"
 msgstr "Choisissez"
 
-#: templates/page-tarifs.php:372
+#: templates/page-tarifs.php:370
 msgid "FAQs"
 msgstr "FAQs"
 
@@ -383,19 +383,19 @@ msgstr "Les commentaires sont fermés"
 msgid "Pages:"
 msgstr "Pages:"
 
-#: templates/partials/footer.php:18
+#: templates/partials/footer.php:19
 msgid "Recent posts"
 msgstr "Articles Récents"
 
-#: templates/partials/footer.php:46 templates/partials/nav-secteurs.php:43
+#: templates/partials/footer.php:47 templates/partials/nav-secteurs.php:43
 msgid "Sorry, no posts matched your criteria."
 msgstr "Désolé, aucun article ne correspond à vos critères."
 
-#: templates/partials/footer.php:51
+#: templates/partials/footer.php:52
 msgid "Recent tweets"
 msgstr "Tweets récents"
 
-#: templates/partials/footer.php:55
+#: templates/partials/footer.php:58
 msgid "Follow us"
 msgstr "Nous suivre"
 
@@ -442,6 +442,9 @@ msgstr ""
 #. Author URI of the plugin/theme
 msgid "https://wabdesign.fr/"
 msgstr ""
+
+#~ msgid "Home improvment"
+#~ msgstr "Bâtiment ancien"
 
 #~ msgid "Optionnal test renderings"
 #~ msgstr "Visuels de travail optionnels"
