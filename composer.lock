@@ -302,16 +302,16 @@
         },
         {
             "name": "roots/soil",
-            "version": "3.7.1",
+            "version": "3.7.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/roots/soil.git",
-                "reference": "5b9b9d8a878b295f44b35cba826c462b20cc1d9c"
+                "reference": "09368d6db8c40daa9cc94054b0d1a16e6113e3e5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/roots/soil/zipball/5b9b9d8a878b295f44b35cba826c462b20cc1d9c",
-                "reference": "5b9b9d8a878b295f44b35cba826c462b20cc1d9c",
+                "url": "https://api.github.com/repos/roots/soil/zipball/09368d6db8c40daa9cc94054b0d1a16e6113e3e5",
+                "reference": "09368d6db8c40daa9cc94054b0d1a16e6113e3e5",
                 "shasum": ""
             },
             "require": {
@@ -343,7 +343,7 @@
             "keywords": [
                 "wordpress"
             ],
-            "time": "2016-08-30 18:15:45"
+            "time": "2017-06-12 01:25:19"
         },
         {
             "name": "roots/wp-password-bcrypt",
@@ -822,15 +822,15 @@
         },
         {
             "name": "wpackagist-plugin/types",
-            "version": "2.2.12",
+            "version": "2.2.13",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/types/",
-                "reference": "tags/2.2.12"
+                "reference": "tags/2.2.13"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/types.2.2.12.zip",
+                "url": "https://downloads.wordpress.org/plugin/types.2.2.13.zip",
                 "reference": null,
                 "shasum": null
             },
