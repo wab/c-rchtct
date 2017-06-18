@@ -149,7 +149,7 @@
     "wpackagist-plugin/breadcrumb-navxt": "^5",
     "wpackagist-plugin/wordpress-importer": "^0.6",
     "wpackagist-plugin/google-document-embedder": "^2",
-    "wpackagist-plugin/jetpack": "^4.6",
+    "wpackagist-plugin/jetpack": "^5",
     "wpackagist-plugin/vaultpress": "^1.8",
     "wpackagist-plugin/cookie-notice": "^1.2",
     "wpackagist-plugin/password-protected": "^2.0",
