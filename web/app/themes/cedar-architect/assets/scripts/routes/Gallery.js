@@ -59,6 +59,15 @@ export default {
         }
         const filterValue = event.target.getAttribute('data-filter');
         iso.arrange({ filter: filterValue });
+        $('.gallery--items').data('lightGallery').destroy(true);
+        const filterClass = `${filterValue} .gallery--item--overlay`
+        $('.gallery--items').lightGallery({
+          selector: filterClass,
+          cssEasing: 'cubic-bezier(0.680, -0.550, 0.265, 1.550)',
+          speed: 1000,
+          subHtmlSelectorRelative: true,
+          share: true,
+        });
       });
 
       // change is-checked class on buttons
