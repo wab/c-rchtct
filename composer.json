@@ -81,7 +81,7 @@
       "package": {
         "name": "deliciousbrains/wp-migrate-db-pro",
         "type": "wordpress-plugin",
-        "version": "1.7.1",
+        "version": "1.7.2",
         "dist": {
           "type": "zip",
           "url": "https://deliciousbrains.com/dl/wp-migrate-db-pro-latest.zip?licence_key=1b0f680a-0bbb-4da6-bf8f-43d95035be1c&site_url=cedar-architect.com"

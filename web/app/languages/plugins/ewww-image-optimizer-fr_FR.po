@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Plugins - EWWW Image Optimizer - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2017-06-10 08:34:31+0000\n"
+"PO-Revision-Date: 2017-06-20 21:04:38+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -21,7 +21,7 @@ msgstr "*Les réglages pour désactiver la création et l’optimisation des tai
 
 #: common.php:7129 common.php:7335
 msgid "Allow EWWW Image Optimizer to anonymously track how this plugin is used and help us make the plugin better. Opt-in to tracking and receive 500 API image credits free. No sensitive data is tracked."
-msgstr "Permettre à EWWW Image Optimizer de suivre anonymement comment cette extension est utilisée et nous aider à la rendre meilleure Optez pour le suivi et recevez grtuitement 500 crédits d’API d’image. Aucune donnée sensible n’est suivie."
+msgstr "Permettre à EWWW Image Optimizer de suivre anonymement comment cette extension est utilisée et nous aider à la rendre meilleure. Optez pour le suivi et recevez gratuitement 500 crédits d’API d’image. Aucune donnée sensible n’est suivie."
 
 #: common.php:7128 common.php:7334
 msgid "Allow Usage Tracking?"
@@ -53,7 +53,7 @@ msgstr "Apprendre plus."
 
 #: classes/class-ewwwio-tracking.php:339
 msgid "Allow EWWW Image Optimizer to track plugin usage? Opt-in to tracking to receive up to 500 free image credits. No sensitive data is tracked."
-msgstr "Autoriser EWWW Image Optimizer à suivre l’utilisation de l’extension ? Optez pour le suivi pour recevoir jusqu’à 500 crédits d’image gratuits Aucune donnéé sensible n’est suivie."
+msgstr "Autoriser EWWW Image Optimizer à suivre l’utilisation de l’extension ? Optez pour le suivi pour recevoir jusqu’à 500 crédits d’image gratuits. Aucune donnée sensible n’est suivie."
 
 #: common.php:7189
 msgid "*PDF optimization cannot be enabled because the fileinfo extension is missing."
@@ -422,7 +422,7 @@ msgstr "Ne peut pas afficher la trace"
 
 #: common.php:7296
 msgid "Resize Existing Images"
-msgstr "Redimensionner ds images existantes"
+msgstr "Redimensionner les images existantes"
 
 #: common.php:7293
 msgid "Resizes images uploaded indirectly to the Media Library, like theme images or front-end uploads."
