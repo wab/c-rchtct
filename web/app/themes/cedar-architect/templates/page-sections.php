@@ -17,29 +17,6 @@ while (have_posts()) : the_post(); ?>
 
   </div>
 
-  <?php if( have_rows('section') ): ?>
-
-  <?php while( have_rows('section') ): the_row();
-
-    // vars
-    $image = get_sub_field('image');
-    $content = get_sub_field('content');
-    $title = get_sub_field('title');
-
-    ?>
-
-    <div class="section">
-      <div class="section-wrapper">
-        <h2 class="page-section--title"><span><?php echo $title; ?></span></h2>
-        <?php if( !empty($image) ) : ?>
-          <img src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt'] ?>" class="section-thumbnail" />
-        <?php endif; ?>
-        <?php echo $content; ?>
-      </div>
-    </div>
-
-  <?php endwhile; ?>
-
-<?php endif; ?>
+  <?php get_template_part('partials/sections') ?>
 
 <?php endwhile; ?>

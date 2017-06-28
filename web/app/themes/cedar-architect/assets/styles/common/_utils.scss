@@ -29,23 +29,27 @@
     padding-right: $-zf-bp-value;
   }
 
-  .section-thumbnail {
+  .section-thumbnail,
+  .section-video {
     margin-bottom: $margin;
-
-    @include thumbnail;
 
     @include breakpoint(large) {
       float: right;
-      max-width: grid-column(6);
+      width: grid-column(6);
     }
     @include -zf-breakpoint-value($map: $grid-column-gutter) {
       margin-left: $-zf-bp-value;
     }
   }
 
+  .section-thumbnail {
+    @include thumbnail;
+  }
+
   &:nth-child(2n + 2) {
 
-    .section-thumbnail {
+    .section-thumbnail,
+    .section--video {
       float: left;
       margin-left: 0;
       @include -zf-breakpoint-value($map: $grid-column-gutter) {
