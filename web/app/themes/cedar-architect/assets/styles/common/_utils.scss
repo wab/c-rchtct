@@ -42,6 +42,10 @@
     }
   }
 
+  .section-video {
+    @include media-object-container;
+  }
+
   .section-thumbnail {
     @include thumbnail;
   }
@@ -49,7 +53,7 @@
   &:nth-child(2n + 2) {
 
     .section-thumbnail,
-    .section--video {
+    .section-video {
       float: left;
       margin-left: 0;
       @include -zf-breakpoint-value($map: $grid-column-gutter) {

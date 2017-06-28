@@ -16,7 +16,7 @@
           <h2 class="page-section--title"><span><?php echo $title; ?></span></h2>
           <?php if( $media == 'video' && !empty($videoid) ) : ?>
             <div class="section-video">
-              <iframe width="560" height="315" src="<?php echo 'https://www.youtube.com/watch?v=' . $videoid . '&rel=0' ?>" frameborder="0" allowfullscreen></iframe>
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/<?php echo $videoid; ?>?rel=0" frameborder="0" allowfullscreen></iframe>
             </div>
           <?php elseif( $media == 'image' && !empty($image) ) : ?>
             <img src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt'] ?>" class="section-thumbnail" />
