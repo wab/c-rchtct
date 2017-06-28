@@ -83,8 +83,17 @@ $banner-height: rem-calc(200);
   height: 500px;
 }
 
-.section-wrapper {
-  @include section-wrapper;
+.section {
+  &:nth-child(odd) {
+    .section-wrapper {
+      @include section-wrapper;
+    }
+  }
+  &:nth-child(even) {
+    .section-wrapper {
+      @include section-wrapper(right);
+    }
+  }
 }
 
 
