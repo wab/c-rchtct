@@ -8,12 +8,13 @@
       $image = get_sub_field('image');
       $content = get_sub_field('content');
       $title = get_sub_field('title');
+      $fullClass = '';
 
       ?>
 
       <div class="section">
         <div class="section-wrapper">
-          <h2 class="section-title"><span><?php echo $title; ?></span></h2>
+          <h2 class="section-title <?php if (empty($videoid) && empty($image)) {echo 'full'; } ?>"><span><?php echo $title; ?></span></h2>
           <?php if( $media == 'video' && !empty($videoid) ) : ?>
             <div class="section-video">
               <div class="responsive-embed ">
@@ -25,7 +26,7 @@
               <img src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt'] ?>" />
             </div>
           <?php endif; ?>
-          <div class="section-content">
+          <div class="section-content <?php if (empty($videoid) && empty($image)) {echo 'full'; } ?>">
             <?php echo $content; ?>
           </div>
         </div>

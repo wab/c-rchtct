@@ -37,6 +37,11 @@
     .section-video {
       @include grid-column-size(6);
     }
+
+    .full {
+      @include grid-column-size(8);
+      @include grid-column-position(center);
+    }
   }
 
   @if $direction == right {
