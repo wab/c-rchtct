@@ -50,7 +50,7 @@
       @include grid-column-position(6);
     }
 
-    .section-content {
+    .section-content:not(.full) {
       @include grid-column-position(-6);
     }
   }
