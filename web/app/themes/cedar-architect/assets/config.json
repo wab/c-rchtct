@@ -9,6 +9,9 @@
     ],
     "gallery": [
       "./scripts/gallery.js"
+    ],
+    "gallery-simple": [
+      "./scripts/gallery-simple.js"
     ]
   },
   "watch": [
