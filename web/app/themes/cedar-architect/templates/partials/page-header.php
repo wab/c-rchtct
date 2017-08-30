@@ -21,8 +21,8 @@
     </div>
     <?php endif; ?>
   </div>
-<?php else:  ?>
-  <header class="page-header text-center banner">
+<?php else: $banner = get_field('header-img')['url'];  ?>
+  <header class="page-header text-center banner" <?php if (get_field('header-img')) {echo "style='background-image: url(". $banner .")'"; } ?>>
     <div class="wrapper">
       <h1 class="page--title"><?= App\title(); ?></h1>
     </div>

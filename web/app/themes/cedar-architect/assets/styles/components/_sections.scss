@@ -1,0 +1,42 @@
+$section-padding: rem-calc(50);
+
+.newsection {
+  padding: $section-padding 0;
+
+  &-wrapper {
+    @include grid-row;
+
+    > * {
+      @include grid-column;
+    }
+  }
+
+  &-title {
+    @include section-title;
+  }
+
+  &-lead {
+    text-align: center;
+    font-size: 1.4em;
+  }
+
+  &-thumbnail,
+  &-content {
+    @include breakpoint(large) {
+      @include grid-col-size(6)
+    }
+  }
+
+  &-content {
+    text-align: justify;
+  }
+
+  &-cta {
+    text-align: center;
+    margin-top: $global-padding;
+
+    a {
+      @include button;
+    }
+  }
+}

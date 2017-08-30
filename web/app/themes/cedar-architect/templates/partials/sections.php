@@ -15,6 +15,9 @@
       <div class="section">
         <div class="section-wrapper">
           <h2 class="section-title <?php if (empty($videoid) && empty($image)) {echo 'full'; } ?>"><span><?php echo $title; ?></span></h2>
+          <?php if (get_sub_field('lead')): ?>
+            <p class="section-lead"><?php the_sub_field('lead') ?></p>
+          <?php endif; ?>
           <?php if( $media == 'video' && !empty($videoid) ) : ?>
             <div class="section-video">
               <div class="responsive-embed ">

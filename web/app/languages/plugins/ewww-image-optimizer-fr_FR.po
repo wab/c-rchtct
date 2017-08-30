@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Plugins - EWWW Image Optimizer - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2017-08-02 21:24:30+0000\n"
+"PO-Revision-Date: 2017-08-28 10:35:11+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -11,9 +11,37 @@ msgstr ""
 "Language: fr\n"
 "Project-Id-Version: Plugins - EWWW Image Optimizer - Stable (latest release)\n"
 
+#: ewww-image-optimizer.php:154
+msgid "The regular version of the EWWW Image Optimizer plugin is not permitted on Kinsta sites. Please deactivate EWWW Image Optimizer and install EWWW Image Optimizer Cloud to optimize your images."
+msgstr "La version normale du plugin EWWW Image Optimizer n’est pas autorisée sur les sites Kinsta. Désactivez EWWW Image Optimizer et installez EWWW Image Optimizer Cloud pour optimiser vos images."
+
+#: common.php:7209
+msgid "Resize Settings"
+msgstr "Réglages de redimensionnement"
+
+#: bulk.php:472
+msgid "more..."
+msgstr "plus..."
+
+#: bulk.php:462
+msgid "Temporary failure, attempts remaining:"
+msgstr "Échec temporaire, tentatives restantes :"
+
 #: bulk.php:458
 msgid "Operation timed out, you may need to increase the max_execution_time or memory_limit for PHP"
 msgstr "L’opération a expiré, vous devriez peut-être augmenter les délais max_execution_time ou memory_limit pour PHP"
+
+#: aux-optimize.php:98 common.php:7544
+msgid "Debugging information will be included with your message automatically."
+msgstr "Les informations de débogage seront incluses automatiquement dans votre message."
+
+#: aux-optimize.php:73 aux-optimize.php:99 common.php:7520 common.php:7545
+msgid "This will allow us to assist you more quickly."
+msgstr "Cela nous permet de vous aider plus rapidement."
+
+#: aux-optimize.php:72 common.php:7519
+msgid "Enable the Debugging option and refresh this page to include debugging information with your question."
+msgstr "Activez l’option de débogage et renouvelez la page pour inclure les informations de débogage avec votre question."
 
 #: common.php:7347
 msgid "Enable Embedded Help"
@@ -63,7 +91,7 @@ msgstr "Désactivé, fonction de sommeil manquante"
 msgid "Disabled by administrator"
 msgstr "Désactivé par l’administrateur"
 
-#: aux-optimize.php:685
+#: aux-optimize.php:699
 msgid "Why are there so many images?"
 msgstr "Pourquoi y a-t-il tant d’images ?"
 
@@ -173,7 +201,7 @@ msgstr "Aucun ID d’image n’a été fourni."
 #. translators: %s: number of seconds
 #. translators: %s: number of seconds
 #. translators: %s: number of seconds
-#: bulk.php:1591 bulk.php:1597 classes/class-ewww-flag.php:587
+#: bulk.php:1602 bulk.php:1608 classes/class-ewww-flag.php:587
 #: classes/class-ewww-nextcellent.php:697 classes/class-ewww-nextgen.php:824
 #: classes/class-ewwwio-cli.php:298 classes/class-ewwwio-cli.php:397
 #: classes/class-ewwwio-cli.php:477 common.php:4041
@@ -206,7 +234,7 @@ msgstr "<strong>Erreur</strong> : La variable %1$s du fichier %2$s ne peut conte
 msgid "Increasing PHP's memory_limit setting will allow for faster scanning with fewer database queries. Please allow up to 10 minutes for changes to memory limit to be detected."
 msgstr "Augmenter le réglage memory_limit de PHP permettra un balayage plus rapide avec moins de requêtes de base de données. Veuillez permettre jusqu’à 10 minutes pour que la limite de mémoire soit détectée."
 
-#: aux-optimize.php:391
+#: aux-optimize.php:405
 msgid "Stage 2 unable to complete due to memory restrictions. Please increase the memory_limit setting for PHP and try again."
 msgstr "Impossible de finaliser l’étape 2 en raison de restrictions de mémoire. Veuillez augmente le réglage memory_limit pour PHP et réessayez."
 
@@ -300,7 +328,7 @@ msgid "Last Batch Optimized"
 msgstr "Dernier lot optimisé"
 
 #. translators: %d: number of images
-#: aux-optimize.php:684 bulk.php:50 classes/class-ewww-nextcellent.php:444
+#: aux-optimize.php:698 bulk.php:50 classes/class-ewww-nextcellent.php:444
 #: classes/class-ewwwio-cli.php:110 classes/class-ewwwio-cli.php:120
 #: classes/class-ewwwio-cli.php:163 classes/class-ewwwio-cli.php:189
 msgid "There is %d image ready to optimize."
@@ -308,7 +336,7 @@ msgid_plural "There are %d images ready to optimize."
 msgstr[0] "Il y a %d image prête à être optimisée."
 msgstr[1] "Il y a %d images prêtes à être optimisées."
 
-#: aux-optimize.php:383 aux-optimize.php:404 bulk.php:1191
+#: aux-optimize.php:397 aux-optimize.php:418 bulk.php:1191
 msgid "Stage 2, please wait."
 msgstr "Étape 2, veuillez patienter."
 
@@ -532,7 +560,7 @@ msgstr "Aucune compression"
 msgid "JPG Optimization Level"
 msgstr "Niveau d’optimisation JPG"
 
-#: bulk.php:1236 bulk.php:1241 classes/class-ewww-flag.php:483
+#: bulk.php:1244 bulk.php:1249 classes/class-ewww-flag.php:483
 #: classes/class-ewww-nextcellent.php:612 classes/class-ewww-nextgen.php:722
 msgid "Error retrieving list of images"
 msgstr "Erreur lors de la récupération de la liste des images"
@@ -553,7 +581,7 @@ msgstr "Nombre de tentatives d’optimisations"
 msgid "File path"
 msgstr "Chemin du fichier"
 
-#: bulk.php:1488 bulk.php:1490
+#: bulk.php:1499 bulk.php:1501
 msgid "Could not find image"
 msgstr "Impossible de trouver l’image"
 
@@ -590,7 +618,7 @@ msgid "S3 Image Optimizer"
 msgstr "Optimiseur d’image S3"
 
 #. translators: used for Bulk Optimize progress bar, like so: Optimized 32/346
-#: bulk.php:467 bulk.php:1549 bulk.php:1552 classes/class-ewww-flag.php:253
+#: bulk.php:467 bulk.php:1560 bulk.php:1563 classes/class-ewww-flag.php:253
 #: classes/class-ewww-nextcellent.php:591 classes/class-ewww-nextgen.php:702
 #: common.php:4033
 msgid "Optimized"
@@ -736,7 +764,7 @@ msgstr "Vous n’avez pas le droit d’installer les services d’lmage Optimize
 #. translators: %s: Image filename
 #: unique.php:1569
 msgid "%s is not writable"
-msgstr "%s n'est pas autorisé en écriture"
+msgstr "%s n’est pas inscriptible"
 
 #. translators: %s: Image filename
 #: unique.php:1559
@@ -863,8 +891,8 @@ msgstr "Règles vérifiées avec succès"
 #: common.php:7453
 msgid "There are many ways to serve WebP images to visitors with supported browsers. You may choose any you wish, but it is recommended to serve them with an .htaccess file using mod_rewrite and mod_headers. The plugin can insert the rules for you if the file is writable, or you can edit .htaccess yourself."
 msgstr ""
-"Il existe plusieurs méthodes pour afficher des images WebP à vos visiteurs dont les navigateurs supportent le format. Vous pouvez retenir celle de votre choix, mais il est recommandé de charger ces images en éditant le fichier .htaccess à l'aide de \"mod_rewrite\" et \"mod_headers\". \n"
-"Le plugin peut insérer des règles pour vous si le fichier htaccess est éditable, ou bien vous pouvez l'éditer vous-même."
+"Il existe plusieurs méthodes pour afficher des images WebP à vos visiteurs dont les navigateurs supportent le format. Vous pouvez retenir celle de votre choix, mais il est recommandé de charger ces images avec un fichier .htaccess utilisant « mod_rewrite » et « mod_headers ». \n"
+"L’extension peut insérer les règles pour vous si le fichier .htaccess est inscriptible, ou vous pouvez le modifier vous-même."
 
 #: common.php:7234 common.php:7449
 msgid "Save Changes"
@@ -904,15 +932,15 @@ msgstr "Le format JPG est généralement bien meilleur que le PNG pour les photo
 
 #: common.php:7414
 msgid "This is not a lossless conversion."
-msgstr "Il ne s'agit pas d'une conversion sans perte."
+msgstr "Ce n’est pas une conversion sans perte."
 
 #: common.php:7409
 msgid "PNG is generally much better than JPG for logos and other images with a limited range of colors. Checking this option will slow down JPG processing significantly, and you may want to enable it only temporarily."
-msgstr "Le format PNG est en général bien meilleur que le JPG pour les logos et les images avec une gamme de couleurs réduite. L'activation de cette option ralentira significativement le traitement des images JPG et vous devriez seulement activer temporairement cette option."
+msgstr "PNG est en général bien meilleur que JPG pour les logos et les images avec une gamme de couleurs réduite. Activer de cette option ralentira significativement le traitement des images JPG et vous devriez uniquement l’activer temporairement."
 
 #: common.php:7408
 msgid "Removes metadata and increases cpu usage dramatically."
-msgstr "Supprime les métadonnées et augmente considérablement l'utilisation du processeur."
+msgstr "Retire les métadonnées et augmente considérablement l’utilisation du processeur."
 
 #. translators: 1: JPG, GIF or PNG 2: JPG or PNG
 #: common.php:7407 common.php:7413 common.php:7421
@@ -945,7 +973,7 @@ msgstr "JPG/PNG vers WebP"
 
 #: common.php:7403
 msgid "This will remove the original image from the server after a successful conversion."
-msgstr "Cela supprimera l'image originale du serveur après une conversion réussie."
+msgstr "Cela supprimera l’image originale du serveur après une conversion réussie."
 
 #: common.php:7403
 msgid "Delete originals"
@@ -961,7 +989,7 @@ msgstr "Cacher la liste de conversion"
 
 #: common.php:7399
 msgid "The plugin will attempt to update image locations for any posts that contain the images. You may still need to manually update locations/urls for converted images."
-msgstr "Le plugin tentera d'actualiser l'emplacement des images pour chacun des posts qui contiennent des images? Vous pourriez toujours avoir besoin d'actualiser le chemin/url pour les images converties."
+msgstr "L’extension tentera d’actualiser l’emplacement des images pour chacun des articles qui contiennent des images. Vous pourriez toujours avoir besoin d’actualiser le chemin/URL pour les images converties."
 
 #: common.php:7399
 msgid "NOTE:"
@@ -969,7 +997,7 @@ msgstr "NOTE"
 
 #: common.php:7398
 msgid "Conversion is only available for images in the Media Library (except WebP). By default, all images have a link available in the Media Library for one-time conversion. Turning on individual conversion operations below will enable conversion filters any time an image is uploaded or modified."
-msgstr "La conversion n'est disponible que pour les images de la Bibliothèque de Médias (sauf WebP). Par défaut, toutes les images ont un lien disponible dans la bibliothèque de médias pour une seule conversion. En activant les opérations de conversion individuelles ci-dessous, la conversion se fera dès qu'une image est transférée ou modifiée."
+msgstr "La conversion est disponible uniquement pour les images de la bibliothèque de médias (sauf WebP). Par défaut, toutes les images ont un lien disponible dans la bibliothèque de médias pour une conversion unique. En activant les opérations de conversion individuelles ci-dessous activera les filtres de conversion dès qu’une image est mise en ligne ou modifiée."
 
 #: common.php:7377
 msgid "Disable Creation"
@@ -977,7 +1005,11 @@ msgstr "Désactiver la création"
 
 #: common.php:7377
 msgid "Disable Optimization"
-msgstr "Désactiver l'optimisation"
+msgstr "Désactiver l’optimisation"
+
+#: common.php:7373
+msgid "WordPress, your theme, and other plugins generate various image sizes. You may disable optimization for certain sizes, or completely prevent those sizes from being created."
+msgstr "WordPress, votre thème et d’autres extensions génèrent différentes dimensions d’image. Vous pouvez désactiver l’optimisation pour certaines dimensions ou empêcher ces dimensions d’être créées."
 
 #: common.php:7373 common.php:7393
 msgid "Disable Resizes"
@@ -1000,11 +1032,11 @@ msgstr "Répertoires à optimiser"
 
 #: common.php:7317
 msgid "This will enable scheduled optimization of unoptimized images for your theme, buddypress, and any additional folders you have configured below. Runs hourly: wp_cron only runs when your site is visited, so it may be even longer between optimizations."
-msgstr "Ceci va activer l'optimisation planifiée d'images non-optimisées du thème, buddypress et tout autre dossier listé ci-dessous. Une fois par heure: wp_cron est activé quand le site est visité; la fréquence entre optimisations peut donc être plus longue."
+msgstr "Ceci va activer l’optimisation planifiée d’images non-optimisées du thème, buddypress et tout autre dossier listé ci-dessous. Une fois par heure : wp_cron est activé uniquement quand le site est visité, ainsi la fréquence entre optimisations peut donc être plus longue."
 
 #: common.php:7317
 msgid "Scheduled optimization"
-msgstr "Planifier l'optimisation"
+msgstr "Optimisation planifiée"
 
 #: common.php:7302
 msgid "When enabled, uploads to the Media Library will be transferred to Cloudinary after optimization. Cloudinary generates resizes, so only the full-size image is uploaded."
@@ -1024,7 +1056,7 @@ msgstr "Supprimer les metadatas."
 
 #: common.php:7246
 msgid "Use this to provide information for support purposes, or if you feel comfortable digging around in the code to fix a problem you are experiencing."
-msgstr "Utilisez ceci pour obtenir des informations sur les opérations, ou si vous vous sentez à l'aise pour fouiller dans le code pour régler un problème connu."
+msgstr "Utilisez ceci pour obtenir des informations sur les opérations, ou si vous vous sentez à l’aise pour fouiller dans le code pour régler un problème connu."
 
 #: common.php:7246
 msgid "Debugging"
@@ -1052,7 +1084,7 @@ msgstr "Paramètres simples"
 
 #: common.php:7168
 msgid "required for automatic pngout installer"
-msgstr "requis pour l'installation automatique de PNGout"
+msgstr "obligatoire pour l’installation automatique de PNGout"
 
 #: common.php:7165
 msgid "not required"
@@ -1064,7 +1096,7 @@ msgstr "commande non trouvée sur votre système"
 
 #: common.php:7129
 msgid "Only need one of these:"
-msgstr "Seulement besoin de l'un d'eux :"
+msgstr "Uniquement besoin de l’un de ceux-ci :"
 
 #: common.php:7095
 msgid "Graphics libraries"
@@ -1093,7 +1125,7 @@ msgstr "On"
 
 #: common.php:7027
 msgid "Pngout is free closed-source software that can produce drastically reduced filesizes for PNGs, but can be very time consuming to process images"
-msgstr "Pngout est un logiciel privatif gratuit capable de réduire grandement le poids des PNG, mais il peut aussi utiliser beaucoup de temps pour opérer à l'optimisation de ces images."
+msgstr "Pngout est un logiciel privatif gratuit capable de réduire grandement le poids des PNG, mais il peut aussi utiliser beaucoup de temps pour opérer sur les images."
 
 #: common.php:7027
 msgid "manually"
@@ -1134,7 +1166,7 @@ msgstr "Vérifié,"
 
 #: common.php:6964 common.php:7241 common.php:7244
 msgid "Cloud optimization API Key"
-msgstr "Clef de l'API pour une optimisation via le Cloud"
+msgstr "Clef de l’API pour une optimisation via le Cloud"
 
 #: common.php:6958
 msgid "Total Savings:"
@@ -1162,7 +1194,7 @@ msgstr "Cliquez pour basculer"
 #. translators: %s: Bulk Optimize (link)
 #: common.php:6945
 msgid "New images uploaded to the Media Library will be optimized automatically. If you have existing images you would like to optimize, you can use the %s tool."
-msgstr "Les nouvelles images envoyées dans la médiathèque seront optimisées automatiquement. Si vous avez déjà des images que vous souhaitez optimiser, vous pouvez utiliser l'outil %s."
+msgstr "Les nouvelles images mises en ligne dans la bibliothèques de médias seront automatiquement optimisées. Si vous avez déjà des images que vous souhaitez optimiser, vous pouvez utiliser l’outil %s."
 
 #: common.php:6937
 msgid "Media Library"
@@ -1178,15 +1210,15 @@ msgstr "Support du plugin"
 
 #: unique.php:245 unique.php:266 unique.php:588
 msgid "Installation Instructions"
-msgstr "Instructions d'installation"
+msgstr "Instructions d’installation"
 
 #: common.php:6931
 msgid "Plugin Home Page"
-msgstr "Page d'accueil du plugin"
+msgstr "Page d’accueil de l’extension"
 
 #: common.php:6752
 msgid "Insertion failed"
-msgstr "Échec de l'insertion"
+msgstr "Échec de l’insertion"
 
 #: common.php:6750
 msgid "Insertion successful"
@@ -1200,7 +1232,7 @@ msgstr "Non réalisé"
 #: classes/class-ewww-nextcellent.php:383 classes/class-ewww-nextgen.php:484
 #: common.php:6067 common.php:6145 common.php:6150
 msgid "Restore original"
-msgstr "Restauration d'origine"
+msgstr "Restaurer l’original"
 
 #: classes/class-ewww-flag.php:734 classes/class-ewww-nextcellent.php:377
 #: classes/class-ewww-nextgen.php:478 common.php:6061 common.php:6129
@@ -1220,7 +1252,7 @@ msgstr "Format non supporté"
 
 #: common.php:6002
 msgid "PNG is generally better than GIF, but does not support animation. Animated images will not be converted."
-msgstr "le PNG est généralement meilleur que le GIF, mais ne supporte pas l'animation. Les images animées ne seront pas converties."
+msgstr "PNG est généralement meilleur que GIF, mais ne supporte pas l’animation. Les images animées ne seront pas converties."
 
 #: common.php:6001
 msgid "GIF to PNG"
@@ -1228,7 +1260,7 @@ msgstr "GIF en PNG"
 
 #: common.php:5989
 msgid "WARNING: This is not a lossless conversion and requires GD or ImageMagick. JPG is much better than PNG for photographic use because it compresses the image and discards data. Transparent images will only be converted if a background color has been set."
-msgstr "ATTENTION : il ne s'agit pas d'une compression sans perte et exige GD ou ImageMagik. Le format JPG est bien meilleur que le PNG pour les photos car il compresse les images et se débarrasse des données. Les fonds transparents des images seront en revanche convertis en un fond blanc."
+msgstr "Attention : ce n ’est pas une compression sans perte et cela exige GD ou ImageMagik. JPG est bien meilleur que PNG pour les photos car il compresse les images et se débarrasse des données. Les images en transparence seront uniquement converties si une couleur d’arrière-plan a été définie."
 
 #: common.php:5988
 msgid "PNG to JPG"
@@ -1255,7 +1287,7 @@ msgstr "%s est manquant"
 
 #: common.php:5931
 msgid "Could not retrieve file path."
-msgstr "Impossible d'identifier le chemin."
+msgstr "Impossible de récupérer le chemin du fichier."
 
 #: aux-optimize.php:179 common.php:5921 common.php:5925
 msgid "Amazon S3 image"
@@ -1274,15 +1306,15 @@ msgstr "Image Cloudinary"
 #: common.php:3301
 msgid "used %1$d of %2$d, usage will reset in %3$d day."
 msgid_plural "used %1$d of %2$d, usage will reset in %3$d days."
-msgstr[0] "%1$d sur %2$d est utilisée. L'utilisation sera réinitialisée dans %3$d jour."
-msgstr[1] "%1$d sur %2$d sont utilisées. Les utilisations seront réinitialisées dans %3$d jour."
+msgstr[0] "%1$d utilisée sur %2$d, l’utilisation sera réinitialisée dans %3$d jour."
+msgstr[1] "%1$d utilisées sur %2$d, l’utilisation sera réinitialisée dans %3$d jour."
 
 #. translators: 1: Number of images
 #: common.php:3290 common.php:3296
 msgid "%1$d image credit remaining."
 msgid_plural "%1$d image credits remaining."
-msgstr[0] "%1$ crédit d'image restant."
-msgstr[1] "%1$ crédits d'image restants."
+msgstr[0] "%1$d crédit d'image restant."
+msgstr[1] "%1$d crédits d'image restants."
 
 #. translators: 1: Number of images 2: Number of days until renewal
 #: common.php:3285
@@ -1304,7 +1336,7 @@ msgstr "Original restauré"
 #: classes/class-ewww-nextgen.php:199 classes/class-ewww-nextgen.php:254
 #: classes/class-ewww-nextgen.php:257 common.php:2720 common.php:2723
 msgid "No attachment ID was provided."
-msgstr "Aucun ID de rattachement n'a été fourni."
+msgstr "Aucun ID de fichier joint n’a été fourni."
 
 #: classes/class-ewww-flag.php:359 classes/class-ewww-flag.php:362
 #: classes/class-ewww-flag.php:431 classes/class-ewww-flag.php:434
@@ -1316,7 +1348,7 @@ msgstr "Aucun ID de rattachement n'a été fourni."
 #: classes/class-ewww-nextgen.php:248 common.php:2710 common.php:2713
 #: common.php:2861
 msgid "You do not have permission to optimize images."
-msgstr "Vous n'avez pas le droit d’optimiser les images."
+msgstr "Vous n’avez pas la permission d’optimiser les images."
 
 #: common.php:2358 common.php:2360
 msgid "Settings"
@@ -1374,7 +1406,7 @@ msgstr "Migré les images WebP"
 msgid "Settings saved"
 msgstr "Paramètres enregistrés"
 
-#: bulk.php:1648
+#: bulk.php:1659
 msgid "Return to Media Library"
 msgstr "Retour à la médiathèque"
 
@@ -1393,7 +1425,7 @@ msgstr "Image optimisée:"
 #: bulk.php:465 classes/class-ewww-flag.php:252
 #: classes/class-ewww-nextcellent.php:590 classes/class-ewww-nextgen.php:701
 msgid "Could not remove image from table."
-msgstr "Impossible de retirer l'image du tableau"
+msgstr "Impossible de retirer l’image du tableau."
 
 #: classes/class-ewww-flag.php:251 classes/class-ewww-nextcellent.php:589
 #: classes/class-ewww-nextgen.php:700
@@ -1410,7 +1442,7 @@ msgstr "Opération interrompue"
 msgid "Optimization stopped, reload page to resume."
 msgstr "Optimisation interrompue, rechargez la page pour continuer"
 
-#: bulk.php:1517 classes/class-ewww-flag.php:558
+#: bulk.php:1528 classes/class-ewww-flag.php:558
 #: classes/class-ewww-nextcellent.php:681 classes/class-ewww-nextgen.php:797
 #: common.php:4023 common.php:4027
 msgid "License Exceeded"
@@ -1435,7 +1467,7 @@ msgstr "Par défaut, les images précédemment optimisées seront passées."
 #: classes/class-ewww-nextcellent.php:425 classes/class-ewww-nextgen.php:527
 #: classes/class-ewwwio-cli.php:265 classes/class-ewwwio-cli.php:357
 msgid "You do not appear to have uploaded any images yet."
-msgstr "Il semble que vous n'avez envoyer aucune image pour l'instant."
+msgstr "Il semble que vous n’avez envoyé aucune image pour l’instant."
 
 #: bulk.php:108 classes/class-ewww-flag.php:148
 #: classes/class-ewww-nextgen.php:579
@@ -1450,7 +1482,7 @@ msgstr "Forcer nouvelle optimisation"
 #: bulk.php:81 classes/class-ewww-flag.php:122
 #: classes/class-ewww-nextcellent.php:450 classes/class-ewww-nextgen.php:553
 msgid "Stop Optimizing"
-msgstr "Arrêter l'optimisation"
+msgstr "Arrêter l’optimisation"
 
 #: bulk.php:75
 msgid "Importing"
@@ -1459,12 +1491,12 @@ msgstr "Importation"
 #: classes/class-ewww-flag.php:112 classes/class-ewww-nextcellent.php:441
 #: classes/class-ewww-nextgen.php:543
 msgid "Resume previous bulk operation"
-msgstr "Reprendre l'opération en masse précédente"
+msgstr "Reprendre l’opération en masse précédente"
 
 #: bulk.php:34 bulk.php:37 classes/class-ewww-flag.php:110
 #: classes/class-ewww-nextcellent.php:439 classes/class-ewww-nextgen.php:541
 msgid "Start optimizing"
-msgstr "Démarrer l'optimisation"
+msgstr "Démarrer l’optimisation"
 
 #: bulk.php:20 classes/class-ewww-flag.php:59 classes/class-ewww-flag.php:66
 #: classes/class-ewww-flag.php:73 classes/class-ewww-flag.php:101
@@ -1475,11 +1507,11 @@ msgstr "Démarrer l'optimisation"
 msgid "Bulk Optimize"
 msgstr "Optimisation de masse"
 
-#: aux-optimize.php:713 bulk.php:1648 mwebp.php:233
+#: aux-optimize.php:727 bulk.php:1659 mwebp.php:233
 msgid "Finished"
 msgstr "Terminé"
 
-#: bulk.php:1254 bulk.php:1256 bulk.php:1609 bulk.php:1611
+#: bulk.php:1265 bulk.php:1267 bulk.php:1620 bulk.php:1622
 #: classes/class-ewww-flag.php:492 classes/class-ewww-flag.php:494
 #: classes/class-ewww-flag.php:596 classes/class-ewww-flag.php:598
 #: classes/class-ewww-flag.php:643 classes/class-ewww-nextcellent.php:621
@@ -1493,7 +1525,7 @@ msgstr "Terminé"
 msgid "Optimizing"
 msgstr "Optimisation en-cours"
 
-#: aux-optimize.php:705 bulk.php:623 classes/class-ewww-flag.php:377
+#: aux-optimize.php:719 bulk.php:623 classes/class-ewww-flag.php:377
 #: classes/class-ewww-flag.php:380 classes/class-ewww-flag.php:450
 #: classes/class-ewww-flag.php:453 classes/class-ewww-flag.php:472
 #: classes/class-ewww-nextcellent.php:185
@@ -1516,18 +1548,18 @@ msgstr "Retirer de la table"
 #. translators: %s: size of the image
 #: aux-optimize.php:182 aux-optimize.php:210 common.php:6167
 msgid "Image Size: %s"
-msgstr "Taille de l'image: %s"
+msgstr "Taille de l’image : %s"
 
 #: aux-optimize.php:167 classes/class-ewww-flag.php:656
 #: classes/class-ewww-nextcellent.php:293 classes/class-ewww-nextgen.php:331
 #: classes/class-ewww-nextgen.php:334 common.php:2202 common.php:2220
 #: common.php:5876
 msgid "Image Optimizer"
-msgstr "Optimiseur d'image"
+msgstr "Optimiseur d’image"
 
 #: aux-optimize.php:167
 msgid "Image Type"
-msgstr "Type d'image"
+msgstr "Type d’image"
 
 #: aux-optimize.php:167
 msgid "Filename"
@@ -1547,13 +1579,13 @@ msgid "Previously Optimized"
 msgstr "optimisée auparavant"
 
 #: aux-optimize.php:153 aux-optimize.php:251 bulk.php:630 bulk.php:1205
-#: bulk.php:1222 bulk.php:1442 bulk.php:1639 classes/class-ewww-flag.php:529
+#: bulk.php:1222 bulk.php:1453 bulk.php:1650 classes/class-ewww-flag.php:529
 #: classes/class-ewww-flag.php:612 classes/class-ewww-nextcellent.php:659
 #: classes/class-ewww-nextcellent.php:722 classes/class-ewww-nextgen.php:771
 #: classes/class-ewww-nextgen.php:849 common.php:2873 common.php:3976
 #: mwebp.php:128 mwebp.php:222
 msgid "Access token has expired, please reload the page."
-msgstr "Le jeton d'accès a expiré; rechargez la page."
+msgstr "Le jeton d’accès a expiré, veuillez recharger la page."
 
 #: aux-optimize.php:61
 msgid "of"
@@ -1570,17 +1602,17 @@ msgstr "Afficher les images optimisées"
 #. translators: %d: number of images
 #: aux-optimize.php:51
 msgid "The plugin keeps track of already optimized images to prevent re-optimization. There are %d images that have been optimized so far."
-msgstr "Le plugin conserve la trace des images déjà optimisées pour empêcher la ré-optimisation. Il y a %d images qui ont été optimisés jusqu'à présent."
+msgstr "L’extension conserve la trace des images déjà optimisées pour empêcher la ré-optimisation. %d images ont été optimisées jusqu’à présent."
 
 #: bulk.php:156 classes/class-ewww-flag.php:165
 #: classes/class-ewww-nextcellent.php:489 classes/class-ewww-nextgen.php:596
 msgid "Reset Status"
-msgstr "Réinitialiser l'état"
+msgstr "Réinitialiser l’état"
 
 #: bulk.php:152 classes/class-ewww-flag.php:161
 #: classes/class-ewww-nextcellent.php:485 classes/class-ewww-nextgen.php:592
 msgid "If you would like to start over again, press the Reset Status button to reset the bulk operation status."
-msgstr "Si vous souhaitez recommencer, appuyez sur le bouton d'état de réinitialisation pour réinitialiser l'état de fonctionnement en vrac."
+msgstr "Si vous souhaitez recommencer, appuyez sur le bouton Réinitialiser l'état pour réinitialiser l'état d’opération en vrac."
 
 #: classes/class-ewwwio-cli.php:96 classes/class-ewwwio-cli.php:156
 msgid "Scanning, this could take a while"
@@ -1588,7 +1620,7 @@ msgstr "Numérisation, cela pourrait prendre un certain temps"
 
 #: bulk.php:135
 msgid "There are no images to optimize."
-msgstr "Il n'y a aucune image à optimiser."
+msgstr "Il n’y a aucune image à optimiser."
 
 #: aux-optimize.php:42
 msgid "Convert Table"
@@ -1600,4 +1632,4 @@ msgstr "Le schéma de base de données a changé, vous devez convertir au nouvea
 
 #: bulk.php:40
 msgid "Resume previous optimization"
-msgstr "Reprendre l'optimisation précédente"
+msgstr "Reprendre l’optimisation précédente"
