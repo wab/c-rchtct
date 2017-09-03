@@ -23,7 +23,7 @@ $section-button-fontsize: rem-calc(18);
   &-wrapper {
     margin-bottom: $section-padding;
     @include flex-grid-row(nest);
-    @include flex-align(start, middle);
+    @include flex-align(left, middle);
 
     > * {
       @include flex-grid-column(12);

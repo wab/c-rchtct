@@ -27,7 +27,7 @@
       <h1 class="page--title"><?= App\title(); ?></h1>
     </div>
   </header>
-  <?php if (!is_page_template('templates/page-iframe.php')): ?>
+  <?php if (!is_page_template('templates/page-iframe.php') && !is_page_template('templates/page-feature.php')): ?>
     <div class="breadcrumbs" typeof="BreadcrumbList" vocab="http://schema.org/">
       <?php if(function_exists('bcn_display')):?>
       <div class="row column">
