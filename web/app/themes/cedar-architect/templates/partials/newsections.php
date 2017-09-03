@@ -12,18 +12,20 @@
     ?>
 
       <section class="newsection">
-        <div class="newsection-wrapper">
+        <div class="newsection-container">
           <h2 class="newsection-title"><span><?php echo $title; ?></span></h2>
           <?php if (!empty($lead)): ?>
             <p class="newsection-lead"><?php the_sub_field('lead') ?></p>
           <?php endif; ?>
-          <?php if(!empty($image) ) : ?>
-            <div class="newsection-thumbnail">
-              <img src="<?php echo $image['sizes']['large']; ?>" alt="<?php echo $image['alt'] ?>" />
+          <div class="newsection-wrapper">
+            <?php if(!empty($image) ) : ?>
+              <div class="newsection-thumbnail">
+                <img src="<?php echo $image['sizes']['large']; ?>" alt="<?php echo $image['alt'] ?>" />
+              </div>
+            <?php endif; ?>
+            <div class="newsection-content">
+              <?php echo $content; ?>
             </div>
-          <?php endif; ?>
-          <div class="newsection-content">
-            <?php echo $content; ?>
           </div>
 
           <?php if (!empty($cta_label) && !empty($cta_link)) : ?>

@@ -1,15 +1,14 @@
 $section-padding: rem-calc(50);
+$section-lead-fontsize: rem-calc(24);
+$section-button-fontsize: rem-calc(18);
 
 .newsection {
-  padding: $section-padding 0;
+  padding-bottom: $section-padding / 2;
 
-  &-wrapper {
-    @include grid-row;
-
-    > * {
-      @include grid-column;
-    }
+  &-container {
+    @include grid-column-row;
   }
+
 
   &-title {
     @include section-title;
@@ -17,13 +16,24 @@ $section-padding: rem-calc(50);
 
   &-lead {
     text-align: center;
-    font-size: 1.4em;
+    font-size: $section-lead-fontsize;
+    margin-bottom: $section-padding;
+  }
+
+  &-wrapper {
+    margin-bottom: $section-padding;
+    @include flex-grid-row(nest);
+    @include flex-align(start, middle);
+
+    > * {
+      @include flex-grid-column(12);
+    }
   }
 
   &-thumbnail,
   &-content {
     @include breakpoint(large) {
-      @include grid-col-size(6)
+      @include flex-grid-size(6)
     }
   }
 
@@ -37,6 +47,17 @@ $section-padding: rem-calc(50);
 
     a {
       @include button;
+      // size  & radius ajust
+      border-radius: rem-calc(25);
+      font-size: $section-button-fontsize;
+      margin-bottom: 0;
+
+    }
+  }
+
+  &:nth-child(even) {
+    .newsection-thumbnail {
+      order: 2;
     }
   }
 }
