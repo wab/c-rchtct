@@ -5,6 +5,7 @@
       to right,
       $white, $light-gray
     );
+  z-index: $global-zindex + 10;
 }
 .mainheader--wrapper {
   @include flex-grid-row;

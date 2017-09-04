@@ -73,6 +73,7 @@
   box-shadow: 0px 1px 1px rgba($dark-gray, .4);
   color: $white;
   transition: transform 200ms ease-in-out;
+  z-index: $global-zindex + 20;
 
   &#menu-features,  {
   width: $dropdown-width + 120px;
