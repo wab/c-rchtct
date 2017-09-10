@@ -16,8 +16,7 @@ const jsLoader = {
   test: /\.js$/,
   exclude: [/(node_modules|bower_components)(?![/|\\](bootstrap|foundation-sites))/],
   use: [{
-    loader: 'buble',
-    options: { objectAssign: 'Object.assign' },
+    loader: 'babel-loader',
   }],
 };
 
