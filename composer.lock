@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "1cd326055464f466d9ad7552ad098a01",
-    "content-hash": "1d1083533de73e0547c5358d9d04ef34",
+    "hash": "03900474c1861e89d8fddac9a258fe98",
+    "content-hash": "99f3e2574ff3f1c47ae3cdfa7c9c2868",
     "packages": [
         {
             "name": "composer/installers",
@@ -501,6 +501,26 @@
             "homepage": "https://wordpress.org/plugins/acf-content-analysis-for-yoast-seo/"
         },
         {
+            "name": "wpackagist-plugin/acf-to-rest-api",
+            "version": "2.2.1",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/acf-to-rest-api/",
+                "reference": "tags/2.2.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/acf-to-rest-api.2.2.1.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/acf-to-rest-api/"
+        },
+        {
             "name": "wpackagist-plugin/advanced-custom-fields",
             "version": "4.4.11",
             "source": {
@@ -682,16 +702,16 @@
         },
         {
             "name": "wpackagist-plugin/jetpack",
-            "version": "5.2.1",
+            "version": "5.3",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/jetpack/",
-                "reference": "tags/5.2.1"
+                "reference": "tags/5.3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/jetpack.5.2.1.zip",
-                "reference": "tags/5.2.1",
+                "url": "https://downloads.wordpress.org/plugin/jetpack.5.3.zip",
+                "reference": null,
                 "shasum": null
             },
             "require": {
@@ -831,7 +851,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/simple-custom-post-order.zip?timestamp=1489777411",
-                "reference": null,
+                "reference": "trunk",
                 "shasum": null
             },
             "require": {
@@ -882,16 +902,16 @@
         },
         {
             "name": "wpackagist-plugin/wordpress-seo",
-            "version": "5.3.3",
+            "version": "5.4",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/wordpress-seo/",
-                "reference": "tags/5.3.3"
+                "reference": "tags/5.4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wordpress-seo.5.3.3.zip",
-                "reference": "tags/5.3.3",
+                "url": "https://downloads.wordpress.org/plugin/wordpress-seo.5.4.zip",
+                "reference": null,
                 "shasum": null
             },
             "require": {
