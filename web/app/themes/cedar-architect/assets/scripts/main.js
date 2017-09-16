@@ -10,7 +10,6 @@ import 'foundation-sites/js/foundation.util.box';
 import 'foundation-sites/js/foundation.util.nest';
 import 'foundation-sites/js/foundation.util.triggers';
 import 'foundation-sites/js/foundation.util.motion';
-import 'foundation-sites/js/foundation.util.timerAndImageLoader';
 import 'foundation-sites/js/foundation.responsiveToggle';
 import 'foundation-sites/js/foundation.dropdown';
 import 'foundation-sites/js/foundation.reveal';
