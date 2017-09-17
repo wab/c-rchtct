@@ -76,21 +76,6 @@ if (document.body.contains(grid)) {
     const buttonGroup = buttonGroups[i];
     radioButtonGroup(buttonGroup);
   }
-
-  let paged = 2;
-  $('body').on('click', '.load-more', () => {
-    $.post(ajaxurl, { action: 'load_more', paged },
-      (response) => {
-        paged += 1;
-        console.log(response);
-        const tempelement = document.createElement('div');
-        tempelement.insertAdjacentHTML('beforeend', response);
-        const elements = tempelement.querySelectorAll('.gallery--item');
-        console.log(elements);
-        iso.insert(elements);
-      }
-    );
-  });
 } else {
   $('.load-more').addClass('hide');
 }

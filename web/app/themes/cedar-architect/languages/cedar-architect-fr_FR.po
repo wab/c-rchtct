@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Cedreo Designer\n"
-"POT-Creation-Date: 2017-06-13 21:19+0200\n"
-"PO-Revision-Date: 2017-06-13 21:20+0200\n"
+"POT-Creation-Date: 2017-09-17 14:40+0200\n"
+"PO-Revision-Date: 2017-09-17 14:43+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: fr\n"
@@ -47,23 +47,23 @@ msgstr "Non trouvé"
 msgid "More details ?"
 msgstr "Plus d’informations"
 
-#: src/setup.php:53
+#: src/setup.php:58
 msgid "Primary Navigation"
 msgstr "Navigation primaire"
 
-#: src/setup.php:56
+#: src/setup.php:61
 msgid "Features Navigation"
 msgstr "Navigation fonctionnalités"
 
-#: src/setup.php:59
+#: src/setup.php:64
 msgid "Users Navigation"
 msgstr "Navigation utilisateurs"
 
-#: src/setup.php:102
+#: src/setup.php:107
 msgid "Primary"
 msgstr "Primaire"
 
-#: src/setup.php:106
+#: src/setup.php:111
 msgid "Footer"
 msgstr "Pied de page"
 
@@ -145,6 +145,123 @@ msgstr "Tous"
 msgid "see more"
 msgstr "en voir plus"
 
+#: templates/page-plans.php:21 templates/page-tarifs.php:370
+msgid "FAQs"
+msgstr "FAQs"
+
+#: templates/page-plans.php:51 templates/page-tarifs.php:41
+#: templates/page-tarifs.php:146
+msgid "Unlimited projects"
+msgstr "Projets illimités"
+
+#: templates/page-plans.php:52
+msgid "monthly"
+msgstr "mensuel"
+
+#: templates/page-plans.php:53
+msgid "yearly"
+msgstr "annuel"
+
+#: templates/page-plans.php:54
+msgid "/ month"
+msgstr "/ mois"
+
+#: templates/page-plans.php:55
+msgid "/ year"
+msgstr "/ an"
+
+#: templates/page-plans.php:56
+msgid "$"
+msgstr "€"
+
+#: templates/page-plans.php:57
+msgid "2 months free"
+msgstr "2 mois offerts"
+
+#: templates/page-plans.php:58
+msgid "optionnal"
+msgstr "optionnel"
+
+#: templates/page-plans.php:59
+msgid "Unlimited"
+msgstr "illimité"
+
+#: templates/page-plans.php:60 templates/page-tarifs.php:41
+#: templates/page-tarifs.php:146 templates/page-tarifs.php:253
+msgid "projects"
+msgstr "projets"
+
+#: templates/page-plans.php:61
+msgid "renderings"
+msgstr "visuels"
+
+#: templates/page-plans.php:62
+msgid "HD Renderings"
+msgstr "visuels HD"
+
+#: templates/page-plans.php:63
+msgid "Print Renderings"
+msgstr "visuels print"
+
+#: templates/page-plans.php:64 templates/page-plans.php:70
+#: templates/page-tarifs.php:72 templates/page-tarifs.php:177
+#: templates/page-tarifs.php:284
+msgid "Virtual visits"
+msgstr "Visites virtuelles"
+
+#: templates/page-plans.php:65
+msgid "Rechargeable"
+msgstr "Rechargeable"
+
+#: templates/page-plans.php:66
+msgid "Rechargeable Credits"
+msgstr "Crédits rechargeables"
+
+#: templates/page-plans.php:67
+msgid "Advanced Features"
+msgstr "Fonctionnalités avancées"
+
+#: templates/page-plans.php:68
+msgid "Unlimited libraries"
+msgstr "Bibliothèque illimitée"
+
+#: templates/page-plans.php:69
+msgid "Advanced edition of plans"
+msgstr "Édition avancée des plans"
+
+#: templates/page-plans.php:71 templates/page-tarifs.php:75
+#: templates/page-tarifs.php:180 templates/page-tarifs.php:287
+msgid "Support"
+msgstr "Support"
+
+#: templates/page-plans.php:72 templates/page-tarifs.php:77
+#: templates/page-tarifs.php:182 templates/page-tarifs.php:289
+msgid "Tutorials"
+msgstr "Accès aux tutoriels"
+
+#: templates/page-plans.php:73 templates/page-tarifs.php:80
+#: templates/page-tarifs.php:185 templates/page-tarifs.php:292
+msgid "Forums"
+msgstr "Accès aux Forums"
+
+#: templates/page-plans.php:74 templates/page-tarifs.php:83
+#: templates/page-tarifs.php:188 templates/page-tarifs.php:295
+msgid "Knowledge Base"
+msgstr "Accès à la Knowledge Base"
+
+#: templates/page-plans.php:75
+msgid "Tickets"
+msgstr "Tickets"
+
+#: templates/page-plans.php:76
+msgid "Chat"
+msgstr "Chat"
+
+#: templates/page-plans.php:77 templates/page-tarifs.php:104
+#: templates/page-tarifs.php:209 templates/page-tarifs.php:316
+msgid "Start"
+msgstr "Démarrer"
+
 #: templates/page-sommaire.php:21 templates/partials/footer.php:36
 msgid "Read"
 msgstr "Lire"
@@ -157,15 +274,6 @@ msgstr "Spécial particulier"
 #: templates/page-tarifs.php:251 templates/page-tarifs.php:349
 msgid "&dollar;"
 msgstr "&euro;"
-
-#: templates/page-tarifs.php:41 templates/page-tarifs.php:146
-#: templates/page-tarifs.php:253
-msgid "projects"
-msgstr "projets"
-
-#: templates/page-tarifs.php:41 templates/page-tarifs.php:146
-msgid "Unlimited projects"
-msgstr "Projets illimités"
 
 #: templates/page-tarifs.php:42 templates/page-tarifs.php:147
 #: templates/page-tarifs.php:254
@@ -223,31 +331,6 @@ msgstr "Visites virtuelles illimitées"
 msgid "Optional virtual visits"
 msgstr "Visites virtuelles optionnelles"
 
-#: templates/page-tarifs.php:72 templates/page-tarifs.php:177
-#: templates/page-tarifs.php:284
-msgid "Virtual visits"
-msgstr "Visites virtuelles"
-
-#: templates/page-tarifs.php:75 templates/page-tarifs.php:180
-#: templates/page-tarifs.php:287
-msgid "Support"
-msgstr "Support"
-
-#: templates/page-tarifs.php:77 templates/page-tarifs.php:182
-#: templates/page-tarifs.php:289
-msgid "Tutorials"
-msgstr "Accès aux tutoriels"
-
-#: templates/page-tarifs.php:80 templates/page-tarifs.php:185
-#: templates/page-tarifs.php:292
-msgid "Forums"
-msgstr "Accès aux Forums"
-
-#: templates/page-tarifs.php:83 templates/page-tarifs.php:188
-#: templates/page-tarifs.php:295
-msgid "Knowledge Base"
-msgstr "Accès à la Knowledge Base"
-
 #: templates/page-tarifs.php:86 templates/page-tarifs.php:191
 #: templates/page-tarifs.php:298
 msgid "E-mail"
@@ -292,11 +375,6 @@ msgstr ""
 #: templates/page-tarifs.php:314
 msgid "Accès aux packs <br/> d'aménagement extérieur"
 msgstr ""
-
-#: templates/page-tarifs.php:104 templates/page-tarifs.php:209
-#: templates/page-tarifs.php:316
-msgid "Start"
-msgstr "Démarrer"
 
 #: templates/page-tarifs.php:120
 msgid "Business monthly"
@@ -354,16 +432,12 @@ msgstr "Packs"
 msgid "Choose"
 msgstr "Choisissez"
 
-#: templates/page-tarifs.php:370
-msgid "FAQs"
-msgstr "FAQs"
-
 #: templates/partials/comments.php:9
 #, php-format
 msgctxt "comments title"
 msgid "One response to &ldquo;%2$s&rdquo;"
 msgid_plural "%1$s responses to &ldquo;%2$s&rdquo;"
-msgstr[0] ""
+msgstr[0] "Une réponse à &ldquo;%2$s&rdquo;"
 msgstr[1] ""
 
 #: templates/partials/comments.php:19

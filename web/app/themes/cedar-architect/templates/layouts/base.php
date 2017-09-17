@@ -44,5 +44,6 @@
         wp_footer();
       ?>
     </div>
+    <input type="hidden" id="post_id" value="<?php the_ID() ?>">
   </body>
 </html>

@@ -1,0 +1,137 @@
+$plan-gutter: rem-calc(10);
+$plan-item-height: rem-calc(60);
+$plan-font-size: rem-calc(16);
+$plan-item-padding: ($plan-item-height - $plan-font-size) / 2 $global-padding / 2;
+$plan-switch-size: rem-calc(80);
+
+@mixin plan-item($bg: $light-gray, $padding: $plan-item-padding) {
+  background: $bg;
+  line-height: 1;
+  margin-bottom: $plan-gutter;
+  padding: $padding;
+  position: relative;
+}
+
+.PricingTable {
+  @extend .no-bullet;
+  @include grid-row($gutters: $plan-gutter);
+
+  &-item {
+    @include grid-column(12, $plan-gutter);
+    @include grid-column-end;
+
+    @include breakpoint(medium) {
+      @include grid-col-size(6)
+    }
+    @include breakpoint(large) {
+      @include grid-col-size(3)
+    }
+  }
+}
+
+.Plan {
+  text-align: center;
+
+  &-title {
+    color: $white;
+    font-size: rem-calc(32);
+    font-weight: bold;
+    @include plan-item;
+  }
+
+  &-price,
+  &-projects {
+    font-size: rem-calc(20);
+    font-weight: bold;
+  }
+
+  &-price {
+    min-height: rem-calc(125);
+    @include plan-item($padding: rem-calc(25 10 65 10));
+
+    &-mention {
+      font-style: italic;
+      font-size: rem-calc(14);
+    }
+  }
+
+  &-projects {
+    border: 2px solid $primary-color;
+    background-color: $white;
+    @include plan-item;
+  }
+
+  &-section {
+    &-title {
+      border-bottom: 2px solid rgba(0, 0, 0, 0.1);
+      font-size: 1rem;
+      font-weight: bold;
+      text-transform: uppercase;
+      @include plan-item($bg: darken($light-gray, 20%));
+    }
+
+    &-items {
+      @extend .no-bullet;
+    }
+
+    &-item {
+      @include plan-item;
+    }
+  }
+
+  &-button {
+    color: $white;
+    display: block;
+    font-size: rem-calc(24);
+    font-weight: bold;
+    opacity: 0.8;
+    text-transform: uppercase;
+    transition: opacity 250ms cubic-bezier(0.8, 0.2, 0.2, 1);
+    @include plan-item;
+
+    &:hover,
+    &:focus {
+      color: $white;
+      opacity: 1;
+    }
+  }
+}
+
+.PeriodSwitch {
+  @include switch-container;
+  @include switch-size(10px, rem-calc(15), 0);
+  // position
+  position: absolute;
+  bottom: $plan-gutter;
+  right: $plan-gutter;
+
+  &-input {
+    @include switch-input;
+  }
+  &-paddle {
+    @include switch-paddle;
+
+    // force widith
+    width: $plan-switch-size;
+
+    span {
+      @include switch-text;
+
+      // force font size
+      font-size: rem-calc(11);
+    }
+  }
+  &-active {
+    @include switch-text-active;
+  }
+  &-inactive {
+    @include switch-text-inactive;
+
+    // force position
+    right: .25rem;
+  }
+
+  input:checked ~ .PeriodSwitch-paddle::after {
+    left: $plan-switch-size - 1.75rem;
+  }
+}

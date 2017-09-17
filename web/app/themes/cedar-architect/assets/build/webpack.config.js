@@ -17,7 +17,6 @@ const jsLoader = {
   exclude: [/(node_modules|bower_components)(?![/|\\](bootstrap|foundation-sites))/],
   use: [{
     loader: 'buble',
-    options: { objectAssign: 'Object.assign' },
   }],
 };
 

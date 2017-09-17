@@ -70,6 +70,7 @@
 
 <script type="text/javascript">
   /* global google */
+  console.log('test');
   function initMap() {
     const styles = [
       {

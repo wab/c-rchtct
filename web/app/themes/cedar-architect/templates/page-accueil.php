@@ -272,7 +272,9 @@
         <?php wp_reset_postdata(); ?>
       <?php endif; ?>
 
-      <p class="text-center"><a href="<?php the_permalink( 9 ); ?>" class="button large hollow white"><?php echo __('See all images', 'cedar-architect'); ?></a></p>
+      <?php $galleryPageID = icl_object_id(9, 'page', true); ?>
+
+      <p class="text-center"><a href="<?php echo get_permalink( $galleryPageID ); ?>" class="button large hollow white"><?php echo __('See all images', 'cedar-architect'); ?></a></p>
     </div>
   </section>
 
