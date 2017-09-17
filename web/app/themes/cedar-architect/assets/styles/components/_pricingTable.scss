@@ -17,8 +17,15 @@ $plan-switch-size: rem-calc(80);
   @include grid-row($gutters: $plan-gutter);
 
   &-item {
-    @include grid-column(3, $plan-gutter);
+    @include grid-column(12, $plan-gutter);
     @include grid-column-end;
+
+    @include breakpoint(medium) {
+      @include grid-col-size(6)
+    }
+    @include breakpoint(large) {
+      @include grid-col-size(3)
+    }
   }
 }
 
