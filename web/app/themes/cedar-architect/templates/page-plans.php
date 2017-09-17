@@ -22,6 +22,7 @@
 
       <ul class="faq--items">
 
+
       <?php while( have_rows('faq') ): the_row();
 
         // vars
