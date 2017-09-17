@@ -1,13 +1,25 @@
-@include breakpoint(large) {
+.menu {
+  @extend .no-bullet;
+}
 
+@include breakpoint(large) {
   .menu-item {
     position: relative;
   }
 
-  .main--navigation > .menu > .menu-item  {
+  .main--navigation > .menu {
 
+    margin: 0;
+    padding: 0;
+
+    @include flex;
+  }
+
+  .main--navigation > .menu > .menu-item {
+    margin: 0;
+    padding: 0;
     > a {
-      border-right: 1px solid rgba(255,255,255,.9);
+      border-right: 1px solid rgba(255, 255, 255, .9);
       color: $body-font-color;
       font-size: .9rem;
       padding: 1rem;
@@ -33,7 +45,9 @@
         width: 100%;
       }
 
-      &:hover, &:focus, &.hover {
+      &:hover,
+      &:focus,
+      &.hover {
         background-color: #fff;
 
         &:before {
@@ -51,13 +65,13 @@
     }
 
     &.link-login {
-
       > a {
         color: $secondary-color;
         font-weight: bold;
         line-height: 1.6;
 
-          > [class^="icon-"], > [class*="icon-"] {
+        > [class^="icon-"],
+        > [class*="icon-"] {
           display: block;
           font-size: 1.2em;
           margin: auto;
@@ -67,16 +81,18 @@
     }
   }
 }
+
 .menu .dropdown-pane {
   background: $dark-gray;
-  border-right: 1px solid rgba(255,255,255,0.3);
+  border-right: 1px solid rgba(255, 255, 255, 0.3);
   box-shadow: 0px 1px 1px rgba($dark-gray, .4);
   color: $white;
   transition: transform 200ms ease-in-out;
   z-index: $global-zindex + 20;
 
-  &#menu-features,  {
-  width: $dropdown-width + 120px;
+  &#menu-features,
+   {
+    width: $dropdown-width + 120px;
 
     .submenu {
       padding-left: 110px;
@@ -87,8 +103,9 @@
     }
   }
 
-  &#menu-users,  {
-  width: $dropdown-width + 70px;
+  &#menu-users,
+   {
+    width: $dropdown-width + 70px;
 
     .submenu {
       padding-left: 60px;
@@ -100,7 +117,8 @@
       a {
         color: $white;
 
-        &:hover, &:focus {
+        &:hover,
+        &:focus {
           color: $primary-color;
         }
       }
@@ -111,11 +129,12 @@
     padding: .5rem;
     width: 100%;
 
-    .menu-item  {
+    .menu-item {
       margin-bottom: 1em;
       text-align: center;
 
-      [class^="icon-"], [class*="icon-"] {
+      [class^="icon-"],
+      [class*="icon-"] {
         color: $primary-color;
         font-size: 1.4rem;
       }
@@ -128,12 +147,14 @@
   }
 
   &#menu-lg {
-    left: auto!important;
+    left: auto !important;
     right: 0;
     width: 150px;
   }
 }
-.submenu, .sub-menu {
+
+.submenu,
+.sub-menu {
   @extend .no-bullet;
   margin-bottom: 0;
 
@@ -142,17 +163,17 @@
     display: block;
     transition: color 300ms ease;
 
-    &:hover, &:focus {
+    &:hover,
+    &:focus {
       color: $primary-color;
       outline: none;
       text-decoration: underline;
     }
   }
 }
+
 .submenu {
-
   > .menu-item {
-
     &:before {
       background: url(../images/pictos-menu.svg) no-repeat;
       background-position: 0 0;
@@ -187,56 +208,48 @@
   }
 
   .amenager {
-
     &:before {
       background-position: 0 -100px;
     }
   }
 
   .decorer {
-
     &:before {
       background-position: 0 -200px;
     }
   }
 
   .valoriser {
-
     &:before {
       background-position: 0 -300px;
     }
   }
 
   .architecte {
-
     &:before {
       background-position: 0 -240px;
     }
   }
 
   .batiment {
-
     &:before {
       background-position: 0 -300px;
     }
   }
 
   .promoteur {
-
     &:before {
       background-position: 0 -360px;
     }
   }
 
   .agent {
-
     &:before {
       background-position: 0 -420px;
     }
   }
 
   .paysagiste {
-
     &:before {
       background-position: 0 -480px;
     }
