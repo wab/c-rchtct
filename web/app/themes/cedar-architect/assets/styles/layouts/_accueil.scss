@@ -132,3 +132,41 @@
     color: inherit;
   }
 }
+
+@mixin roundButton {
+  @include disable-mouse-outline;
+  display: inline-block;
+  vertical-align: middle;
+  margin: rem-calc(20) 0;
+  font-family: $button-font-family;
+  border-radius: rem-calc(25);
+  font-weight: bold;
+  transition: $button-transition;
+  -webkit-appearance: none;
+  border: 1px solid transparent;
+  font-size: map-get($button-sizes, large);
+  line-height: 1;
+  text-align: center;
+  cursor: pointer;
+  padding: rem-calc(15) rem-calc(50);
+
+  @include button-style($primary-color, darken($primary-color, 10%), $white);
+}
+
+.intro {
+  text-align: center;
+  margin-bottom: rem-calc(20);
+
+  &-lead {
+    font-size: rem-calc(24);
+    margin-bottom: 0;
+  }
+}
+
+.roundButton {
+  @include roundButton;
+}
+
+.newsection {
+  padding: rem-calc(40) 0;
+}
