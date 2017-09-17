@@ -12,7 +12,7 @@ import home from './routes/Home';
 import aboutUs from './routes/About';
 import contact from './routes/Contact';
 import price from './routes/Princing';
-import plansPricing from './routes/pricing';
+import pageTemplatePagePlans from './routes/pricing';
 
 const contactUs = contact;
 const tarifs = price;
@@ -30,7 +30,7 @@ const routes = {
   contactUs,
   tarifs,
   price,
-  plansPricing
+  pageTemplatePagePlans
 };
 
 // Load Events
