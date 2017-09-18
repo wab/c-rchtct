@@ -59,6 +59,15 @@ const Switch = ({ checked, onChange, reference, planId }) => {
   );
 };
 
+const FocusIcon = () => {
+  return (
+    <svg className="FocusIcon" viewBox="0 0 30 32">
+      <title>favorite</title>
+      <path d="M29.714 11.554q0 0.393-0.464 0.857l-6.482 6.321 1.536 8.929q0.018 0.125 0.018 0.357 0 0.375-0.188 0.634t-0.545 0.259q-0.339 0-0.714-0.214l-8.018-4.214-8.018 4.214q-0.393 0.214-0.714 0.214-0.375 0-0.563-0.259t-0.188-0.634q0-0.107 0.036-0.357l1.536-8.929-6.5-6.321q-0.446-0.482-0.446-0.857 0-0.661 1-0.821l8.964-1.304 4.018-8.125q0.339-0.732 0.875-0.732t0.875 0.732l4.018 8.125 8.964 1.304q1 0.161 1 0.821z"></path>
+    </svg>
+  );
+}
+
 class Plan extends Component {
   // getinitialState
   constructor(props) {
@@ -72,6 +81,7 @@ class Plan extends Component {
   }
   render() {
     const { plan, index } = this.props;
+    const focus = plan.focus ? 'focus' : '';
     const period = plan.duration != "none" ? this.state.displayMonthly : null;
     const planLink = this.state.displayMonthly
       ? plan.linkMonthly || "#"
@@ -88,6 +98,7 @@ class Plan extends Component {
       <article className="Plan">
         <header className="Plan-header">
           <h2 className="Plan-title" style={{ backgroundColor: plan.color }}>
+            {plan.focus && <FocusIcon />}
             {plan.title}
           </h2>
           <div
@@ -255,4 +266,7 @@ Switch.propTypes = {
   onChange: PropTypes.func,
   reference: PropTypes.func,
   planId: PropTypes.number.isRequired
+};
+FocusIcon.propTypes = {
+  width: PropTypes.number
 };

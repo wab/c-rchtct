@@ -31,12 +31,24 @@ $plan-switch-size: rem-calc(80);
 
 .Plan {
   text-align: center;
+  position: relative;
+
 
   &-title {
     color: $white;
     font-size: rem-calc(32);
     font-weight: bold;
     @include plan-item;
+
+    .FocusIcon {
+      width: 1.2em;
+      height: 1.2em;
+      right: $global-padding;
+      fill: $white;
+      stroke: rgba(0, 0, 0, 0.1);
+
+      @include vertical-center;
+    }
   }
 
   &-price,
