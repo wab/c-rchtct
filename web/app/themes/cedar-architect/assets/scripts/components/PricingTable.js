@@ -19,17 +19,26 @@ const getPerPeriod = (value1, value2, labelKey, monthly) => {
       return "-";
       break; // eslint-disable-line no-unreachable
     case "-1":
+      if (document.documentElement.lang === "en-US") {
+        return `${getLabel("unlimited")} ${label}`;
+      }
       return `${label} ${getLabel("unlimited")}`;
       break; // eslint-disable-line no-unreachable
     case "-2":
+      if (document.documentElement.lang === "en-US") {
+        return `${getLabel("optionnal")} ${label}`;
+      }
       return `${label} ${getLabel("optionnal")}`;
       break; // eslint-disable-line no-unreachable
     default:
-      return `${value} ${label} ${period}`;
+      if(label === '$' || value === '1') {
+        return `${value} ${label} ${period}`;
+      }
+      return `${value} ${label}s ${period}`;
   }
 };
 
-const Switch = ({ checked, onChange }) => {
+const Switch = ({ checked, onChange, reference, planId }) => {
   return (
     <div className="PeriodSwitch">
       <input
@@ -37,9 +46,10 @@ const Switch = ({ checked, onChange }) => {
         type="checkbox"
         checked={checked}
         onChange={onChange}
-        id="period"
+        id={`perios${planId}`}
+        ref={reference}
       />
-      <label htmlFor="period" className="PeriodSwitch-paddle">
+      <label htmlFor={`perios${planId}`} className="PeriodSwitch-paddle">
         <span className="PeriodSwitch-active">{getLabel("yearly")}</span>
         <span className="PeriodSwitch-inactive" aria-hidden="true">
           {getLabel("monthly")}
@@ -61,7 +71,7 @@ class Plan extends Component {
     this.setState({ displayMonthly: !this.state.displayMonthly });
   }
   render() {
-    const { plan } = this.props;
+    const { plan, index } = this.props;
     const period = plan.duration != "none" ? this.state.displayMonthly : null;
     const planLink = this.state.displayMonthly
       ? plan.linkMonthly || "#"
@@ -92,6 +102,8 @@ class Plan extends Component {
               <Switch
                 onChange={() => this.togglePeriod()}
                 checked={!this.state.displayMonthly}
+                reference={input => this.switchInput = input}
+                planId={index}
               />
             )}
           </div>
@@ -221,7 +233,7 @@ export default class PricingTable extends Component {
       <ul className="PricingTable">
         {plans.map((item, index) => (
           <li key={index + 1} className="PricingTable-item">
-            <Plan plan={item} />
+            <Plan plan={item} index={index + 1} />
           </li>
         ))}
       </ul>
@@ -234,10 +246,13 @@ PricingTable.propTypes = {
 };
 
 Plan.propTypes = {
-  plan: PropTypes.object.isRequired
+  plan: PropTypes.object.isRequired,
+  index: PropTypes.number.isRequired
 };
 
 Switch.propTypes = {
   checked: PropTypes.bool,
-  onChange: PropTypes.func
+  onChange: PropTypes.func,
+  reference: PropTypes.func,
+  planId: PropTypes.number.isRequired
 };
