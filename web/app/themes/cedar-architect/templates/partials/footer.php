@@ -51,17 +51,17 @@
     <div class="widget">
       <p class="widget--title"><?php _e('Recent tweets', 'cedar-architect'); ?></p>
       <!-- Twitter widget -->
-      <a class="twitter-timeline" data-height="500" data-theme="dark" data-link-color="#2da8a4" href="https://twitter.com/mysketcher">Tweets by mysketcher</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+      <a class="twitter-timeline" data-height="500" data-theme="dark" data-link-color="#2da8a4" href="https://twitter.com/cedararchitect">Tweets by cedararchitect</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
     </div>
 
     <div class="widget">
       <p class="widget--title"><?php _e('Follow us', 'cedar-architect'); ?></p>
       <ul class="reseaux--list no-bullet scrollreveal">
-        <li class="reseaux--item"><button class="reseaux--link" onclick="window.open('https://twitter.com/mysketcher')"><svg class="icon-twitter"><use xlink:href="#icon-twitter"></use></svg></button></li>
-        <li class="reseaux--item"><button class="reseaux--link" onclick="window.open('https://www.facebook.com/My-Sketcher-1548463242070456')"><svg class="icon-facebook"><use xlink:href="#icon-facebook"></use></svg></button></li>
-        <li class="reseaux--item"><button class="reseaux--link" onclick="window.open('https://plus.google.com/118015676047486854511')"><svg class="icon-google-plus"><use xlink:href="#icon-google-plus"></use></svg></button></li>
-        <li class="reseaux--item"><button class="reseaux--link" onclick="window.open('https://www.youtube.com/user/MrMySketcher')"><svg class="icon-youtube-play"><use xlink:href="#icon-youtube-play"></use></svg></button></li>
-        <li class="reseaux--item"><button class="reseaux--link" onclick="window.open('https://fr.pinterest.com/mysketcher/')"><svg class="icon-pinterest"><use xlink:href="#icon-pinterest"></use></svg></button></li>
+        <li class="reseaux--item"><button class="reseaux--link" onclick="window.open('https://twitter.com/cedararchitect')"><svg class="icon-twitter"><use xlink:href="#icon-twitter"></use></svg></button></li>
+        <li class="reseaux--item"><button class="reseaux--link" onclick="window.open('https://www.facebook.com/cedararchitect.3d')"><svg class="icon-facebook"><use xlink:href="#icon-facebook"></use></svg></button></li>
+        <li class="reseaux--item"><button class="reseaux--link" onclick="window.open('https://plus.google.com/+CedarArchitect-3Dsoftware')"><svg class="icon-google-plus"><use xlink:href="#icon-google-plus"></use></svg></button></li>
+        <li class="reseaux--item"><button class="reseaux--link" onclick="window.open('https://www.youtube.com/c/CedarArchitect-3Dsoftware')"><svg class="icon-youtube-play"><use xlink:href="#icon-youtube-play"></use></svg></button></li>
+        <li class="reseaux--item"><button class="reseaux--link" onclick="window.open('https://www.pinterest.fr/cedar-architect')"><svg class="icon-pinterest"><use xlink:href="#icon-pinterest"></use></svg></button></li>
       </ul>
     </div>
   </div>

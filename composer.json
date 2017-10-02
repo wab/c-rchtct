@@ -65,7 +65,7 @@
       "type": "package",
       "package": {
         "name": "toolbox-plugin/acf-gallery",
-        "version": "1.1.1",
+        "version": "2.0.1",
         "type": "wordpress-plugin",
         "dist": {
           "type": "zip",
@@ -129,8 +129,8 @@
     "oscarotero/env": "^1.0",
     "roots/wp-password-bcrypt": "1.0.0",
     "roots/soil": "^3.7",
-    "toolbox-plugin/acf-repeater": "^1.1",
-    "toolbox-plugin/acf-gallery": "^1.1",
+    "toolbox-plugin/acf-repeater": "^2",
+    "toolbox-plugin/acf-gallery": "2.0.1",
     "deliciousbrains/wp-migrate-db-pro": "*",
     "deliciousbrains/wp-migrate-db-pro-media-files": "*",
     "deliciousbrains/wp-migrate-db-pro-cli": "*",
@@ -140,7 +140,7 @@
     "wpackagist-plugin/ninja-forms": "^3",
     "wpackagist-plugin/regenerate-thumbnails": "^2",
     "wpackagist-plugin/redirection": "^2.4",
-    "wpackagist-plugin/akismet": "^3",
+    "wpackagist-plugin/akismet": "^4",
     "wpackagist-plugin/members": "^2",
     "wpackagist-plugin/google-sitemap-generator": "^4",
     "wpackagist-plugin/wordpress-seo": "^5",
