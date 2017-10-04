@@ -61,7 +61,7 @@
         <li class="reseaux--item"><button class="reseaux--link" onclick="window.open('https://www.facebook.com/cedararchitect.3d')"><svg class="icon-facebook"><use xlink:href="#icon-facebook"></use></svg></button></li>
         <li class="reseaux--item"><button class="reseaux--link" onclick="window.open('https://plus.google.com/+CedarArchitect-3Dsoftware')"><svg class="icon-google-plus"><use xlink:href="#icon-google-plus"></use></svg></button></li>
         <li class="reseaux--item"><button class="reseaux--link" onclick="window.open('https://www.youtube.com/c/CedarArchitect-3Dsoftware')"><svg class="icon-youtube-play"><use xlink:href="#icon-youtube-play"></use></svg></button></li>
-        <li class="reseaux--item"><button class="reseaux--link" onclick="window.open('https://www.pinterest.fr/cedar-architect')"><svg class="icon-pinterest"><use xlink:href="#icon-pinterest"></use></svg></button></li>
+        <li class="reseaux--item"><button class="reseaux--link" onclick="window.open('https://www.pinterest.fr/cedararchitect3d')"><svg class="icon-pinterest"><use xlink:href="#icon-pinterest"></use></svg></button></li>
       </ul>
     </div>
   </div>
