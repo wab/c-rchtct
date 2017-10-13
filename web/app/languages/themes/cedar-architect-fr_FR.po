@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Cedreo Designer\n"
 "POT-Creation-Date: 2017-09-17 14:40+0200\n"
-"PO-Revision-Date: 2017-09-17 14:43+0200\n"
+"PO-Revision-Date: 2017-10-13 16:40+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: fr\n"
@@ -273,7 +273,7 @@ msgstr "Spécial particulier"
 #: templates/page-tarifs.php:39 templates/page-tarifs.php:144
 #: templates/page-tarifs.php:251 templates/page-tarifs.php:349
 msgid "&dollar;"
-msgstr "&euro;"
+msgstr "&euro; HT"
 
 #: templates/page-tarifs.php:42 templates/page-tarifs.php:147
 #: templates/page-tarifs.php:254
@@ -437,7 +437,7 @@ msgstr "Choisissez"
 msgctxt "comments title"
 msgid "One response to &ldquo;%2$s&rdquo;"
 msgid_plural "%1$s responses to &ldquo;%2$s&rdquo;"
-msgstr[0] "Une réponse à &ldquo;%2$s&rdquo;"
+msgstr[0] ""
 msgstr[1] ""
 
 #: templates/partials/comments.php:19
