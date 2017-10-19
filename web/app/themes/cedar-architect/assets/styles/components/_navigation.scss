@@ -90,8 +90,7 @@
   transition: transform 200ms ease-in-out;
   z-index: $global-zindex + 20;
 
-  &#menu-features,
-   {
+  &#menu-features {
     width: $dropdown-width + 120px;
 
     .submenu {
@@ -103,12 +102,33 @@
     }
   }
 
-  &#menu-users,
-   {
+  &#menu-users {
     width: $dropdown-width + 70px;
 
     .submenu {
       padding-left: 60px;
+
+      > .menu-item:not(:last-child) {
+        margin-bottom: 1rem;
+      }
+
+      a {
+        color: $white;
+
+        &:hover,
+        &:focus {
+          color: $primary-color;
+        }
+      }
+    }
+  }
+
+  &#menu-galleries {
+    width: $dropdown-width;
+
+    .submenu {
+
+      padding-left: 0;
 
       > .menu-item:not(:last-child) {
         margin-bottom: 1rem;
@@ -191,6 +211,10 @@
         height: 60px;
         left: -65px;
         width: 60px;
+      }
+
+      #menu-galleries & {
+        display: none;
       }
     }
 

@@ -63,6 +63,9 @@ add_action('after_setup_theme', function () {
     register_nav_menus([
         'users_navigation' => __('Users Navigation', 'sage')
     ]);
+    register_nav_menus([
+        'galleries_navigation' => __('Galleries Navigation', 'sage')
+    ]);
 
     /**
      * Enable post thumbnails
