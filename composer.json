@@ -152,7 +152,7 @@
     "wpackagist-plugin/vaultpress": "^1.8",
     "wpackagist-plugin/cookie-notice": "^1.2",
     "wpackagist-plugin/password-protected": "^2.0",
-    "wpackagist-plugin/ewww-image-optimizer": "^3.2",
+    "wpackagist-plugin/ewww-image-optimizer": "^4",
     "wpackagist-plugin/custom-post-type-ui": "^1.5",
     "johnpbloch/wordpress": "^4.7",
     "wpackagist-plugin/simple-custom-post-order": "^2.3",
