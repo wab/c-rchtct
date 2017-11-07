@@ -6,16 +6,8 @@
     <!-- Google Tag Manager (noscript) -->
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PHRJPQ"
     height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
-    <!-- Google Tag Manager DataLayers -->
-    <script type="text/javascript">
-    /* global dataLayer */
-    /* eslint-disable */
-      dataLayer.push({
-        'contentGroup1': "<?php echo $post->post_title ?>",
-        'userType': "[valeur]",
-      });
-    </script>
+
+    <?php // get_template_part('partials/dataLayer'); ?>
 
     <div class="wrap">
       <!--[if IE]>
