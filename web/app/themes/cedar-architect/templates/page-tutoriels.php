@@ -21,7 +21,11 @@
               //vars
               $num = $num + 1;
               $title = get_sub_field('title');
-              $pdf = get_sub_field('pdf');
+            if (get_sub_field('url_pdf')) {
+                $pdf = get_sub_field('url_pdf');
+            } else {
+                $pdf = get_sub_field('pdf');
+            }
               $shortcode = '[gview file="'. $pdf . '" title="'. $title .'" save="1" cache="1"]';
             ?>
             <section class="tutoriel--container" id="<?php echo $num; ?>" data-magellan-target="<?php echo $num; ?>">
