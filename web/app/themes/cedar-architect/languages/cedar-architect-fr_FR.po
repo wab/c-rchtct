@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Cedreo Designer\n"
-"POT-Creation-Date: 2017-09-17 14:40+0200\n"
-"PO-Revision-Date: 2017-10-13 16:40+0200\n"
+"POT-Creation-Date: 2017-11-12 13:33+0100\n"
+"PO-Revision-Date: 2017-11-12 13:35+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: fr\n"
@@ -59,11 +59,15 @@ msgstr "Navigation fonctionnalités"
 msgid "Users Navigation"
 msgstr "Navigation utilisateurs"
 
-#: src/setup.php:107
+#: src/setup.php:67
+msgid "Galleries Navigation"
+msgstr ""
+
+#: src/setup.php:110
 msgid "Primary"
 msgstr "Primaire"
 
-#: src/setup.php:111
+#: src/setup.php:114
 msgid "Footer"
 msgstr "Pied de page"
 
@@ -75,7 +79,7 @@ msgstr "Cette page n’existe pas !"
 msgid "Sorry, no results were found."
 msgstr "Il n’y a pas de résultats !"
 
-#: templates/layouts/base-page-iframe.php:12 templates/layouts/base.php:23
+#: templates/layouts/base-page-iframe.php:12 templates/layouts/base.php:15
 msgid ""
 "You are using an <strong>outdated</strong> browser. Please <a href=\"http://"
 "browsehappy.com/\">upgrade your browser</a> to improve your experience."
@@ -125,15 +129,15 @@ msgstr "Aménager"
 msgid "Enhance"
 msgstr "Valoriser"
 
-#: templates/page-accueil.php:233
+#: templates/page-accueil.php:233 templates/partials/navigation-desktop.php:38
 msgid "Gallery"
 msgstr "Galerie"
 
-#: templates/page-accueil.php:275
+#: templates/page-accueil.php:277
 msgid "See all images"
 msgstr "Voir la galerie"
 
-#: templates/page-contact.php:60
+#: templates/page-contact.php:61
 msgid "Contact us"
 msgstr "Contactez-nous"
 
@@ -149,115 +153,117 @@ msgstr "en voir plus"
 msgid "FAQs"
 msgstr "FAQs"
 
-#: templates/page-plans.php:51 templates/page-tarifs.php:41
+#: templates/page-plans.php:52 templates/page-tarifs.php:41
 #: templates/page-tarifs.php:146
 msgid "Unlimited projects"
 msgstr "Projets illimités"
 
-#: templates/page-plans.php:52
+#: templates/page-plans.php:53
 msgid "monthly"
 msgstr "mensuel"
 
-#: templates/page-plans.php:53
+#: templates/page-plans.php:54
 msgid "yearly"
 msgstr "annuel"
 
-#: templates/page-plans.php:54
+#: templates/page-plans.php:55
 msgid "/ month"
 msgstr "/ mois"
 
-#: templates/page-plans.php:55
+#: templates/page-plans.php:56
 msgid "/ year"
 msgstr "/ an"
 
-#: templates/page-plans.php:56
+#: templates/page-plans.php:57
 msgid "$"
 msgstr "€"
 
-#: templates/page-plans.php:57
+#: templates/page-plans.php:58
 msgid "2 months free"
 msgstr "2 mois offerts"
 
-#: templates/page-plans.php:58
-msgid "optionnal"
-msgstr "optionnel"
-
 #: templates/page-plans.php:59
+msgid "Optionnal"
+msgstr ""
+
+#: templates/page-plans.php:60
 msgid "Unlimited"
 msgstr "illimité"
 
-#: templates/page-plans.php:60 templates/page-tarifs.php:41
-#: templates/page-tarifs.php:146 templates/page-tarifs.php:253
-msgid "projects"
-msgstr "projets"
-
 #: templates/page-plans.php:61
-msgid "renderings"
-msgstr "visuels"
+msgid "project"
+msgstr ""
 
 #: templates/page-plans.php:62
-msgid "HD Renderings"
-msgstr "visuels HD"
+msgid "rendering"
+msgstr ""
 
 #: templates/page-plans.php:63
-msgid "Print Renderings"
-msgstr "visuels print"
+msgid "HD Rendering"
+msgstr ""
 
-#: templates/page-plans.php:64 templates/page-plans.php:70
-#: templates/page-tarifs.php:72 templates/page-tarifs.php:177
-#: templates/page-tarifs.php:284
-msgid "Virtual visits"
-msgstr "Visites virtuelles"
+#: templates/page-plans.php:64
+msgid "Print Rendering"
+msgstr ""
 
 #: templates/page-plans.php:65
+msgid "Virtual visit"
+msgstr ""
+
+#: templates/page-plans.php:66
 msgid "Rechargeable"
 msgstr "Rechargeable"
 
-#: templates/page-plans.php:66
+#: templates/page-plans.php:67
 msgid "Rechargeable Credits"
 msgstr "Crédits rechargeables"
 
-#: templates/page-plans.php:67
+#: templates/page-plans.php:68
 msgid "Advanced Features"
 msgstr "Fonctionnalités avancées"
 
-#: templates/page-plans.php:68
+#: templates/page-plans.php:69
 msgid "Unlimited libraries"
 msgstr "Bibliothèque illimitée"
 
-#: templates/page-plans.php:69
+#: templates/page-plans.php:70
 msgid "Advanced edition of plans"
 msgstr "Édition avancée des plans"
 
-#: templates/page-plans.php:71 templates/page-tarifs.php:75
+#: templates/page-plans.php:71 templates/page-tarifs.php:72
+#: templates/page-tarifs.php:177 templates/page-tarifs.php:284
+msgid "Virtual visits"
+msgstr "Visites virtuelles"
+
+#: templates/page-plans.php:72 templates/page-tarifs.php:75
 #: templates/page-tarifs.php:180 templates/page-tarifs.php:287
 msgid "Support"
 msgstr "Support"
 
-#: templates/page-plans.php:72 templates/page-tarifs.php:77
+#: templates/page-plans.php:73 templates/page-tarifs.php:77
 #: templates/page-tarifs.php:182 templates/page-tarifs.php:289
 msgid "Tutorials"
 msgstr "Accès aux tutoriels"
 
-#: templates/page-plans.php:73 templates/page-tarifs.php:80
+#: templates/page-plans.php:74 templates/page-tarifs.php:80
 #: templates/page-tarifs.php:185 templates/page-tarifs.php:292
 msgid "Forums"
 msgstr "Accès aux Forums"
 
-#: templates/page-plans.php:74 templates/page-tarifs.php:83
+#: templates/page-plans.php:75 templates/page-tarifs.php:83
 #: templates/page-tarifs.php:188 templates/page-tarifs.php:295
 msgid "Knowledge Base"
 msgstr "Accès à la Knowledge Base"
 
-#: templates/page-plans.php:75
+#: templates/page-plans.php:76
 msgid "Tickets"
 msgstr "Tickets"
 
-#: templates/page-plans.php:76
+#: templates/page-plans.php:77
 msgid "Chat"
 msgstr "Chat"
 
-#: templates/page-plans.php:77 templates/page-tarifs.php:104
+#: templates/page-plans.php:78 templates/page-tarifs.php:104
 #: templates/page-tarifs.php:209 templates/page-tarifs.php:316
 msgid "Start"
 msgstr "Démarrer"
@@ -274,6 +280,11 @@ msgstr "Spécial particulier"
 #: templates/page-tarifs.php:251 templates/page-tarifs.php:349
 msgid "&dollar;"
 msgstr "&euro; HT"
+
+#: templates/page-tarifs.php:41 templates/page-tarifs.php:146
+#: templates/page-tarifs.php:253
+msgid "projects"
+msgstr "projets"
 
 #: templates/page-tarifs.php:42 templates/page-tarifs.php:147
 #: templates/page-tarifs.php:254
@@ -342,7 +353,7 @@ msgid "Instant messaging"
 msgstr "Support personnalisé par chat"
 
 #: templates/page-tarifs.php:91 templates/page-tarifs.php:196
-#: templates/page-tarifs.php:303 templates/partials/navigation-desktop.php:14
+#: templates/page-tarifs.php:303 templates/partials/navigation-desktop.php:15
 msgid "Features"
 msgstr "Fonctionnalités"
 
@@ -432,6 +443,10 @@ msgstr "Packs"
 msgid "Choose"
 msgstr "Choisissez"
 
+#: templates/page-tutoriels.php:44
+msgid "Tutorials list"
+msgstr "Liste des tutoriaux"
+
 #: templates/partials/comments.php:9
 #, php-format
 msgctxt "comments title"
@@ -473,23 +488,23 @@ msgstr "Tweets récents"
 msgid "Follow us"
 msgstr "Nous suivre"
 
-#: templates/partials/navigation-desktop.php:23
+#: templates/partials/navigation-desktop.php:25
 msgid "For businesses"
 msgstr "Pour les pros"
 
-#: templates/partials/navigation-desktop.php:30
+#: templates/partials/navigation-desktop.php:33
 msgid "Demo"
 msgstr "Démo"
 
-#: templates/partials/navigation-desktop.php:37
+#: templates/partials/navigation-desktop.php:56
 msgid "Application"
 msgstr "Application"
 
-#: templates/partials/navigation-desktop.php:41
+#: templates/partials/navigation-desktop.php:60
 msgid "Log In"
 msgstr "Se connecter"
 
-#: templates/partials/navigation-desktop.php:44
+#: templates/partials/navigation-desktop.php:63
 msgid "Register"
 msgstr "S’inscrire"
 
@@ -516,6 +531,18 @@ msgstr ""
 #. Author URI of the plugin/theme
 msgid "https://wabdesign.fr/"
 msgstr ""
+
+#~ msgid "optionnal"
+#~ msgstr "optionnel"
+
+#~ msgid "renderings"
+#~ msgstr "visuels"
+
+#~ msgid "HD Renderings"
+#~ msgstr "visuels HD"
+
+#~ msgid "Print Renderings"
+#~ msgstr "visuels print"
 
 #~ msgid "Home improvment"
 #~ msgstr "Bâtiment ancien"

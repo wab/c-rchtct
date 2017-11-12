@@ -41,7 +41,7 @@
     </div>
     <div class="page-column sidebar" data-sticky-container>
       <nav class="tutoriels--navigation sticky show-for-large" data-sticky data-anchor="page-contenu">
-        <h2>Liste des tutoriaux</h2>
+        <h2><?php _e('Tutorials list', 'cedar-architect'); ?></h2>
         <?php if (have_rows('tutoriels')) : ?>
 
             <?php $numLink = 0; ?>
