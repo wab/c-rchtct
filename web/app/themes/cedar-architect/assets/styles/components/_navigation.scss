@@ -8,7 +8,6 @@
   }
 
   .main--navigation > .menu {
-
     margin: 0;
     padding: 0;
 
@@ -19,9 +18,9 @@
     margin: 0;
     padding: 0;
     > a {
-      border-right: 1px solid rgba(255, 255, 255, .9);
+      border-right: 1px solid rgba(255, 255, 255, 0.9);
       color: $body-font-color;
-      font-size: .9rem;
+      font-size: 0.9rem;
       padding: 1rem;
       position: relative;
       text-align: center;
@@ -36,7 +35,7 @@
         background: $primary-color;
         bottom: 0;
         color: $body-font-color;
-        content: '';
+        content: "";
         display: block;
         height: 0px;
         left: 0;
@@ -85,7 +84,7 @@
 .menu .dropdown-pane {
   background: $dark-gray;
   border-right: 1px solid rgba(255, 255, 255, 0.3);
-  box-shadow: 0px 1px 1px rgba($dark-gray, .4);
+  box-shadow: 0px 1px 1px rgba($dark-gray, 0.4);
   color: $white;
   transition: transform 200ms ease-in-out;
   z-index: $global-zindex + 20;
@@ -123,11 +122,11 @@
     }
   }
 
-  &#menu-galleries {
+  &#menu-galleries,
+  &#menu-support {
     width: $dropdown-width;
 
     .submenu {
-
       padding-left: 0;
 
       > .menu-item:not(:last-child) {
@@ -146,7 +145,7 @@
   }
 
   &#menu-login {
-    padding: .5rem;
+    padding: 0.5rem;
     width: 100%;
 
     .menu-item {
@@ -161,7 +160,7 @@
 
       a {
         display: block;
-        font-size: .9rem;
+        font-size: 0.9rem;
       }
     }
   }
@@ -198,7 +197,7 @@
       background: url(../images/pictos-menu.svg) no-repeat;
       background-position: 0 0;
       background-size: 100%;
-      content: '';
+      content: "";
       display: block;
       height: 100px;
       left: -110px;
@@ -213,7 +212,8 @@
         width: 60px;
       }
 
-      #menu-galleries & {
+      #menu-galleries &,
+      #menu-support & {
         display: none;
       }
     }

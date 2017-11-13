@@ -1,55 +1,66 @@
 <?php
   $plugins_url = plugins_url();
-  if (pll_current_language() == 'en') {
+if (pll_current_language() == 'en') {
     $current_flag = $plugins_url . '/polylang/flags/us.png';
-  } else {
+} else {
     $current_flag = $plugins_url . '/polylang/flags/' . pll_current_language() . '.png';
-  }
+}
 ?>
 
 <nav class="main--navigation navigation-desktop show-for-large">
     <ul id="menu-navigation-principale" class="main--navigation--menu show-for-large horizontal menu">
       <!-- fonctionnalités -->
-      <?php if (has_nav_menu('features_navigation')) : ?>
+        <?php if (has_nav_menu('features_navigation')) : ?>
       <li class="menu-item menu-parent menu-fonctionnalites">
         <a href="#" data-toggle="menu-features"><?php _e('Features', 'cedar-architect') ?></a>
         <div class="dropdown-pane" id="menu-features" data-dropdown data-v-offset="0" data-auto-focus="false" data-hover="true" data-hover-pane="true" data-close-on-click="true">
-          <?php wp_nav_menu(['theme_location' => 'features_navigation', 'menu_class' => 'submenu', 'depth' => 2]); ?>
+            <?php wp_nav_menu(['theme_location' => 'features_navigation', 'menu_class' => 'submenu', 'depth' => 2]); ?>
         </div>
       </li>
-      <?php endif; ?>
+        <?php endif; ?>
 
       <!-- pour les pros -->
-      <?php if (has_nav_menu('users_navigation')) : ?>
+        <?php if (has_nav_menu('users_navigation')) : ?>
       <li class="menu-item menu-parent menu-users">
         <a href="#" data-toggle="menu-users"><?php _e('For businesses', 'cedar-architect') ?></a>
         <div class="dropdown-pane" id="menu-users" data-dropdown data-v-offset="0" data-auto-focus="false" data-hover="true" data-hover-pane="true" data-close-on-click="true">
-          <?php wp_nav_menu(['theme_location' => 'users_navigation', 'menu_class' => 'submenu', 'depth' => 2]); ?>
+            <?php wp_nav_menu(['theme_location' => 'users_navigation', 'menu_class' => 'submenu', 'depth' => 2]); ?>
         </div>
       </li>
-      <?php endif; ?>
+        <?php endif; ?>
 
       <!-- démo -->
       <li class="menu-item menu-demo"><a href="http://app.cedar-architect.com/<?php echo pll_current_language(); ?>"><?php _e('Demo', 'cedar-architect') ?></a></li>
 
       <!-- galerie -->
-      <?php if (has_nav_menu('galleries_navigation')) : ?>
+        <?php if (has_nav_menu('galleries_navigation')) : ?>
       <li class="menu-item menu-parent menu-galeries">
         <a href="#" data-toggle="menu-galleries"><?php _e('Gallery', 'cedar-architect') ?></a>
         <div class="dropdown-pane" id="menu-galleries" data-dropdown data-v-offset="0" data-auto-focus="false" data-hover="true" data-hover-pane="true" data-close-on-click="true">
-          <?php wp_nav_menu(['theme_location' => 'galleries_navigation', 'menu_class' => 'submenu', 'depth' => 2]); ?>
+            <?php wp_nav_menu(['theme_location' => 'galleries_navigation', 'menu_class' => 'submenu', 'depth' => 2]); ?>
         </div>
       </li>
-      <?php endif; ?>
+        <?php endif; ?>
 
       <!-- tarifs -->
-      <li class="menu-item menu-tarifs <?php if(is_page(15) || is_page(icl_object_id(15, 'page', false))) {echo 'active'; } ?>"><?php icl_link_to_element(15);  ?></li>
+      <li class="menu-item menu-tarifs <?php if (is_page(15) || is_page(icl_object_id(15, 'page', false))) {
+            echo 'active';
+} ?>"><?php icl_link_to_element(15);  ?></li>
 
       <!-- support -->
-      <li class="menu-item menu-support <?php if(is_page(1024) || is_page(icl_object_id(1024, 'page', false))) {echo 'active'; } ?>"><?php icl_link_to_element(1024);  ?></li>
+      <li class="menu-item menu-support <?php if (is_page(1024) || is_page(icl_object_id(1024, 'page', false))) {
+            echo 'active';
+} ?>">
+        <a href="#" data-toggle="menu-support"><?php _e('Help', 'cedar-architect') ?></a>
+        <div class="dropdown-pane" id="menu-support" data-dropdown data-v-offset="0" data-auto-focus="false" data-hover="true" data-hover-pane="true" data-close-on-click="true">
+            <?php wp_nav_menu(['theme_location' => 'support_navigation', 'menu_class' => 'submenu', 'depth' => 2]); ?>
+        </div>
+      </li>
 
       <!-- blog -->
-      <li class="menu-item menu-blog <?php if(is_home() || is_archive() || is_single() ) {echo 'active'; } ?>"><?php icl_link_to_element(17);  ?></li>
+      <li class="menu-item menu-blog <?php if (is_home() || is_archive() || is_single()) {
+            echo 'active';
+} ?>"><?php icl_link_to_element(17);  ?></li>
 
       <!-- application -->
       <li class="menu-item link-login">

@@ -24,10 +24,9 @@ add_action('wp_enqueue_scripts', function () {
         wp_localize_script('gallery', 'ajaxurl', admin_url( 'admin-ajax.php' ) );
     }
 
-    if ( is_page_template('templates/page-galerie-virtual.php')) {
+    if (is_page_template('templates/page-galerie-virtual.php')) {
         wp_enqueue_script('gallery-simple');
     }
-
 }, 100);
 
 /**
@@ -65,6 +64,9 @@ add_action('after_setup_theme', function () {
     ]);
     register_nav_menus([
         'galleries_navigation' => __('Galleries Navigation', 'sage')
+    ]);
+    register_nav_menus([
+        'support_navigation' => __('Support Navigation', 'sage')
     ]);
 
     /**
