@@ -2,8 +2,10 @@
   $plugins_url = plugins_url();
 if (pll_current_language() == 'en') {
     $current_flag = $plugins_url . '/polylang/flags/us.png';
+    $helpLinK = 'https://cedar-architect.com/helpcenter';
 } else {
     $current_flag = $plugins_url . '/polylang/flags/' . pll_current_language() . '.png';
+    $helpLinK = 'https://cedar-architect.fr/centre-support';
 }
 ?>
 
@@ -29,9 +31,6 @@ if (pll_current_language() == 'en') {
       </li>
         <?php endif; ?>
 
-      <!-- démo -->
-      <li class="menu-item menu-demo"><a href="http://app.cedar-architect.com/<?php echo pll_current_language(); ?>"><?php _e('Demo', 'cedar-architect') ?></a></li>
-
       <!-- galerie -->
         <?php if (has_nav_menu('galleries_navigation')) : ?>
       <li class="menu-item menu-parent menu-galeries">
@@ -48,19 +47,9 @@ if (pll_current_language() == 'en') {
 } ?>"><?php icl_link_to_element(15);  ?></li>
 
       <!-- support -->
-      <li class="menu-item menu-support <?php if (is_page(1024) || is_page(icl_object_id(1024, 'page', false))) {
-            echo 'active';
-} ?>">
-        <a href="#" data-toggle="menu-support"><?php _e('Help', 'cedar-architect') ?></a>
-        <div class="dropdown-pane" id="menu-support" data-dropdown data-v-offset="0" data-auto-focus="false" data-hover="true" data-hover-pane="true" data-close-on-click="true">
-            <?php wp_nav_menu(['theme_location' => 'support_navigation', 'menu_class' => 'submenu', 'depth' => 2]); ?>
-        </div>
+      <li class="menu-item menu-support">
+        <a href="<?php echo $helpLinK; ?>"><?php _e('Help', 'cedar-architect') ?></a>
       </li>
-
-      <!-- blog -->
-      <li class="menu-item menu-blog <?php if (is_home() || is_archive() || is_single()) {
-            echo 'active';
-} ?>"><?php icl_link_to_element(17);  ?></li>
 
       <!-- application -->
       <li class="menu-item link-login">

@@ -16,45 +16,6 @@
     </div>
 
     <div class="widget">
-      <p class="widget--title"><?php _e('Recent posts', 'cedar-architect'); ?></p>
-      <?php
-      // the query
-      $lastposts = new WP_Query( array('post_type' => 'post', 'posts_per_page' => '2') ); ?>
-
-      <?php if ( $lastposts->have_posts() ) : ?>
-
-        <!-- pagination here -->
-
-        <ul class="no-bullet">
-
-        <!-- the loop -->
-        <?php while ( $lastposts->have_posts() ) : $lastposts->the_post(); ?>
-          <li class="scrollreveal widget--item">
-            <strong class="textcolor"><?php the_date(); ?></strong>
-            <p class="post--title"><?php the_title(); ?></p>
-            <?= App\easy_excerpt(20); ?><br>
-            <a href="<?php the_permalink(); ?>">&rarr; <?php _e('Read', 'cedar-architect'); ?></a>
-          </li>
-        <?php endwhile; ?>
-        <!-- end of the loop -->
-
-        <!-- pagination here -->
-        </ul>
-
-        <?php wp_reset_postdata(); ?>
-
-      <?php else : ?>
-        <p><?php _e( 'Sorry, no posts matched your criteria.' ); ?></p>
-      <?php endif; ?>
-
-    </div>
-    <div class="widget">
-      <p class="widget--title"><?php _e('Recent tweets', 'cedar-architect'); ?></p>
-      <!-- Twitter widget -->
-      <a class="twitter-timeline" data-height="500" data-theme="dark" data-link-color="#2da8a4" href="https://twitter.com/cedararchitect">Tweets by cedararchitect</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-    </div>
-
-    <div class="widget">
       <p class="widget--title"><?php _e('Follow us', 'cedar-architect'); ?></p>
       <ul class="reseaux--list no-bullet scrollreveal">
         <li class="reseaux--item"><button class="reseaux--link" onclick="window.open('https://twitter.com/cedararchitect')"><svg class="icon-twitter"><use xlink:href="#icon-twitter"></use></svg></button></li>
